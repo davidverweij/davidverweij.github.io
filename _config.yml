@@ -13,4 +13,7 @@ highlighter: rouge
 sass:
   sass_dir: assets/scss
   style: compressed
-include: ['_pages']
+
+collections:
+  pages:
+    output: true
