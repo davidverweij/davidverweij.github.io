@@ -23,9 +23,9 @@
 		<section class="projects">
 			<div class="container">
 				<h2>Resume</h2>
-				<ul class="resume-list">
+				<div class="resume-list">
 					{% for entry in site.data.resume %}
-					<li>
+					<div class="resume-item">
 						<a>
 							<span class="h1">{{ entry.category }}</span>
 							<hr />
@@ -46,9 +46,9 @@
 								{% endfor %}
 							</div>
 						</a>
-					</li>
+					</div>
 					{% endfor %}
-				</ul>
+				</div>
 			</div>
 		</section>
 	</main>
