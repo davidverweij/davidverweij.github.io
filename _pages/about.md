@@ -20,6 +20,7 @@ links:
 image:
   url:      "/assets/images/pages/about/davidverweij.jpg"
   alt:      "Photograph of David Verweij"
-
 ---
-Ello!
+With a background in Industrial Design and Human-Computer Interaction, I specialise in a Research Through Design methodology. Using novel technologies and bespoke designs, I develop and deploy interactive research technologies primarily in-the-wild. Learning from these experienceable products allows the exploration of alternative futures. In particular, my interests lay in interaction with distributed data in everyday environments that support or relieve human cognition, in enjoyable, playful and less-utilitarian ways. In my current research, as a Doctoral Trainee, I deploy alternative approaches to explore data as a resource for family life. This contributes to the search to find family-inclusive ways to use, manage and enjoy data amongst the family in their non-work focused environments, including children and elderly of all ages.
+<br/><br/>
+Parallel to this work, I experiment with designing software, hardware and product design, and enjoy woodworking, being outdoors and boardgames.

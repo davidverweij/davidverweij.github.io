@@ -47,18 +47,43 @@
 }
 
 .intro {
+	display: flex;
+
+
+	aside {
+	margin-top: 3rem;
+		@media (min-width: $breakpoint-medium) {
+			margin-top: 0;
+			float: right;
+			width: 28%;
+			height:87%;
+			display: flex;
+			align-content: stretch;
+
+		}
+		img {
+			object-fit:cover;
+		}
+	}
+
 	@media (min-width: $breakpoint-medium) {
 		p {
-			font-size: 2.7rem;
+			float:left;
+			font-size: 1.8rem;
 			max-width: 66.66666%;
 		}
 	}
+
 }
 
 .resume-list {
 	min-height: 100%;
 	column-count: 1;
 	flex-direction: column;
+
+	@media (min-width: $breakpoint-medium) {
+		column-count: 2;
+	}
 
 	.resume-item {
 		break-inside: avoid;
@@ -67,11 +92,6 @@
 		&:last-child {
 			margin-bottom: 0;
 		}
-	}
-	@media (min-width: $breakpoint-medium) {
-		margin-left: -1.5rem;
-		margin-right: -1.5rem;
-		column-count: 2;
 	}
 
 	.block-wrapper {
