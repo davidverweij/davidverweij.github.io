@@ -166,5 +166,5 @@
   - block:    "Visiting Researcher"
     location: "Edinburgh Napier University, United Kingdom"
     text:     ""
-    from:     "9/2016"
-    to:       "12/2016"
+    from:     "9/'16"
+    to:       "12/'16"

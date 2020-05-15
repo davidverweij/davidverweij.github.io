@@ -11,47 +11,47 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-h1,
-.h1 {
+.h1,
+h1 {
 	color: $color-black;
 	font-size: 2.7rem;
 	font-weight: 600;
 	line-height: 1;
 }
 
-h2,
-.h2 {
+.h2,
+h2 {
 	color: $color-silver-chalice;
 	display: block;
 	font-family: $font-default;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 1;
-    margin: 0 0 2rem;
-    text-transform: uppercase;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0 0 2rem;
+	text-transform: uppercase;
 }
 
-h3,
-.h3 {
+.h3,
+h3 {
 	color: $color-black;
 	font-family: $font-default;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1;
-    margin: 0;
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 1;
+	margin: 0;
 }
 
-h4,
-.h4 {
+.h4,
+h4 {
 	color: $color-silver-chalice;
 	display: block;
 	font-family: $font-default;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: .2rem;
-    line-height: 1;
-    margin: 0 0 1rem;
-    text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0.2rem;
+	line-height: 1;
+	margin: 0 0 1rem;
+	text-transform: uppercase;
 }
 
 p {
@@ -80,7 +80,6 @@ hr {
 	display: block;
 	height: 1px;
 	margin: 3rem 0;
-
 	@media (min-width: $breakpoint-medium) {
 		margin: 4.5rem 0;
 	}
@@ -97,7 +96,7 @@ code {
 	border-radius: 3px;
 	font-family: $font-lekton;
 	font-size: 1.5rem;
-	padding: .1rem .4rem;
+	padding: 0.1rem 0.4rem;
 
 	var {
 		font-style: italic;
@@ -107,8 +106,8 @@ code {
 dl {
 	margin: 0 0 3rem;
 
-	dt,
-	dd {
+	dd,
+	dt {
 		font-family: $font-lekton;
 	}
 
@@ -123,14 +122,13 @@ dl {
 
 .responsive-table {
 	margin-bottom: 3rem;
-
 	@media (max-width: $breakpoint-xsmall) {
 		display: block;
 		overflow-x: scroll;
 		max-width: $breakpoint-xsmall;
 
-		th,
-		td {
+		td,
+		th {
 			min-width: 10rem;
 		}
 	}
@@ -152,24 +150,23 @@ table {
 		background: $color-white-sand;
 	}
 
-	th,
-	td {
+	td,
+	th {
 		font-family: $font-lekton;
 		font-weight: 400;
 		text-align: left;
-		padding: .5rem 1rem;
+		padding: 0.5rem 1rem;
 	}
 }
 
 blockquote {
-	border-left: .6rem solid $color-black;
+	border-left: 0.6rem solid $color-black;
 	padding-left: 2rem;
 	margin: 0 0 3rem;
 
 	p {
 		font-style: italic;
 	}
-
 	@media (min-width: $breakpoint-medium) {
 		padding-left: 3rem;
 	}
@@ -177,4 +174,30 @@ blockquote {
 
 pre {
 	margin: 0 0 3rem;
+}
+
+.fa,
+.fas {
+	font-family: $font-awesome;
+	font-weight: 900;
+}
+
+
+/*===========================
+Creative Commons Round Icons
+===========================*/
+
+.cc {
+	font-family: $font-cc;
+	 -moz-font-feature-settings: normal;
+	 -moz-font-language-override: normal;
+	 display: inline-block;
+	 font-size: inherit;
+	 font-size-adjust: none;
+	 font-stretch: normal;
+	 font-style: normal;
+	 font-variant: normal;
+	 font-weight: normal;
+	 line-height: 1;
+	 text-rendering: auto;
 }
