@@ -19,18 +19,19 @@
 				<h1 id="{{ page.title }}">{{ page.title }}</h1>
 				<p>{{ page.content }}</p>
 				<aside>
-						{% if page.image %}
-							<img src="{{ page.image.url | prepend: site.baseurl }}" alt="{{ page.image.alt }}" />
-						{% endif %}
+					{% if page.image %}
+					<img src="{{ page.image.url | prepend: site.baseurl }}" alt="{{ page.image.alt }}" />
+					{% endif %}
 				</aside>
 			</div>
 		</section>
+		{% if page.data %}
 		<section class="projects">
-			<div class="container">
-				<h1 id="resume">Resume</h1>
-				<div class="resume-list">
-					{% for entry in site.data.resume %}
-					<div class="resume-item">
+			<div id="data" class="container">
+				<h1 id="{{ page.data.name }}"> {{ page.data.name }}</h1>
+				<div class="data-list">
+					{% for entry in site.data[page.data.file] %}
+					<div class="data-item">
 						<span class="h3">{{ entry.category }}</span>
 						<hr />
 						<div class="category-blocks">
@@ -44,7 +45,14 @@
 									{% if block.url %}
 									<a href="{{ block.url }}" target="_blank"><i class="fas fa-link"></i></a>
 									{% endif %}
-									<strong>{{ block.block }}</strong> - {{ block.location}}
+									{% for icon in block.icons %}
+									<a class="tooltip"><i class="fas {{ icon.icon }}"></i><span class="tooltiptext">{{ icon.text }}</span></a>
+									{% endfor%}
+									<strong>{{ block.block }}</strong>
+									- {{ block.location}}
+									{% if block.sub %}
+									- <i> {{ block.sub }}</i>
+									{% endif %}
 								</span>
 								<p>{{ block.text }}</p>
 							</div>
@@ -55,10 +63,13 @@
 				</div>
 			</div>
 		</section>
+		{% endif %}
 	</main>
 	{% include footer.html %}
-	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
+	<!--
+	<script src="{{ "/assets/scripts/vendor/jspdf-1.5.3.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/about.js" | prepend: site.baseurl }}"></script>
+-->
 </body>
 
 </html>

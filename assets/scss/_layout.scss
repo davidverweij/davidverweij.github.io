@@ -19,11 +19,154 @@
 	line-height: 1;
 }
 
+#mobile_nav {
+	height: 100vh;
+	width: 100vw;
+	background: $color-black;
+	z-index: 2;
+	visibility: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	@media (min-width: $breakpoint-medium) {
+		display: none;
+	}
+
+	&.active {
+		visibility: visible;
+	}
+
+	ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		height: 100vh;
+		padding-left: 0;
+		list-style-type: none;
+
+		li {
+			padding: 1em;
+
+			a {
+				@extend .logo;
+				color: white;
+
+				&.active {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
 .nav {
 	float: right;
+	@media (max-width: $breakpoint-medium) {
+		display: none;
+	}
+
+	ul {
+		display: flex;
+
+		li {
+			padding-left: 3rem;
+		}
+
+		.active {
+			text-decoration: underline;
+		}
+	}
 
 	a {
 		@extend .logo;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+
+#overlay-button {
+	@media (max-width: $breakpoint-medium) {
+		cursor: pointer;
+		user-select: none;
+		float: right;
+		z-index: 5;
+		height: 3rem;
+		position: absolute;
+		right: 3rem;
+
+		span {
+			height: 4px;
+			width: 35px;
+			border-radius: 2px;
+			background-color: $color-black;
+			position: relative;
+			display: block;
+			transition: all 0.2s ease-in-out;
+
+			&:before {
+				top: 10px;
+				visibility: visible;
+			}
+
+			&:after {
+				top: 20px;
+			}
+
+			&:after,
+			&:before {
+				height: 4px;
+				width: 35px;
+				border-radius: 2px;
+				background-color: $color-black;
+				position: absolute;
+				content: "";
+				transition: all 0.2s ease-in-out;
+			}
+		}
+	}
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+input[type=checkbox]:checked ~ #mobile_nav {
+	visibility: visible;
+	animation: 0.5s fadeIn ease;
+	animation-fill-mode: forwards;
+}
+
+input[type=checkbox]:checked ~ #overlay-button {
+	&:hover span,
+	span {
+		transform: rotate(45deg) translate(7px, 7px);
+		opacity: 1;
+		background: $color-white;
+		position: fixed;
+		right: 3rem;
+	}
+
+	span {
+		&:before {
+			background: transparent;
+			transform: rotate(-45deg) translate(15px, -16px);
+			height: 3rem;
+		}
+
+		&:after {
+			transform: rotate(-90deg) translate(20px, 0px);
+			background: $color-white;
+		}
 	}
 }
 
@@ -48,24 +191,23 @@
 
 .intro {
 	aside {
-	margin-top: 3rem;
+		margin-top: 3rem;
 		@media (min-width: $breakpoint-medium) {
 			margin-top: 0;
 			float: right;
 			width: 28%;
-			height:87%;
+			height: 87%;
 			display: flex;
 			align-content: stretch;
-
 		}
+
 		img {
-			object-fit:cover;
+			object-fit: cover;
 		}
 	}
-
 	@media (min-width: $breakpoint-medium) {
 		p {
-			float:left;
+			float: left;
 			font-size: 1.8rem;
 			max-width: 66.66666%;
 		}
@@ -76,16 +218,15 @@
 	display: flex;
 }
 
-.resume-list {
+.data-list {
 	min-height: 100%;
 	column-count: 1;
 	flex-direction: column;
-
 	@media (min-width: $breakpoint-medium) {
 		column-count: 2;
 	}
 
-	.resume-item {
+	.data-item {
 		break-inside: avoid;
 		margin-bottom: 3rem;
 
@@ -99,7 +240,7 @@
 		padding: 0 0 1rem 6rem;
 
 		a {
-			font-size:1.3rem;
+			font-size: 1.3rem;
 			color: #6f6f6f;
 		}
 
@@ -111,6 +252,32 @@
 			display: none;
 			@media (min-width: $breakpoint-medium) {
 				display: inherit;
+			}
+		}
+
+		.tooltip {
+			position: relative;
+			display: inline-block;
+
+			.tooltiptext {
+				visibility: hidden;
+				background-color: black;
+				color: #fff;
+				text-align: center;
+				padding: 5px 0;
+				border-radius: 6px;
+				/* Position the tooltip text - see examples below! */
+				position: absolute;
+				z-index: 1;
+				width: 150px;
+				bottom: 100%;
+				left: 50%;
+				margin-left: -60px;
+				/* Use half of the width (120/2 = 60), to center the tooltip */
+			}
+
+			&:hover .tooltiptext {
+				visibility: visible;
 			}
 		}
 

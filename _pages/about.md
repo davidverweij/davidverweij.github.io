@@ -11,6 +11,10 @@ page:
   title:    "Hi, I am David"
   logo:     ""
 
+data:
+  name:     "Resume"
+  file:     "resume"
+
 links:
   - link:   "Github"
     url:    https://github.com/davidverweij

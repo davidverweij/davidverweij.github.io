@@ -3,10 +3,19 @@
 		<h1 class="logo">
 			<a title="{{ site.author }}" href="{{ site.baseurl | append: "/" }}">{{ site.author }}</a>
 		</h1>
-		<nav class="nav">
+		<input type="checkbox" id="overlay-input" />
+		<label for="overlay-input" id="overlay-button"><span></span></label>
+		<nav id="mobile_nav">
 			<ul>
 				{% for doc in site.pages %}
-				<li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
+				<li><a {% if page.url == doc.url %} class="active" {% endif %}   href="{{ doc.url }}">{{ doc.title }}</a></li>
+				{% endfor %}
+			</ul>
+		</nav>
+		<nav class="nav" id="nav">
+			<ul>
+				{% for doc in site.pages %}
+				<li><a {% if page.url == doc.url %} class="active" {% endif %}   href="{{ doc.url }}">{{ doc.title }}</a></li>
 				{% endfor %}
 			</ul>
 		</nav>
