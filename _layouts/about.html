@@ -14,6 +14,7 @@
 <body>
 	{% include header.html %}
 	<main class="content">
+		{% unless page.nointro %}
 		<section class="intro intro_with_img">
 			<div class="container">
 				<h1 id="{{ page.title }}">{{ page.title }}</h1>
@@ -25,6 +26,7 @@
 				</aside>
 			</div>
 		</section>
+		{% endunless %}
 		{% if page.data %}
 		<section class="projects">
 			<div id="data" class="container">
@@ -50,8 +52,8 @@
 									{% endfor%}
 									<strong>{{ block.block }}</strong>
 									- {{ block.location}}
-									{% if block.sub %}
-									- <i> {{ block.sub }}</i>
+									{% if block.author %}
+									<p> - {{ block.author }}</p>
 									{% endif %}
 								</span>
 								<p>{{ block.text }}</p>

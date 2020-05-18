@@ -11,6 +11,8 @@ page:
   title:    "Hi, I am David"
   logo:     ""
 
+nointro:  ""
+
 data:
   name:     "Publications"
   file:     "publications"

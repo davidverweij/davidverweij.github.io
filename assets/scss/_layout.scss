@@ -9,6 +9,9 @@
 .header {
 	background: $color-white;
 	padding: 3rem 0;
+	position: fixed;
+z-index: 10;
+width: 100%;
 }
 
 .logo {
@@ -172,14 +175,14 @@ input[type=checkbox]:checked ~ #overlay-button {
 
 .content {
 	background: $color-white;
-	padding: 4rem 0 0;
+	padding: 14rem 0 4rem 0;
 	margin-bottom: 40rem;
 	position: relative;
 	top: 0;
 	left: 0;
 	z-index: 1;
 	@media (min-width: $breakpoint-medium) {
-		padding: 10rem 0 0;
+		padding: 20rem 0 0;
 		margin-bottom: 23.42rem;
 	}
 }
@@ -258,6 +261,7 @@ input[type=checkbox]:checked ~ #overlay-button {
 		.tooltip {
 			position: relative;
 			display: inline-block;
+			color: darkorange;
 
 			.tooltiptext {
 				visibility: hidden;
