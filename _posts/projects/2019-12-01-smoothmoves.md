@@ -8,11 +8,10 @@ meta:
   keywords: ""
 
 project:
-  title: "CHI PLAY 2019"
+  title: "SmoothMoves"
   type: "Design"
   url: "https://chiplay.acm.org/2019/"
-  assets: "/assets/images/projects/chiplay/"
-  logo: {{ assets + "logo.png" }}
+  logo: "/assets/images/projects/smoothmoves/logo.png"
   tech: "Placeholder"
 
 agency:
@@ -20,16 +19,6 @@ agency:
   url: "https://github.com/davidverweij"
   year: "2017"
 
-images:
-  - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
-    alt: "Red Pineapple website on tablet, mobile and desktop"
-  - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
-    alt: "Red Pineapple website on a desktop device"
-  - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
-    alt: "Red Pineapple website on a mobile device"
 ---
 <p>I'm baby synth distillery farm-to-table, man bun paleo fingerstache sriracha af. Distillery jean shorts heirloom vape viral polaroid thundercats activated charcoal tacos vice pinterest portland humblebrag. Coloring book man braid street art pour-over. Portland bicycle rights narwhal vexillologist green juice. Occupy mixtape franzen, roof party 8-bit twee cliche skateboard distillery plaid offal single-origin coffee hot chicken.
 

@@ -1,16 +1,17 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: creations
+date: 2019-12-01
 
 meta:
   keywords: ""
 
 project:
-  title: "Placeholder"
-  type: "Placeholder"
-  url: "https://github.com/davidverweij"
-  logo: "/assets/images/projects/redpineapple/logo.png"
+  title: "Sensor Data App"
+  type: "Design"
+  url: "https://chiplay.acm.org/2019/"
+  logo: "/assets/images/creations/sensorapp/logo.png"
   tech: "Placeholder"
 
 agency:
@@ -18,16 +19,6 @@ agency:
   url: "https://github.com/davidverweij"
   year: "2017"
 
-images:
-  - image:
-    url: "/assets/images/projects/redpineapple/devices.jpg"
-    alt: "Red Pineapple website on tablet, mobile and desktop"
-  - image:
-    url: "/assets/images/projects/redpineapple/desktop.jpg"
-    alt: "Red Pineapple website on a desktop device"
-  - image:
-    url: "/assets/images/projects/redpineapple/mobile.jpg"
-    alt: "Red Pineapple website on a mobile device"
 ---
 <p>I'm baby synth distillery farm-to-table, man bun paleo fingerstache sriracha af. Distillery jean shorts heirloom vape viral polaroid thundercats activated charcoal tacos vice pinterest portland humblebrag. Coloring book man braid street art pour-over. Portland bicycle rights narwhal vexillologist green juice. Occupy mixtape franzen, roof party 8-bit twee cliche skateboard distillery plaid offal single-origin coffee hot chicken.
 

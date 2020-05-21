@@ -193,6 +193,11 @@ input[type=checkbox]:checked ~ #overlay-button {
 }
 
 .intro {
+	a{
+		text-decoration: underline;
+font-weight: 600;
+
+	}
 	aside {
 		margin-top: 3rem;
 		@media (min-width: $breakpoint-medium) {
@@ -207,6 +212,7 @@ input[type=checkbox]:checked ~ #overlay-button {
 		img {
 			object-fit: cover;
 		}
+
 	}
 	@media (min-width: $breakpoint-medium) {
 		p {
@@ -374,7 +380,7 @@ input[type=checkbox]:checked ~ #overlay-button {
 			top: 50%;
 			left: 50%;
 			margin-top: -.5rem;
-			margin-left: -4.4rem;
+			margin-left: -5.4rem;
 			opacity: 0;
 			-webkit-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;

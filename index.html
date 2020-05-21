@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>{{ site.author }} / {{ site.tagline }}</title>
+	<title>{{ site.author }}</title>
 	<meta name="author" content="{{ site.author }}">
 	<meta name="description" content="{{ site.description }}">
 	<meta name="keywords" content="{{ site.keywords }}">
@@ -14,15 +14,33 @@
 	<main class="content">
 		<section class="intro">
 			<div class="container">
-				<h1>About me.</h1>
-				<p>{{ site.description }}</p>
+				<h1>Hi.</h1>
+				<p>You've stumbled upon my portfolio, nice one. Get to know more <a href="/about">about me</a> and my career path, have a peek at my <a href="/publications">academic output</a> or take a gander at my some of my <a href="#creations">creations</a>.</p>
 			</div>
 		</section>
 		<section class="projects">
 			<div class="container">
 				<h1>Projects I have worked on.</h1>
 				<ul class="projects-list">
-					{% for item in site.categories.projects reversed %}
+					{% for item in site.categories.projects %}
+						<li>
+							<a href="{{ item.url | prepend: site.baseurl }}">
+								<div class="img-wrapper">
+									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+								</div>
+								<span class="h2">{{ item.project.type }}</span>
+								<h3>{{ item.project.title }}</h3>
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
+		<section class="projects">
+			<div class="container">
+				<h1 id="creations">Things I have created.</h1>
+				<ul class="projects-list">
+					{% for item in site.categories.creations %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
 								<div class="img-wrapper">
