@@ -44,11 +44,11 @@
 									<span class="h4">{{ block.from }}</span>
 								</span>
 								<span>
-									{% if block.url %}
-									<a href="{{ block.url }}" target="_blank"><i class="fas fa-link"></i></a>
-									{% endif %}
 									{% for icon in block.icons %}
-									<a class="tooltip"><i class="fas {{ icon.icon }}"></i><span class="tooltiptext">{{ icon.text }}</span></a>
+									<a class="tooltip" {% if icon.url %} href="{{ icon.url }}" target="_blank" {% endif %} {% if icon.color %} style="color:{{ icon.color }}" {% endif %}>
+										<i class="fas {{ icon.icon }}"></i>
+										<span class="tooltiptext">{{ icon.text }}</span>
+									</a>
 									{% endfor%}
 									<strong>{{ block.block }}</strong>
 									- {{ block.location}}

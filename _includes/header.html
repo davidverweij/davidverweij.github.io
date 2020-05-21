@@ -7,6 +7,7 @@
 		<label for="overlay-input" id="overlay-button"><span></span></label>
 		<nav id="mobile_nav">
 			<ul>
+				<li><a href="/">Home</a></li>
 				{% for doc in site.pages %}
 				<li><a {% if page.url == doc.url %} class="active" {% endif %}   href="{{ doc.url }}">{{ doc.title }}</a></li>
 				{% endfor %}
@@ -14,6 +15,7 @@
 		</nav>
 		<nav class="nav" id="nav">
 			<ul>
+				<li><a href="/">Home</a></li>
 				{% for doc in site.pages %}
 				<li><a {% if page.url == doc.url %} class="active" {% endif %}   href="{{ doc.url }}">{{ doc.title }}</a></li>
 				{% endfor %}
