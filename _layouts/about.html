@@ -30,7 +30,8 @@
 		{% if page.data %}
 		<section class="projects">
 			<div id="data" class="container">
-				<h1 id="{{ page.data.name }}"> {{ page.data.name }}</h1>
+				<a class="anchor" id="{{ page.data.name }}"></a>
+				<h1> {{ page.data.name }}</h1>
 				<div class="data-list">
 					{% for entry in site.data[page.data.file] %}
 					<div class="data-item">
