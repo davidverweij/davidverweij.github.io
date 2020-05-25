@@ -266,11 +266,20 @@ font-weight: 600;
 			}
 		}
 
+		.block-content {
+				@media (max-width: $breakpoint-medium) {
+					display:block;
+					margin-top: 0;
+				}
+		}
+
 		.tooltip {
 			position: relative;
 			display: inline-block;
 
 			.tooltiptext {
+				font-weight:600;
+				@media (min-width: $breakpoint-medium) {
 				visibility: hidden;
 				background-color: black;
 				color: #fff;
@@ -285,6 +294,10 @@ font-weight: 600;
 				left: 50%;
 				margin-left: -60px;
 				/* Use half of the width (120/2 = 60), to center the tooltip */
+
+
+
+				}
 			}
 
 			&:hover .tooltiptext {
@@ -438,10 +451,7 @@ font-weight: 600;
 		margin-bottom: 3rem;
 		@media (min-width: $breakpoint-medium) {
 			float: right;
-			right: 0;
-			width: 40%;
-			position: absolute;
-			right: 5%;
+			width: 45%;
 		}
 	}
 

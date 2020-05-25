@@ -50,11 +50,13 @@
 										<span class="tooltiptext">{{ icon.text }}</span>
 									</a>
 									{% endfor%}
+									<span class="block-content">
 									<strong>{{ block.block }}</strong>
 									- {{ block.location}}
 									{% if block.author %}
 									<p> - {{ block.author }}</p>
 									{% endif %}
+									</span>
 								</span>
 								<p>{{ block.text }}</p>
 							</div>

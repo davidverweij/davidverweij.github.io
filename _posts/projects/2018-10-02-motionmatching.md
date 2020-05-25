@@ -1,17 +1,17 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: project
 date: 2019-12-01
 
 meta:
   keywords: ""
 
 project:
-  title: "Domestic Widgets"
+  title: "Motion Matching"
   type: "Design"
   url: "https://chiplay.acm.org/2019/"
-  logo: "/assets/images/projects/domesticwidgets/logo.png"
+  logo: "/assets/images/projects/motionmatching/logo.png"
   tech: "Placeholder"
 
 agency:

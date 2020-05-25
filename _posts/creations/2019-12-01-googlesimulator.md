@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-category: creations
+category: creation
 date: 2019-12-01
 
 meta:

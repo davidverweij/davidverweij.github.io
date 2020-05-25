@@ -13,18 +13,16 @@
 		<section class="project">
 			<div class="container">
 				<article>
-					<span class="h1">Project Title</span>
 					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
+						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}">{{ page.project.title }}</a>
 					</h1>
-					<span class="h1">Role</span>
 					{{ page.content }}
 					<div class="project-meta">
-						<h1>Technologies</h1>
+						<h3>Technologies</h3>
 						<p>{{ page.project.tech }}</p>
-						<h1>Agency</h1>
+						<h3>Agency</h3>
 						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
-						<h1>Year</h1>
+						<h3>Year</h3>
 						<p>{{ page.agency.year }}</p>
 					</div>
 				</article>
@@ -40,17 +38,36 @@
 			</div>
 		</section>
 		<section class="project-navigation">
+		{% comment %} arbitrary category next/previous from https://github.com/jekyll/jekyll/issues/260#issuecomment-171553586 {% endcomment %}
+		{% if page.categories %}
+		  {% assign category = page.categories[0] %}
+		  {% assign posts = site.categories[category] %}
+		  {% for post in posts %}
+		    {% if post.url == page.url %}
+		      {% assign post_index0 = forloop.index0 %}
+		      {% assign post_index1 = forloop.index %}
+		    {% endif %}
+		  {% endfor %}
+		  {% for post in posts %}
+		    {% if post_index0 == forloop.index %}
+		      {% assign next_post = post %}
+		    {% endif %}
+		    {% if post_index1 == forloop.index0 %}
+		      {% assign prev_post = post %}
+		    {% endif %}
+		  {% endfor %}
+		{% endif %}
 			<div class="container">
-				{% if page.previous and page.previous.categories contains "projects" %}
-				<a title="Previous {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
-					<span class="h2">Previous</span>
-					<h2>{{ page.previous.project.title }}</h2>
+				{% if prev_post %}
+				<a title="Previous {{ prev_post.project.title }}" href="{{ prev_post.url | prepend: site.baseurl }}" class="prev">
+					<span class="h2">Previous {{ category }}</span>
+					<h2>{{ prev_post.project.title }}</h2>
 				</a>
 				{% endif %}
-				{% if page.next and page.next.categories contains "projects" %}
-				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}" class="next">
-					<span class="h2">Next</span>
-					<h2>{{ page.next.project.title }}</h2>
+				{% if next_post %}
+				<a title="Next {{ next_post.project.title }}" href="{{ next_post.url | prepend: site.baseurl }}" class="next">
+					<span class="h2">Next {{ category }}</span>
+					<h2>{{ next_post.project.title }}</h2>
 				</a>
 				{% endif %}
 			</div>

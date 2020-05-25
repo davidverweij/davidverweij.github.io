@@ -1,17 +1,17 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: project
 date: 2019-12-01
 
 meta:
   keywords: ""
 
 project:
-  title: "Motion Matching"
+  title: "SmoothMoves"
   type: "Design"
   url: "https://chiplay.acm.org/2019/"
-  logo: "/assets/images/projects/motionmatching/logo.png"
+  logo: "/assets/images/projects/smoothmoves/logo.png"
   tech: "Placeholder"
 
 agency:

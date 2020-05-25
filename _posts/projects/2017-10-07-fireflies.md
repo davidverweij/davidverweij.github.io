@@ -1,17 +1,17 @@
 ---
 layout: project
 permalink: /:title/
-category: projects
+category: project
 date: 2019-12-01
 
 meta:
   keywords: ""
 
 project:
-  title: "WaveTrace"
+  title: "FireFlies"
   type: "Design"
   url: "https://chiplay.acm.org/2019/"
-  logo: "/assets/images/projects/wavetrace/logo.png"
+  logo: "/assets/images/projects/fireflies/logo.png"
   tech: "Placeholder"
 
 agency:

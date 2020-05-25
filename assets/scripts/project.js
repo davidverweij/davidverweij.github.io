@@ -1,4 +1,6 @@
 (function($) {
+
+	/*
 	$(function() {
 		$(window).on('load resize', function() {
 			sticky();
@@ -16,6 +18,7 @@
 			}
 		}
 	});
+	*/
 	//
 	// var sr = ScrollReveal({
 	// 	origin   : "bottom",
@@ -25,5 +28,5 @@
 	// 	scale    : 1
 	// });
 
-	sr.reveal('.project li');
+	// sr.reveal('.project li');
 }(jQuery));
