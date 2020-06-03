@@ -1,11 +1,15 @@
 ---
 layout: project
 permalink: /:title/
-category: project
-date: 2019-12-01
+date: 2020-05-01
 
 meta:
   keywords: ""
+
+categories:
+  - "project"
+  - "design"
+
 
 project:
   title: "Implicitly Human-Powered"

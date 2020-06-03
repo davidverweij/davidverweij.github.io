@@ -1,15 +1,18 @@
 ---
 layout: project
 permalink: /:title/
-category: project
 date: 2019-12-01
 
 meta:
   keywords: ""
 
+categories:
+  - "project"
+  - "software"
+  - "research"
+
 project:
   title: "WaveTrace"
-  type: "Design"
   url: "https://chiplay.acm.org/2019/"
   logo: "/assets/images/projects/wavetrace/logo.png"
   tech: "Placeholder"

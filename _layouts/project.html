@@ -18,6 +18,11 @@
 					</h1>
 					<h2>{{ page.date | date: '%B %d, %Y' }}</h2>
 					{{ page.content }}
+					<div class="tags">
+						{% for cat in page.categories %}
+							<a href="/work/{{cat}}">{{ cat }}</a>
+						{% endfor%}
+					</div>
 					<div class="project-meta">
 						<h2 class="h2">Tools</h2>
 						<p>{{ page.project.tools }}</p>
@@ -42,6 +47,7 @@
 				</aside>
 			</div>
 		</section>
+	{% comment %} navigation is currently turned off
 		<section class="project-navigation">
 		{% comment %} arbitrary category next/previous from https://github.com/jekyll/jekyll/issues/260#issuecomment-171553586 {% endcomment %}
 		{% if page.categories %}
@@ -77,6 +83,7 @@
 				{% endif %}
 			</div>
 		</section>
+	{% endcomment %}
 	</main>
 	{% include footer.html %}
 	<script src="{{ "/assets/scripts/vendor/jquery-1.12.4.min.js" | prepend: site.baseurl }}"></script>

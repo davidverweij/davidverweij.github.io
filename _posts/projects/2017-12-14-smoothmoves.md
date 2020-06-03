@@ -1,15 +1,21 @@
 ---
 layout: project
 permalink: /:title/
-category: project
 date: 2019-12-01
 
 meta:
   keywords: ""
 
+
+categories:
+  - "project"
+  - "software"
+  - "research"
+  - "design"
+
+
 project:
   title: "SmoothMoves"
-  type: "Design"
   url: "https://chiplay.acm.org/2019/"
   logo: "/assets/images/projects/smoothmoves/logo.png"
   tech: "Placeholder"

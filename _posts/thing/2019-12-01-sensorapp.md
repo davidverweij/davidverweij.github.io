@@ -1,17 +1,20 @@
 ---
 layout: project
 permalink: /:title/
-category: creation
 date: 2019-12-01
 
 meta:
   keywords: ""
 
+categories:
+  - "thing"
+  - "software"
+
+
 project:
-  title: "Google Assistant Simulator"
-  type: "Design"
+  title: "Sensor Data App"
   url: "https://chiplay.acm.org/2019/"
-  logo: "/assets/images/creations/googlesimulator/logo.png"
+  logo: "/assets/images/creations/sensorapp/logo.png"
   tech: "Placeholder"
 
 agency:

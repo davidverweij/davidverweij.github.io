@@ -10,8 +10,8 @@
 	background: $color-white;
 	padding: 3rem 0;
 	position: fixed;
-z-index: 10;
-width: 100%;
+	z-index: 10;
+	width: 100%;
 }
 
 .logo {
@@ -96,19 +96,50 @@ width: 100%;
 		opacity: 1;
 	}
 }
-
 @keyframes wave-animation {
-    0% { transform: rotate(  0.0deg) }
-    8% { transform: rotate(-10.0deg) }
-   16% { transform: rotate( 12.0deg) }
-   24% { transform: rotate(-10.0deg) }
-   32% { transform: rotate( 12.0deg) }
-   40% { transform: rotate(-10.0deg) }
-   48% { transform: rotate( 12.0deg) }
-   56% { transform: rotate(-10.0deg) }
-   64% { transform: rotate(  9.0deg) }
-   72% { transform: rotate(  0.0deg) }
-  100% { transform: rotate(  0.0deg) }
+	0% {
+		transform: rotate(0.0deg);
+	}
+
+	8% {
+		transform: rotate(-10.0deg);
+	}
+
+	16% {
+		transform: rotate(12.0deg);
+	}
+
+	24% {
+		transform: rotate(-10.0deg);
+	}
+
+	32% {
+		transform: rotate(12.0deg);
+	}
+
+	40% {
+		transform: rotate(-10.0deg);
+	}
+
+	48% {
+		transform: rotate(12.0deg);
+	}
+
+	56% {
+		transform: rotate(-10.0deg);
+	}
+
+	64% {
+		transform: rotate(9.0deg);
+	}
+
+	72% {
+		transform: rotate(0.0deg);
+	}
+
+	100% {
+		transform: rotate(0.0deg);
+	}
 }
 
 #overlay-button {
@@ -189,24 +220,22 @@ input[type=checkbox]:checked ~ #overlay-button {
 
 .content {
 	background: $color-white;
-	padding: 14rem 0 4rem 0;
-	margin-bottom: 40rem;
+	padding: 14rem 0 0;
+	margin-bottom: 50rem;
 	position: relative;
 	top: 0;
 	left: 0;
 	z-index: 1;
 	@media (min-width: $breakpoint-medium) {
 		padding: 20rem 0 0;
-		margin-bottom: 23.42rem;
+		margin-bottom: 22.42rem;
 	}
 }
 
 a.project {
-
-				font-size: 1.5rem;
-				color: lightgrey;
-				padding-right: .5rem;
-
+	font-size: 1.5rem;
+	color: lightgrey;
+	padding-right: 0.5rem;
 }
 
 .intro,
@@ -215,11 +244,33 @@ a.project {
 }
 
 .intro {
-	a{
+	a {
 		text-decoration: underline;
-font-weight: 600;
-
+		font-weight: 600;
 	}
+
+	&.wide {
+		padding-bottom: 3rem;
+
+		.tags {
+			margin-top: 4rem;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			& a {
+				text-decoration: none;
+				font-size: 1.4rem;
+				margin: .5rem;
+
+				&.active{
+					background: $color-black;
+				}
+
+			}
+		}
+	}
+
 	aside {
 		margin-top: 3rem;
 		@media (min-width: $breakpoint-medium) {
@@ -234,7 +285,6 @@ font-weight: 600;
 		img {
 			object-fit: cover;
 		}
-
 	}
 	@media (min-width: $breakpoint-medium) {
 		p {
@@ -254,25 +304,22 @@ font-weight: 600;
 	display: inline-block;
 
 	.tooltiptext {
-		font-weight:600;
+		font-weight: 600;
 		@media (min-width: $breakpoint-medium) {
-		visibility: hidden;
-		background-color: black;
-		color: #fff;
-		text-align: center;
-		padding: 5px 0;
-		border-radius: 6px;
-		/* Position the tooltip text - see examples below! */
-		position: absolute;
-		z-index: 1;
-		width: 150px;
-		bottom: 100%;
-		left: 50%;
-		margin-left: -60px;
-		/* Use half of the width (120/2 = 60), to center the tooltip */
-
-
-
+			visibility: hidden;
+			background-color: black;
+			color: #fff;
+			text-align: center;
+			padding: 5px 0;
+			border-radius: 6px;
+			/* Position the tooltip text - see examples below! */
+			position: absolute;
+			z-index: 1;
+			width: 150px;
+			bottom: 100%;
+			left: 50%;
+			margin-left: -60px;
+			/* Use half of the width (120/2 = 60), to center the tooltip */
 		}
 	}
 
@@ -306,7 +353,7 @@ font-weight: 600;
 			font-size: 1.5rem;
 			color: lightgrey;
 			vertical-align: middle;
-			padding-right: .5rem;
+			padding-right: 0.5rem;
 		}
 
 		p {
@@ -321,12 +368,11 @@ font-weight: 600;
 		}
 
 		.block-content {
-				@media (max-width: $breakpoint-medium) {
-					display:block;
-					margin-top: 0;
-				}
+			@media (max-width: $breakpoint-medium) {
+				display: block;
+				margin-top: 0;
+			}
 		}
-
 
 		.date {
 			position: absolute;
@@ -361,7 +407,7 @@ font-weight: 600;
 
 .projects-list {
 	@media (min-width: $breakpoint-small) {
-		margin: 3rem -1.5rem 0 -1.5rem;
+		margin: 3rem -1.5rem 0;
 		@include clearfix;
 
 		li {
@@ -389,6 +435,7 @@ font-weight: 600;
 
 	a {
 		display: block;
+		visibility: hidden;
 
 		&:hover {
 			.img-wrapper {
@@ -449,6 +496,18 @@ font-weight: 600;
 	}
 }
 
+.tags {
+	margin-top: 2rem;
+
+	& a {
+		color: $color-white;
+		background: $color-silver-chalice;
+		padding: 0.5rem 1.5rem;
+		border-radius: 4.2rem;
+		font-size: 1.2rem;
+	}
+}
+
 .project {
 	left: 0;
 	position: relative;
@@ -495,6 +554,7 @@ font-weight: 600;
 			margin: 5rem 0 0;
 			max-width: 70%;
 		}
+
 		a {
 			text-decoration: underline;
 		}
@@ -529,7 +589,7 @@ font-weight: 600;
 
 .project-navigation {
 	background: $color-black;
-	padding: 5rem 0;
+	padding: 2rem 0;
 
 	a {
 		color: $color-white;
@@ -657,19 +717,18 @@ font-weight: 600;
 		width: 33.33333%;
 	}
 
-	.fas{
-		color:gray;
-		margin-left:1rem;
+	.fas {
+		color: gray;
+		margin-left: 1rem;
 	}
 
 	.wave {
-	  animation-name: wave-animation;
-	  animation-duration: 2.5s;
-	  transform-origin: 50% 130%;
+		animation-name: wave-animation;
+		animation-duration: 2.5s;
+		transform-origin: 50% 130%;
 		animation-iteration-count: infinite;
-	  display: inline-block;
+		display: inline-block;
 	}
-
 }
 
 .contact,

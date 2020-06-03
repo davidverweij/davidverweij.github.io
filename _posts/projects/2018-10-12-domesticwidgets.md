@@ -1,15 +1,21 @@
 ---
 layout: project
 permalink: /:title/
-category: project
-date: 2019-12-01
+date: 2018-10-12
 
 meta:
   keywords: ""
 
+categories:
+  - "project"
+  - "software"
+  - "hardware"
+  - "design"
+  - "research"
+
+
 project:
   title: "Domestic Widgets"
-  type: "Design"
   url: "https://chiplay.acm.org/2019/"
   logo: "/assets/images/projects/domesticwidgets/logo.png"
   tech: "GCloud Firestore, Dialogflow, Node,.js, C++ (Arduino), Lasercutter"
