@@ -267,6 +267,12 @@ a.project {
 					background: $color-black;
 				}
 
+				&.all{
+					background: darkorange;
+					margin-right: 3rem;
+				}
+
+
 			}
 		}
 	}
@@ -351,7 +357,7 @@ a.project {
 
 		a {
 			font-size: 1.5rem;
-			color: lightgrey;
+			color: $color-silver-chalice;
 			vertical-align: middle;
 			padding-right: 0.5rem;
 		}
@@ -360,7 +366,7 @@ a.project {
 			font-style: italic;
 			font-weight: 200;
 			font-size: 1.6rem;
-			color: #595959;
+			color: $color-silver-chalice;
 			display: none;
 			@media (min-width: $breakpoint-medium) {
 				display: inherit;

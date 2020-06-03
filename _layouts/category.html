@@ -16,12 +16,12 @@
 	<main class="content">
 		<section class="intro wide">
 			<div class="container">
-				<h1>Categories. You choose, I render.</h1>
+				<h1>Categories. You {% if page.tag == "all" %} choose, I render. {% else %} chose {{ page.tag }}. Excellent choice. {% endif %}</h1>
 				<div class="tags">
-
+						<a class="all" href="{{ "/work" | prepend: site.baseurl }}">x</a>
 					{% assign sorted_cats = site.category | sort:"value" | reverse %}
 					{% for cat in sorted_cats %}
-					<a {% if page.url == cat.permalink %} class="active" {% else %} href="{{ cat.permalink | prepend: site.baseurl }}" {% endif %}>{{ cat.tag }}</a>
+						<a {% if page.url == cat.permalink %} class="active" {% else %} href="{{ cat.permalink | prepend: site.baseurl }}" {% endif %}>{{ cat.tag }}</a>
 					{% endfor%}
 					</span>
 				</div>
