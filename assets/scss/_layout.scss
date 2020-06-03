@@ -201,6 +201,14 @@ input[type=checkbox]:checked ~ #overlay-button {
 	}
 }
 
+a.project {
+
+				font-size: 1.5rem;
+				color: lightgrey;
+				padding-right: .5rem;
+
+}
+
 .intro,
 .projects {
 	padding: 0 0 15rem;
@@ -239,6 +247,38 @@ font-weight: 600;
 
 .intro_with_img {
 	display: flex;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+
+	.tooltiptext {
+		font-weight:600;
+		@media (min-width: $breakpoint-medium) {
+		visibility: hidden;
+		background-color: black;
+		color: #fff;
+		text-align: center;
+		padding: 5px 0;
+		border-radius: 6px;
+		/* Position the tooltip text - see examples below! */
+		position: absolute;
+		z-index: 1;
+		width: 150px;
+		bottom: 100%;
+		left: 50%;
+		margin-left: -60px;
+		/* Use half of the width (120/2 = 60), to center the tooltip */
+
+
+
+		}
+	}
+
+	&:hover .tooltiptext {
+		visibility: visible;
+	}
 }
 
 .data-list {
@@ -287,37 +327,6 @@ font-weight: 600;
 				}
 		}
 
-		.tooltip {
-			position: relative;
-			display: inline-block;
-
-			.tooltiptext {
-				font-weight:600;
-				@media (min-width: $breakpoint-medium) {
-				visibility: hidden;
-				background-color: black;
-				color: #fff;
-				text-align: center;
-				padding: 5px 0;
-				border-radius: 6px;
-				/* Position the tooltip text - see examples below! */
-				position: absolute;
-				z-index: 1;
-				width: 150px;
-				bottom: 100%;
-				left: 50%;
-				margin-left: -60px;
-				/* Use half of the width (120/2 = 60), to center the tooltip */
-
-
-
-				}
-			}
-
-			&:hover .tooltiptext {
-				visibility: visible;
-			}
-		}
 
 		.date {
 			position: absolute;
@@ -486,6 +495,9 @@ font-weight: 600;
 			margin: 5rem 0 0;
 			max-width: 70%;
 		}
+		a {
+			text-decoration: underline;
+		}
 	}
 
 	.h2 {
@@ -523,6 +535,20 @@ font-weight: 600;
 		color: $color-white;
 		display: inline-block;
 
+		&.prev {
+			@media (min-width: $breakpoint-xsmall) {
+				float: left;
+			}
+		}
+
+		&.next {
+			margin-top: 3rem;
+			@media (min-width: $breakpoint-xsmall) {
+				float: right;
+				margin-top: 0;
+			}
+		}
+
 		&:hover {
 			h2:after {
 				visibility: visible;
@@ -556,20 +582,6 @@ font-weight: 600;
 				display: inline-block;
 				margin: 0;
 				text-align: left;
-			}
-		}
-
-		&:nth-of-type(1) {
-			@media (min-width: $breakpoint-xsmall) {
-				float: left;
-			}
-		}
-
-		&:nth-of-type(2) {
-			margin-top: 3rem;
-			@media (min-width: $breakpoint-xsmall) {
-				float: right;
-				margin-top: 0;
 			}
 		}
 

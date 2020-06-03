@@ -14,16 +14,21 @@
 			<div class="container">
 				<article>
 					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}">{{ page.project.title }}</a>
+						{{ page.project.title }}
 					</h1>
+					<h2>{{ page.date | date: '%B %d, %Y' }}</h2>
 					{{ page.content }}
 					<div class="project-meta">
-						<h3>Technologies</h3>
-						<p>{{ page.project.tech }}</p>
-						<h3>Agency</h3>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
-						<h3>Year</h3>
-						<p>{{ page.agency.year }}</p>
+						<h2 class="h2">Tools</h2>
+						<p>{{ page.project.tools }}</p>
+						<h2 class="h2">Resources</h2>
+						{% for resource in page.project.resources %}
+						<a href="{{ resource.url }}" target="_blank">{{ resource.resource }}</a>
+						{% if forloop.last == false %}
+						,
+						{% endif %}
+
+						{% endfor%}
 					</div>
 				</article>
 				<aside>
