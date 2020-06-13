@@ -514,6 +514,14 @@ a.project {
 	}
 }
 
+.catnav{
+	color: $color-white;
+	background: $color-silver-chalice;
+	padding: 0.5rem 1.5rem;
+	border-radius: 4.2rem;
+	font-size: 1.2rem;
+}
+
 .project {
 	left: 0;
 	position: relative;
