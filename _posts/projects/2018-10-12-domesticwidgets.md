@@ -28,6 +28,15 @@ images:
   - image:
     url: "/assets/images/projects/domesticwidgets/2.jpg"
     alt: "A messy table surface with craft supplies. Someone working on a Domestic Widget."
+  - image:
+    url: "/assets/images/projects/domesticwidgets/3.jpg"
+    alt: "Two example Widgets, one placed upside down, the other holding two flags."
+  - image:
+    url: "/assets/images/projects/domesticwidgets/4.jpg"
+    alt: "A Widget being programmed using the Google Home."
+  - image:
+    url: "/assets/images/projects/domesticwidgets/5.jpg"
+    alt: "Myself and two visitors of the 2018 Maker Faire in discussion."
 
 agency:
   title: "Placeholder"
