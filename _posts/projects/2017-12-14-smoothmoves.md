@@ -11,7 +11,7 @@ categories:
   - "project"
   - "software"
   - "research"
-  - "design"
+  - "graphic"
 
 
 project:

@@ -9,7 +9,7 @@ meta:
 categories:
   - "project"
   - "research"
-  - "design"
+  - "product"
   - "hardware"
 
 

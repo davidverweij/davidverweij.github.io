@@ -10,7 +10,7 @@ categories:
   - "project"
   - "software"
   - "hardware"
-  - "design"
+  - "product"
   - "research"
 
 

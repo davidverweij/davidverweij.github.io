@@ -1,6 +1,6 @@
 ---
 layout: "category"
-tag: design
-permalink: "/work/design"
+tag: product
+permalink: "/work/product"
 ---
 <p>Below are the projects and creations I listed as software</p>

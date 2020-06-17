@@ -8,7 +8,7 @@ meta:
 
 categories:
   - "project"
-  - "design"
+  - "product"
 
 
 project:
