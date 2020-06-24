@@ -71,7 +71,11 @@
 					<ul>
 						{% for image in page.images %}
 						<li>
+							{% if image.type == "video" %}
+							{% include youtubePlayer.html id=image.url %}
+							{% else %}
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+							{% endif %}
 						</li>
 						{% endfor %}
 					</ul>

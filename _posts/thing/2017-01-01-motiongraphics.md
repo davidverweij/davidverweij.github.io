@@ -20,6 +20,6 @@ project:
       url: "https://studio.davidverweij.com/"
     - resource: "Vimeo Portfolio"
       url: "https://vimeo.com/verweij"
-
+ 
 ---
 <p>Placeholder</p>

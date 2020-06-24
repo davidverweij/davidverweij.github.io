@@ -17,6 +17,12 @@ project:
   logo: "/assets/images/projects/wavetrace/logo.png"
   tech: "Placeholder"
 
+images:
+  - image:
+    type: "video"
+    url: "7Uc9FF8yaVQ"
+    alt: "Explainer Video, without voice-over, of the WaveTrace technique."
+
 agency:
   title: "Placeholder"
   url: "https://github.com/davidverweij"

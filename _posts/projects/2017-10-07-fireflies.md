@@ -16,6 +16,12 @@ project:
   logo: "/assets/images/projects/fireflies/logo.png"
   tech: "Placeholder"
 
+images:
+  - image:
+    type: "video"
+    url: "m4gSaI1LxA8"
+
+
 ---
 <p>I'm baby synth distillery farm-to-table, man bun paleo fingerstache sriracha af. Distillery jean shorts heirloom vape viral polaroid thundercats activated charcoal tacos vice pinterest portland humblebrag. Coloring book man braid street art pour-over. Portland bicycle rights narwhal vexillologist green juice. Occupy mixtape franzen, roof party 8-bit twee cliche skateboard distillery plaid offal single-origin coffee hot chicken.
 
