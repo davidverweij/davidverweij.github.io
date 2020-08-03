@@ -13,46 +13,73 @@
 		<section class="project">
 			<div class="container">
 				<article>
-					<span class="h2">Project Title</span>
+					{% comment %} arbitrary category next/previous from https://github.com/jekyll/jekyll/issues/260#issuecomment-171553586 {% endcomment %}
+					{% if page.categories %}
+						{% assign category = page.categories[0] %}
+						{% assign posts = site.categories[category] %}
+						{% for post in posts %}
+							{% if post.url == page.url %}
+								{% assign post_index0 = forloop.index0 %}
+								{% assign post_index1 = forloop.index %}
+							{% endif %}
+						{% endfor %}
+						{% for post in posts %}
+							{% if post_index0 == forloop.index %}
+								{% assign next_post = post %}
+							{% endif %}
+							{% if post_index1 == forloop.index0 %}
+								{% assign prev_post = post %}
+							{% endif %}
+						{% endfor %}
+					{% endif %}
+					<div class="catnav">
+					<span>See more {{ category }}s</span>
+					{% if prev_post %}
+					<a title="{{ prev_post.project.title }}" href="{{ prev_post.url | prepend: site.baseurl }}" class="left">
+						<i class="fas fa-arrow-left"></i><span>{{ prev_post.project.title }}</span>
+					</a>
+					{% endif %}
+					{% if next_post %}
+					<a title="{{ next_post.project.title }}" href="{{ next_post.url | prepend: site.baseurl }}" class="right">
+						<span>{{ next_post.project.title }}</span><i class="fas fa-arrow-right"></i>
+					</a>
+
+						{% endif %}
+					</div>
 					<h1>
-						<a href="{{ page.project.url }}" target="_blank" title="{{ page.project.title }}" rel="nofollow">{{ page.project.title }}</a>
+						{{ page.project.title }}
 					</h1>
-					<span class="h2">Role</span>
+
+					<h2>{{ page.date | date: '%B %d, %Y' }}</h2>
 					{{ page.content }}
+					<div class="tags">
+						{% for cat in page.categories %}
+							<a href="/work/{{cat}}">{{ cat }}</a>
+						{% endfor%}
+					</div>
 					<div class="project-meta">
-						<span class="h2">Technologies</span>
-						<p>{{ page.project.tech }}</p>
-						<span class="h2">Agency</span>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
-						<span class="h2">Year</span>
-						<p>{{ page.agency.year }}</p>
+						<h2 class="h2">Tools</h2>
+						<p>{{ page.project.tools }}</p>
+						<h2 class="h2">Resources</h2>
+						{% for resource in page.project.resources %}
+						<a href="{{ resource.url }}" target="_blank">{{ resource.resource }}</a>
+						{% if forloop.last == false %},{% endif %}
+						{% endfor%}
 					</div>
 				</article>
 				<aside>
 					<ul>
 						{% for image in page.images %}
 						<li>
+							{% if image.type == "video" %}
+							{% include youtubePlayer.html id=image.url %}
+							{% else %}
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+							{% endif %}
 						</li>
 						{% endfor %}
 					</ul>
 				</aside>
-			</div>
-		</section>
-		<section class="project-navigation">
-			<div class="container">
-				{% if page.previous and page.previous.categories contains "projects" %}
-				<a title="Previous {{ page.previous.project.title }}" href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
-					<span class="h2">Previous</span>
-					<h2>{{ page.previous.project.title }}</h2>
-				</a>
-				{% endif %}
-				{% if page.next and page.next.categories contains "projects" %}
-				<a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}" class="next">
-					<span class="h2">Next</span>
-					<h2>{{ page.next.project.title }}</h2>
-				</a>
-				{% endif %}
 			</div>
 		</section>
 	</main>

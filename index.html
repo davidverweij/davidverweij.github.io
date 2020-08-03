@@ -2,26 +2,76 @@
 ---
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>{{ site.author }} / {{ site.tagline }}</title>
+	<title>{{ site.author }}</title>
 	<meta name="author" content="{{ site.author }}">
 	<meta name="description" content="{{ site.description }}">
 	<meta name="keywords" content="{{ site.keywords }}">
 	{% include head.html %}
 </head>
+
 <body>
 	{% include header.html %}
 	<main class="content">
 		<section class="intro">
 			<div class="container">
-				<h2>About me.</h2>
-				<p>{{ site.description }}</p>
+				<h1>Hi.</h1>
+				<p>You've stumbled upon my portfolio, nice one. Get to know more <a href="/about">about me</a> and my career path,
+					have a peek at my <a href="/publications">academic output</a>.	I'll be <a href="#contact">here</a> if you need me.
+				<br/><br/><br/><br/><br/>
+				This webpage doesn't show any projects, yet. I am in the progress of finalizing the content - please <i class="fas fa-paw"></i>
+				bear with me while I update this webpage.</p>
+			</p>
+					<!--
+					<p>You've stumbled upon my portfolio, nice one. Get to know more <a href="/about">about me</a> and my career path,
+						have a peek at my <a href="/publications">academic output</a> or take a look at my some of my <a href="#creations">creations</a>.
+						I'll be <a href="#contact">here</a> if you need me.</p>
+					-->
 			</div>
 		</section>
-		
+		<!--
+		<section class="projects">
+			<div class="container">
+				<h1><a href="/work/project"><u>Projects</u></a> I have worked on.</h1>
+				<ul class="projects-list">
+					{% for item in site.categories.project %}
+					<li>
+						<a href="{{ item.url | prepend: site.baseurl }}">
+							<div class="img-wrapper">
+								<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+							</div>
+							<h3>{{ item.project.title }}</h3>
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
+		<section class="projects">
+			<div class="container">
+				<a class="anchor" id="creations"></a>
+				<h1>Other <a href="/work/thing"><u>things</u></a> I have recently created.</h1>
+				<ul class="projects-list">
+					{% for item in site.categories.thing %}
+					<li>
+						<a href="{{ item.url | prepend: site.baseurl }}">
+							<div class="img-wrapper">
+								<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+							</div>
+							<h3>{{ item.project.title }}</h3>
+
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</section>
+	-->
 	</main>
 	{% include footer.html %}
 	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
 	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
 </body>
+
 </html>

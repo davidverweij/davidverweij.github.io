@@ -9,57 +9,409 @@
 .header {
 	background: $color-white;
 	padding: 3rem 0;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
 }
 
 .logo {
 	float: left;
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	font-weight: 600;
 	margin: 0;
 	line-height: 1;
 }
 
+#mobile_nav {
+	height: 100vh;
+	width: 100vw;
+	background: $color-black;
+	z-index: 2;
+	visibility: hidden;
+	position: fixed;
+	left: 0;
+	top: 0;
+	@media (min-width: $breakpoint-medium) {
+		display: none;
+	}
+
+	&.active {
+		visibility: visible;
+	}
+
+	ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-align: center;
+		height: 100vh;
+		padding-left: 0;
+		list-style-type: none;
+
+		li {
+			padding: 1em;
+
+			a {
+				@extend .logo;
+				color: white;
+
+				&.active {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
 .nav {
 	float: right;
+	@media (max-width: $breakpoint-medium) {
+		display: none;
+	}
+
+	ul {
+		display: flex;
+
+		li {
+			padding-left: 3rem;
+		}
+
+		.active {
+			text-decoration: underline;
+		}
+	}
 
 	a {
 		@extend .logo;
 	}
 }
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
+@keyframes wave-animation {
+	0% {
+		transform: rotate(0.0deg);
+	}
+
+	8% {
+		transform: rotate(-10.0deg);
+	}
+
+	16% {
+		transform: rotate(12.0deg);
+	}
+
+	24% {
+		transform: rotate(-10.0deg);
+	}
+
+	32% {
+		transform: rotate(12.0deg);
+	}
+
+	40% {
+		transform: rotate(-10.0deg);
+	}
+
+	48% {
+		transform: rotate(12.0deg);
+	}
+
+	56% {
+		transform: rotate(-10.0deg);
+	}
+
+	64% {
+		transform: rotate(9.0deg);
+	}
+
+	72% {
+		transform: rotate(0.0deg);
+	}
+
+	100% {
+		transform: rotate(0.0deg);
+	}
+}
+
+#overlay-button {
+	@media (max-width: $breakpoint-medium) {
+		cursor: pointer;
+		user-select: none;
+		float: right;
+		z-index: 5;
+		height: 3rem;
+		position: absolute;
+		right: 3rem;
+
+		span {
+			height: 4px;
+			width: 35px;
+			border-radius: 2px;
+			background-color: $color-black;
+			position: relative;
+			display: block;
+			transition: all 0.2s ease-in-out;
+
+			&:before {
+				top: 10px;
+				visibility: visible;
+			}
+
+			&:after {
+				top: 20px;
+			}
+
+			&:after,
+			&:before {
+				height: 4px;
+				width: 35px;
+				border-radius: 2px;
+				background-color: $color-black;
+				position: absolute;
+				content: "";
+				transition: all 0.2s ease-in-out;
+			}
+		}
+	}
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+input[type=checkbox]:checked ~ #mobile_nav {
+	visibility: visible;
+	animation: 0.5s fadeIn ease;
+	animation-fill-mode: forwards;
+}
+
+input[type=checkbox]:checked ~ #overlay-button {
+	&:hover span,
+	span {
+		transform: rotate(45deg) translate(7px, 7px);
+		opacity: 1;
+		background: $color-white;
+		position: fixed;
+		right: 3rem;
+	}
+
+	span {
+		&:before {
+			background: transparent;
+			transform: rotate(-45deg) translate(15px, -16px);
+			height: 3rem;
+		}
+
+		&:after {
+			transform: rotate(-90deg) translate(20px, 0px);
+			background: $color-white;
+		}
+	}
+}
 
 .content {
 	background: $color-white;
-	padding: 7rem 0 0;
-	margin-bottom: 31.24rem;
+	padding: 14rem 0 0;
+	margin-bottom: 41rem;
 	position: relative;
 	top: 0;
 	left: 0;
 	z-index: 1;
-
 	@media (min-width: $breakpoint-medium) {
-		padding: 21rem 0 0;
-		margin-bottom: 23.42rem;
+		padding: 20rem 0 0;
+		margin-bottom: 22.42rem;
 	}
+}
+
+a.project {
+	font-size: 1.5rem;
+	color: lightgrey;
+	padding-right: 0.5rem;
 }
 
 .intro,
 .projects {
-	padding: 0 0 5rem;
+	padding: 0 0 15rem;
 }
 
 .intro {
+	a {
+		text-decoration: underline;
+		font-weight: 600;
+	}
+
+	&.wide {
+		padding-bottom: 3rem;
+
+		.tags {
+			margin-top: 4rem;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			& a {
+				text-decoration: none;
+				font-size: 1.4rem;
+				margin: 0.5rem;
+
+				&.active {
+					background: $color-black;
+				}
+
+				&.all {
+					background: darkorange;
+					margin-right: 3rem;
+				}
+			}
+		}
+	}
+
+	aside {
+		margin-top: 3rem;
+		@media (min-width: $breakpoint-medium) {
+			margin-top: 0;
+			float: right;
+			width: 28%;
+			height: 87%;
+			display: flex;
+			align-content: stretch;
+		}
+
+		img {
+			object-fit: cover;
+		}
+	}
 	@media (min-width: $breakpoint-medium) {
 		p {
-			font-size: 2.7rem;
+			float: left;
+			font-size: 1.8rem;
 			max-width: 66.66666%;
+		}
+	}
+}
+
+.intro_with_img {
+	display: flex;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+
+	.tooltiptext {
+		font-weight: 600;
+		@media (min-width: $breakpoint-medium) {
+			visibility: hidden;
+			background-color: black;
+			color: #fff;
+			text-align: center;
+			padding: 5px 0;
+			border-radius: 6px;
+			/* Position the tooltip text - see examples below! */
+			position: absolute;
+			z-index: 1;
+			width: 150px;
+			bottom: 100%;
+			left: 50%;
+			margin-left: -60px;
+			/* Use half of the width (120/2 = 60), to center the tooltip */
+		}
+	}
+
+	&:hover .tooltiptext {
+		visibility: visible;
+	}
+}
+
+.data-list {
+	min-height: 100%;
+	column-count: 1;
+	flex-direction: column;
+	@media (min-width: $breakpoint-medium) {
+		column-count: 2;
+	}
+
+	.data-item {
+		break-inside: avoid;
+		margin-bottom: 3rem;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.block-wrapper {
+		position: relative;
+		padding: 0 0 1rem 6rem;
+
+		a {
+			font-size: 1.5rem;
+			color: $color-silver-chalice;
+			vertical-align: middle;
+			padding-right: 0.5rem;
+		}
+
+		p {
+			font-style: italic;
+			font-weight: 200;
+			font-size: 1.6rem;
+			color: $color-silver-chalice;
+			display: none;
+			@media (min-width: $breakpoint-medium) {
+				display: inherit;
+			}
+		}
+
+		.block-content {
+			@media (max-width: $breakpoint-medium) {
+				display: block;
+				margin-top: 0;
+			}
+		}
+
+		.date {
+			position: absolute;
+			left: 0;
+
+			.h4 {
+				color: black;
+
+				&:first-child {
+					margin-left: 1rem;
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+	span {
+		margin: 1rem 0 0.5rem;
+	}
+
+	hr {
+		margin: 1.5rem 0;
+	}
+
+	.category-blocks {
+		h3 {
+			text-transform: uppercase;
+			margin-top: 1rem;
 		}
 	}
 }
 
 .projects-list {
 	@media (min-width: $breakpoint-small) {
-		margin-left: -1.5rem;
-		margin-right: -1.5rem;
+		margin: 3rem -1.5rem 0;
 		@include clearfix;
 
 		li {
@@ -71,7 +423,6 @@
 			padding: 0 1.5rem;
 		}
 	}
-
 	@media (min-width: $breakpoint-medium) {
 		li {
 			width: 33.33333%;
@@ -88,14 +439,16 @@
 
 	a {
 		display: block;
+		visibility: hidden;
 
 		&:hover {
 			.img-wrapper {
 				&:before {
 					opacity: 1;
 				}
+
 				&:after {
-					opacity: .45;
+					opacity: 0.45;
 				}
 			}
 		}
@@ -113,13 +466,13 @@
 			top: 50%;
 			left: 50%;
 			margin-top: -.5rem;
-			margin-left: -4.4rem;
+			margin-left: -5.4rem;
 			opacity: 0;
-			-webkit-transition: all .5s ease-in-out;
-    		transition: all .5s ease-in-out;
-    		-webkit-transition-delay: .25s;
-    		transition-delay: .25s;
-    		z-index: 2;
+			-webkit-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			-webkit-transition-delay: 0.25s;
+			transition-delay: 0.25s;
+			z-index: 2;
 		}
 
 		&:after {
@@ -132,9 +485,9 @@
 			bottom: 0;
 			left: 0;
 			opacity: 0;
-			-webkit-transition: all .5s ease-in-out;
-    		transition: all .5s ease-in-out;
-    		z-index: 1;
+			-webkit-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			z-index: 1;
 		}
 	}
 
@@ -143,7 +496,52 @@
 	}
 
 	span {
-		margin: 1rem 0 .5rem;
+		margin: 1rem 0 0.5rem;
+	}
+}
+
+.tags {
+	margin-top: 2rem;
+
+	& a {
+		color: $color-white;
+		background: $color-silver-chalice;
+		padding: 0.5rem 1.5rem;
+		border-radius: 4.2rem;
+		font-size: 1.2rem;
+	}
+}
+
+.catnav {
+	font-size: 1.2rem;
+	text-decoration: none !important;
+	font-weight: 800;
+	display: flex;
+	justify-content: end;
+	flex-wrap: wrap;
+	align-items: baseline;
+	margin-bottom: 4rem;
+
+	> span {
+		margin-right: 1.5rem;
+	}
+
+	a {
+		color: $color-white;
+		background: $color-black;
+		padding: 0.5rem 1rem;
+		border-radius: 4.2rem;
+		margin: 1rem 1.5rem 0 0;
+		display: ruby;
+
+		.left {
+			margin-right: 1rem;
+		}
+
+		span {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
 	}
 }
 
@@ -151,9 +549,8 @@
 	left: 0;
 	position: relative;
 	top: 0;
-
 	@media (min-width: $breakpoint-medium) {
-		margin-top: -21rem;
+		margin-top: -10rem;
 
 		.article-wrapper {
 			position: absolute;
@@ -170,24 +567,18 @@
 
 	article {
 		margin-bottom: 3rem;
-
 		@media (min-width: $breakpoint-medium) {
 			float: right;
-			right: 0;
-			width: 40%;
-			position: absolute;
-			right: 5%;
+			width: 45%;
 		}
 	}
 
 	aside {
 		margin-left: -3rem;
 		margin-right: -3rem;
-
 		@media (min-width: $breakpoint-small) {
 			@include clearfix;
 		}
-
 		@media (min-width: $breakpoint-medium) {
 			float: left;
 			width: 55%;
@@ -196,15 +587,18 @@
 
 	.project-meta {
 		margin: 3rem 0 0;
-
 		@media (min-width: $breakpoint-medium) {
 			margin: 5rem 0 0;
 			max-width: 70%;
 		}
+
+		a {
+			text-decoration: underline;
+		}
 	}
 
 	.h2 {
-		margin: 3rem 0 .5rem;
+		margin: 3rem 0 0.5rem;
 
 		&:first-of-type {
 			margin-top: 0;
@@ -218,7 +612,7 @@
 	}
 
 	li {
-		margin-bottom: 0rem;
+		margin-bottom: 0;
 
 		&:last-child {
 			margin-bottom: 0;
@@ -232,11 +626,25 @@
 
 .project-navigation {
 	background: $color-black;
-	padding: 5rem 0;
+	padding: 2rem 0;
 
 	a {
 		color: $color-white;
 		display: inline-block;
+
+		&.prev {
+			@media (min-width: $breakpoint-xsmall) {
+				float: left;
+			}
+		}
+
+		&.next {
+			margin-top: 3rem;
+			@media (min-width: $breakpoint-xsmall) {
+				float: right;
+				margin-top: 0;
+			}
+		}
 
 		&:hover {
 			h2:after {
@@ -267,26 +675,10 @@
 			display: table;
 			margin: 0 auto;
 			text-align: center;
-
 			@media (min-width: $breakpoint-xsmall) {
 				display: inline-block;
 				margin: 0;
 				text-align: left;
-			}
-		}
-
-		&:nth-of-type(1) {
-			@media (min-width: $breakpoint-xsmall) {
-				float: left;
-			}
-		}
-
-		&:nth-of-type(2) {
-			margin-top: 3rem;
-
-			@media (min-width: $breakpoint-xsmall) {
-				float: right;
-				margin-top: 0;
 			}
 		}
 
@@ -302,8 +694,8 @@
 			span {
 				position: relative;
 				left: 0;
-				-webkit-transition: all .3s ease-in-out 0s;
-				transition: all .3s ease-in-out 0s;
+				-webkit-transition: all 0.3s ease-in-out 0s;
+				transition: all 0.3s ease-in-out 0s;
 
 				&:before {
 					content: "\02190";
@@ -317,8 +709,8 @@
 		&:before {
 			position: relative;
 			left: 0;
-			-webkit-transition: all .3s ease-in-out 0s;
-			transition: all .3s ease-in-out 0s;
+			-webkit-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
 		}
 	}
 
@@ -338,8 +730,8 @@
 			visibility: hidden;
 			-webkit-transform: scaleX(0);
 			transform: scaleX(0);
-			-webkit-transition: all .3s ease-in-out 0s;
-			transition: all .3s ease-in-out 0s;
+			-webkit-transition: all 0.3s ease-in-out 0s;
+			transition: all 0.3s ease-in-out 0s;
 		}
 	}
 }
@@ -360,6 +752,19 @@
 		float: left;
 		margin-bottom: 0;
 		width: 33.33333%;
+	}
+
+	.fas {
+		color: gray;
+		margin-left: 1rem;
+	}
+
+	.wave {
+		animation-name: wave-animation;
+		animation-duration: 2.5s;
+		transform-origin: 50% 130%;
+		animation-iteration-count: infinite;
+		display: inline-block;
 	}
 }
 

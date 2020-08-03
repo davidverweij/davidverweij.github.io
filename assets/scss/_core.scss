@@ -1,47 +1,64 @@
 html {
 	font-size: 62.5%;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+
+	@media(prefers-reduced-motion: reduce){
+		scroll-behavior: auto;
+	}
+
 }
 
 body {
 	background: $color-white;
 	color: $color-black;
-	font-family: $font-poppins;
+	font-family: $font-default;
 	font-size: 1.8em;
 	line-height: 1.6;
-	font-weight: 600;
 	-webkit-font-smoothing: antialiased;
 }
 
-h1,
-.h1 {
+.h1,
+h1 {
 	color: $color-black;
 	font-size: 2.7rem;
 	font-weight: 600;
 	line-height: 1;
-	margin: 0;
 }
 
-h2,
-.h2 {	
+.h2,
+h2 {
 	color: $color-silver-chalice;
 	display: block;
-	font-family: $font-lekton;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: .2rem;
-    line-height: 1;
-    margin: 0 0 1rem;
-    text-transform: uppercase;
+	font-family: $font-default;
+	font-size: 1.6rem;
+	//font-weight: 400;
+	line-height: 1;
+	margin: 0 0 2rem;
+	text-transform: uppercase;
 }
 
-h3,
-.h3 {
+.h3,
+h3 {
 	color: $color-black;
-	font-family: $font-poppins;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1;
-    margin: 0;
+	font-family: $font-default;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.h4,
+h4 {
+	color: $color-silver-chalice;
+	display: block;
+	font-family: $font-default;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0.2rem;
+	line-height: 1;
+	margin: 0 0 1rem;
+	text-transform: uppercase;
 }
 
 p {
@@ -51,12 +68,19 @@ p {
 a {
 	color: $color-black;
 	text-decoration: none;
+
+	&.anchor {
+    display: block;
+    position: relative;
+    top: -11rem;
+    visibility: hidden;
+	}
 }
 
 ul {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 img {
@@ -69,11 +93,8 @@ hr {
 	border: 0;
 	display: block;
 	height: 1px;
-	margin: 3rem 0;
+	margin: -1.5rem 0 4.5rem 0;
 
-	@media (min-width: $breakpoint-medium) {
-		margin: 4.5rem 0;
-	}
 }
 
 abbr[title] {
@@ -86,8 +107,8 @@ code {
 	border: 1px solid $color-silver-chalice;
 	border-radius: 3px;
 	font-family: $font-lekton;
-	font-size: 1.5rem;	
-	padding: .1rem .4rem;
+	font-size: 1.5rem;
+	padding: 0.1rem 0.4rem;
 
 	var {
 		font-style: italic;
@@ -97,9 +118,9 @@ code {
 dl {
 	margin: 0 0 3rem;
 
-	dt,
-	dd {
-		font-family: $font-lekton;		
+	dd,
+	dt {
+		font-family: $font-lekton;
 	}
 
 	dt {
@@ -113,21 +134,20 @@ dl {
 
 .responsive-table {
 	margin-bottom: 3rem;
-	
 	@media (max-width: $breakpoint-xsmall) {
-		display: block;	
+		display: block;
 		overflow-x: scroll;
 		max-width: $breakpoint-xsmall;
 
-		th,
-		td {
+		td,
+		th {
 			min-width: 10rem;
 		}
 	}
 }
 
 table {
-	border-collapse: collapse;	
+	border-collapse: collapse;
 	width: 100%;
 
 	thead {
@@ -137,29 +157,28 @@ table {
 		}
 	}
 
-	tbody > tr:nth-child(odd) > td, 
+	tbody > tr:nth-child(odd) > td,
 	tbody > tr:nth-child(odd) > th {
 		background: $color-white-sand;
 	}
 
-	th,
-	td {
+	td,
+	th {
 		font-family: $font-lekton;
 		font-weight: 400;
 		text-align: left;
-		padding: .5rem 1rem;
+		padding: 0.5rem 1rem;
 	}
 }
 
 blockquote {
-	border-left: .6rem solid $color-black;
+	border-left: 0.6rem solid $color-black;
 	padding-left: 2rem;
 	margin: 0 0 3rem;
 
 	p {
 		font-style: italic;
 	}
-
 	@media (min-width: $breakpoint-medium) {
 		padding-left: 3rem;
 	}
@@ -167,4 +186,48 @@ blockquote {
 
 pre {
 	margin: 0 0 3rem;
+}
+
+.fa,
+.fas {
+	font-family: $font-awesome;
+	font-weight: 900;
+}
+
+// Responsive Videos
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*===========================
+Creative Commons Round Icons
+===========================*/
+
+.cc {
+	font-family: $font-cc;
+	 -moz-font-feature-settings: normal;
+	 -moz-font-language-override: normal;
+	 display: inline-block;
+	 font-size: inherit;
+	 font-size-adjust: none;
+	 font-stretch: normal;
+	 font-style: normal;
+	 font-variant: normal;
+	 font-weight: normal;
+	 line-height: 1;
+	 text-rendering: auto;
 }

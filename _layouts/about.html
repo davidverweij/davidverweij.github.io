@@ -1,0 +1,80 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>{{ site.author }} / {{ page.title }}</title>
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{ site.description }}">
+	<meta name="keywords" content="{{ site.keywords }}">
+	{% include head.html %}
+</head>
+
+<body>
+	{% include header.html %}
+	<main class="content">
+		{% unless page.nointro %}
+		<section class="intro intro_with_img">
+			<div class="container">
+				<h1 id="{{ page.title }}">{{ page.title }}</h1>
+				<p>{{ page.content }}</p>
+				<aside>
+					{% if page.image %}
+					<img src="{{ page.image.url | prepend: site.baseurl }}" alt="{{ page.image.alt }}" />
+					{% endif %}
+				</aside>
+			</div>
+		</section>
+		{% endunless %}
+		{% if page.data %}
+		<section class="projects">
+			<div id="data" class="container">
+				<a class="anchor" id="{{ page.data.name }}"></a>
+				<h1> {{ page.data.name }}</h1>
+				<div class="data-list">
+					{% for entry in site.data[page.data.file] %}
+					<div class="data-item">
+						<span class="h3">{{ entry.category }}</span>
+						<hr />
+						<div class="category-blocks">
+							{% for block in entry.blocks %}
+							<div class="block-wrapper">
+								<span class="date">
+									<span class="h4">{{ block.to }}</span>
+									<span class="h4">{{ block.from }}</span>
+								</span>
+								<span>
+									{% for icon in block.icons %}
+									<a class="tooltip" {% if icon.url %} href="{{ icon.url }}" target="_blank" {% endif %} {% if icon.color %} style="color:{{ icon.color }}" {% endif %}>
+										<i class="fas {{ icon.icon }}"></i>
+										<span class="tooltiptext">{{ icon.text }}</span>
+									</a>
+									{% endfor%}
+									<span class="block-content">
+									<strong>{{ block.block }}</strong>
+									- {{ block.location}}
+									{% if block.author %}
+									<p> - {{ block.author }}</p>
+									{% endif %}
+									</span>
+								</span>
+								<p>{{ block.text }}</p>
+							</div>
+							{% endfor %}
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+		{% endif %}
+	</main>
+	{% include footer.html %}
+	<!--
+	<script src="{{ "/assets/scripts/vendor/jspdf-1.5.3.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/about.js" | prepend: site.baseurl }}"></script>
+-->
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>{{ site.author }} / {{ page.title }}</title>
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="{{ site.description }}">
+	<meta name="keywords" content="{{ site.keywords }}">
+	{% include head.html %}
+</head>
+
+<body>
+	{% include header.html %}
+	<main class="content">
+		<section class="intro wide">
+			<div class="container">
+				<h1>Categories. You {% if page.tag == "all" %} choose, I render. {% else %} chose {{ page.tag }}. Spiffing. {% endif %}</h1>
+				<div class="tags">
+						<a class="all" href="{{ "/work" | prepend: site.baseurl }}">x</a>
+					{% assign sorted_cats = site.category | sort:"value" | reverse %}
+					{% for cat in sorted_cats %}
+						<a {% if page.url == cat.permalink %} class="active" {% else %} href="{{ cat.permalink | prepend: site.baseurl }}" {% endif %}>{{ cat.tag }}</a>
+					{% endfor%}
+					</span>
+				</div>
+		</section>
+
+		<section class="projects">
+			<div class="container">
+				<ul class="projects-list">
+					{% if page.tag == "all" %}
+						{% for item in site.posts %}
+						<li>
+							<a href="{{ item.url | prepend: site.baseurl }}">
+								<div class="img-wrapper">
+									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+								</div>
+								<h3>{{ item.project.title }}</h3>
+							</a>
+						</li>
+						{% endfor %}
+					{% else %}
+						{% for item in site.categories[page.tag] %}
+						<li>
+							<a href="{{ item.url | prepend: site.baseurl }}">
+								<div class="img-wrapper">
+									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+								</div>
+								<h3>{{ item.project.title }}</h3>
+							</a>
+						</li>
+						{% endfor %}
+					{% endif %}
+				</ul>
+			</div>
+		</section>
+	</main>
+	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
+	{% include footer.html %}
+
+</body>
+
+</html>
