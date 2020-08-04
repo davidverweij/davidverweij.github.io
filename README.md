@@ -1,6 +1,6 @@
 # Portfolio
 
-Build with [Jekyll](https://jekyllrb.com) and modified from the [Pineapple Theme](https://arnolds.io/pineapple/). Visit the website on [**davidverweij.github.io**](davidverweij.github.io).
+Build with [Jekyll](https://jekyllrb.com) and modified from the [Pineapple Theme](https://arnolds.io/pineapple/). Visit the website on [davidverweij.com](www.davidverweij.com).
 
 ## License
 
