@@ -111,13 +111,22 @@
 
 - category:    "Other"
   blocks:
+  - block:     "Unplatformed Repurposing: 'Old' Phones as a Family Craft Material"
+    location:  "Workshop Contribution to the Designing for the End of Life of IoT Objects workshop at the 2020 DIS Conference"
+    author:    "<u>David Verweij</u>, David S. Kirk, Kay Rogage and Kyle Montague"
+    icons:
+      - icon:  "fa-file-pdf"
+        text:  "Paper"
+        url:   "https://doi.org/10.13140/RG.2.2.10942.92487/1"
+    from:      "July"
+    to:        "2020"
   - block:     "Implicitly Human-Powered Devices"
     location:  "Workshop Contribution to the Self Sustainable CHI workshop at the 2020 CHI Conference"
     author:    "<u>David Verweij</u>, Dan Jackson, Karim Ladha, David S. Kirk"
     icons:
       - icon:  "fa-file-pdf"
         text:  "Paper"
-        url:   "https://doi.org/10.13140/RG.2.2.23790.43846"
+        url:   "https://doi.org/10.13140/RG.2.2.23790.43846/1"
       - icon:  "fa-quote-right"
         text:  "Presentation"
         url:   "https://youtu.be/wjus2VdCH1s"

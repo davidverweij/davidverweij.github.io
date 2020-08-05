@@ -16,7 +16,7 @@ categories:
 
 project:
   title: "Domestic Widgets"
-  url: "https://chiplay.acm.org/2019/"
+  url: "https://domesticwidgets.com/"
   logo: "/assets/images/projects/domesticwidgets/logo.png"
   tech: "GCloud Firestore, Dialogflow, Node,.js, C++ (Arduino), Lasercutter"
 
@@ -44,8 +44,7 @@ agency:
   year: "2017"
 
 ---
-<p>As part of my PhD, I am looking into research methods to involve and empower families in the development of future Internet of Things (IoT) products and scenarios. Over the last decade(s), a growth of tools, platforms and consumer products has lowered the threshold to get involved in Do-It-Yourself (DIY) practises. Whilst self-built (or at least assembled) connected products are becoming more common, not all members of a household are necessarily involved – or interested for that matter. By leveraging the household creativity of existing activities, such as tinkering and crafting with household materials, we aim to involve all members of the household in these activities.
-
-The Domestic Widgets toolkit enables households to craft and tinker with household materials, and bring them ‘alive’ using a minimal amount of components. Using speech-based interaction (currently the Google Home), the behaviour of the components can be discussed through conversation. As such, no coding or soldering is required – and the transparent vocal interaction can quickly be picked up by all household members.
-
-Through both public engagements (e.g. Maker Faire UK), workshops and deployments, this project explores the (latent) needs and values within the complex ecology that we call home.</p>
+<p>As part of my PhD, I am looking into research methods to involve and empower families in the development of future Internet of Things (IoT) products and scenarios. Over the last decade(s), a growth of tools, platforms and consumer products has lowered the threshold to get involved in Do-It-Yourself (DIY) practises. Whilst self-built (or at least assembled) connected products are becoming more common, not all members of a household are necessarily involved – or interested for that matter. By leveraging the household creativity of existing activities, such as tinkering and crafting with household materials, I aim to involve more members of the household in these activities.
+<br/><br/>
+Domestic Widgets is a kit that allows households to create 'physical data visualisations' using everyday materials and tools. With a minimal amount of components and a voice assistant for control, families can jointly craft IoT objects without coding or soldering.
+</p>
