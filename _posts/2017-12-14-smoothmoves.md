@@ -28,18 +28,29 @@ project:
       tool: "Arduino - C++"
     - tech: "lasercutter"
   resources:
-    - resource:  "fa-link"
-      text:  "Web-app demo"
-      url:   "https://dwidgets.web.app/"
     - resource:  "fa-file-pdf"
       text:  "research paper"
-      url:   "https://figshare.com/articles/Domestic_widgets_Leveraging_household_creativity_in_co-creating_data_physicalisations/7855778/2"
-    - resource:  "fa-link"
-      text:  "Domestic Widgets website"
-      url:   "https://www.domesticwidgets.com/"
+      url:   "https://dl.acm.org/authorize?N676042"
     - resource:  "fa-play-circle"
-      text:  "demonstration video"
-      url:   "https://youtu.be/RggI7wR4VwQ"
+      text:  "research video"
+      url:   "https://youtu.be/vd4tXIetAz4"
 
+images:
+  - image:
+    url: "/assets/images/smoothmoves/1.jpg"
+    title: "TITLE"
+    alt: "ALTTEXT"
+  - image:
+    url: "/assets/images/smoothmoves/2.jpg"
+    title: "TITLE"
+    alt: "ALTTEXT"
+  - image:
+    url: "/assets/images/smoothmoves/4.jpg"
+    title: "TITLE"
+    alt: "ALTTEXT"
+  - image:
+    url: "/assets/images/smoothmoves/5.jpg"
+    title: "TITLE"
+    alt: "ALTTEXT"
 ---
 <p>More content is being distilled - please <i class="fas fa-paw"></i> bear with me while I update this page.</p>
