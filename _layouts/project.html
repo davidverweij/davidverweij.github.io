@@ -9,9 +9,11 @@
 </head>
 <body>
 	{% include header.html %}
+	<!-- Back to top button -->
 	<main class="content">
 		<section class="project">
 			<div class="container">
+				<button onclick="topFunction()" id="myBtn" title="Go to top">back to top</button> 
 				<article>
 					{% comment %} arbitrary category next/previous from https://github.com/jekyll/jekyll/issues/260#issuecomment-171553586 {% endcomment %}
 					{% if page.categories %}
@@ -46,35 +48,42 @@
 
 						{% endif %}
 					</div>
+					<h2 class="post_date">{{ page.date | date: '%B %d, %Y' }}</h2>
 					<h1>
 						{{ page.project.title }}
 					</h1>
-
-					<h2>{{ page.date | date: '%B %d, %Y' }}</h2>
 					{{ page.content }}
-					<div class="tags">
-						{% for cat in page.categories %}
-							<a href="/work/{{cat}}">{{ cat }}</a>
-						{% endfor%}
-					</div>
 					<div class="project-meta">
 						<h2 class="h2">Tools</h2>
-						<p>{{ page.project.tools }}</p>
-						<h2 class="h2">Resources</h2>
+						<ul>
+						{% for tech in page.project.technology %}
+						<li>
+						{{ tech.tech }} {% if tech.tool %}<i class="techtool">({{tech.tool}})</i>{% endif %}{% if forloop.last == false %},{% endif %}
+						</li>
+						{% endfor%}
+					</ul>
+						<p>{{ page.project.tech }}</p>
+						<h2 class="h2">Links</h2>
 						{% for resource in page.project.resources %}
-						<a href="{{ resource.url }}" target="_blank">{{ resource.resource }}</a>
-						{% if forloop.last == false %},{% endif %}
+						<a href="{{ resource.url }}" target="_blank"><i class="fas {{ resource.resource }}"></i>{{resource.text}}</a>{% if forloop.last == false %},{% endif %}
+						{% endfor%}
+					</div>
+					<div class="tags">
+						<h2 class="h2">Tags</h2>
+						{% for cat in page.categories %}
+							<a href="/work/{{cat}}">{{ cat }}</a>
 						{% endfor%}
 					</div>
 				</article>
 				<aside>
 					<ul>
 						{% for image in page.images %}
-						<li>
+						<li class="article_image">
 							{% if image.type == "video" %}
 							{% include youtubePlayer.html id=image.url %}
 							{% else %}
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+							<div class="caption">{{ image.title }}</div>
 							{% endif %}
 						</li>
 						{% endfor %}

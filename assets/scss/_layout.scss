@@ -1,3 +1,23 @@
+#myBtn {
+	display: none;
+position: fixed;
+bottom: 1.5rem;
+right: 1.5rem;
+z-index: 99;
+border: none;
+outline: none;
+background-color: #060606;
+color: white;
+cursor: pointer;
+padding: 1.5rem 2rem;
+border-radius: 1rem;
+font-size: 1.8rem;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
 .container {
 	display: block;
 	margin: 0 auto;
@@ -289,6 +309,7 @@ a.project {
 		img {
 			object-fit: cover;
 		}
+
 	}
 	@media (min-width: $breakpoint-medium) {
 		p {
@@ -520,7 +541,7 @@ a.project {
 	justify-content: end;
 	flex-wrap: wrap;
 	align-items: baseline;
-	margin-bottom: 4rem;
+	margin-bottom: 0rem;
 
 	> span {
 		margin-right: 1.5rem;
@@ -583,17 +604,49 @@ a.project {
 			float: left;
 			width: 55%;
 		}
+
+		.article_image {
+
+
+			.caption {
+				position: absolute;
+				text-align: right;
+				right: 3rem;
+				bottom: 2rem;
+				font-size: 1.5rem;
+				background: $color-white;
+				padding: 0.4rem 1.5rem;
+				border-radius: 0.2rem;
+				margin-left: 2rem;
+			}
+		}
+	}
+
+	.post_date {
+		color: $color-black;
+		font-size: 1.2rem;
 	}
 
 	.project-meta {
 		margin: 3rem 0 0;
 		@media (min-width: $breakpoint-medium) {
-			margin: 5rem 0 0;
 			max-width: 70%;
+		}
+
+		ul {
+			padding-left: 2rem;
+list-style: circle;
 		}
 
 		a {
 			text-decoration: underline;
+			display: ruby;
+
+			i {
+				font-size: 1.5rem;
+				color: $color-silver-chalice;
+				padding-right: 0.5rem;
+			}
 		}
 	}
 
