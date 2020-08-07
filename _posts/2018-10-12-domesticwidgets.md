@@ -16,8 +16,7 @@ categories:
 
 project:
   title: "Domestic Widgets"
-  url: "https://domesticwidgets.com/"
-  logo: "/assets/images/projects/domesticwidgets/logo.png"
+  logo: "/assets/images/domesticwidgets/logo.png"
   technology:
     - tech: "Serverless back end"
       tool: "Cloud Functions - node.js"
@@ -44,32 +43,32 @@ project:
 
 images:
   - image:
-    url: "/assets/images/projects/domesticwidgets/1.jpg"
+    url: "/assets/images/domesticwidgets/1.jpg"
     title: "The Domestic Widgets toolkit"
     alt: "Cardboard pieces, electronic components, a Google Home and an assembled Domestic Widget"
   - image:
-    url: "/assets/images/projects/domesticwidgets/2.jpg"
+    url: "/assets/images/domesticwidgets/2.jpg"
     title: "A Widget is made with everyday materials and tools"
     alt: "A messy table surface with craft supplies. Someone working on a Domestic Widget."
   - image:
     title: "Two Example widgets showing different ways to appropriate the servo motor movement"
-    url: "/assets/images/projects/domesticwidgets/3.jpg"
+    url: "/assets/images/domesticwidgets/3.jpg"
     alt: "Two example Widgets, one placed upside down, the other holding two flags."
   - image:
     title: "A Widget is controlled and configured through a Google Home voice assistant app"
-    url: "/assets/images/projects/domesticwidgets/4.jpg"
+    url: "/assets/images/domesticwidgets/4.jpg"
     alt: "A Widget being programmed using the Google Home."
   - image:
     title: "Widgets created by different families, tracking temperature, space rocket launches and wind speeds"
-    url: "/assets/images/projects/domesticwidgets/7.jpg"
+    url: "/assets/images/domesticwidgets/7.jpg"
     alt: "Early form explorations of the prototype."
   - image:
     title: "The toolkit was demonstrated and tested at the UK Maker Faire in 2018"
-    url: "/assets/images/projects/domesticwidgets/5.jpg"
+    url: "/assets/images/domesticwidgets/5.jpg"
     alt: "Myself and two visitors of the 2018 Maker Faire in discussion."
   - image:
     title: "Multiple forms were iterated to offer an easy, tool-less, but sturdy artefact"
-    url: "/assets/images/projects/domesticwidgets/6.jpg"
+    url: "/assets/images/domesticwidgets/6.jpg"
     alt: "Early form explorations of the prototype."
 
 ---
