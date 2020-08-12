@@ -51,15 +51,15 @@ images:
     title: "A Widget is made with everyday materials and tools"
     alt: "A messy table surface with craft supplies. Someone working on a Domestic Widget."
   - image:
-    title: "Two Example widgets showing different ways to appropriate the servo motor movement"
+    title: "Two examples of how to appropriate the servo motor movement"
     url: "/assets/images/domesticwidgets/3.jpg"
     alt: "Two example Widgets, one placed upside down, the other holding two flags."
   - image:
-    title: "A Widget is controlled and configured through a Google Home voice assistant app"
+    title: "A Widget is controlled and configured through the Google Home"
     url: "/assets/images/domesticwidgets/4.jpg"
     alt: "A Widget being programmed using the Google Home."
   - image:
-    title: "Widgets created by different families, tracking temperature, space rocket launches and wind speeds"
+    title: "Families' Widgets, tracking temperature, space rockets and wind speeds"
     url: "/assets/images/domesticwidgets/7.jpg"
     alt: "Early form explorations of the prototype."
   - image:

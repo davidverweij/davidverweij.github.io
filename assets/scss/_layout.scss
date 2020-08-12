@@ -618,6 +618,14 @@ a.project {
 				padding: 0.4rem 1.5rem;
 				border-radius: 0.2rem;
 				margin-left: 2rem;
+
+				@media (max-width: $breakpoint-medium) {
+					position: relative;
+					right: unset;
+					bottom: unset;
+					text-align: center;
+					margin: 0 0 1rem;
+				}
 			}
 		}
 	}

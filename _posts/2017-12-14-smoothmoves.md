@@ -38,19 +38,23 @@ project:
 images:
   - image:
     url: "/assets/images/smoothmoves/1.jpg"
-    title: "TITLE"
-    alt: "ALTTEXT"
+    title: "SmoothMoves, an AR interaction technique using head movements"
+    alt: "Smoothmoves, person with Microsoft Holo Lens, overlay of interface showing multiple moving buttons"
   - image:
     url: "/assets/images/smoothmoves/2.jpg"
-    title: "TITLE"
-    alt: "ALTTEXT"
+    title: "Correlated head movements selects corresponding 'buttons'"
+    alt: "closeup of circular moving buttons, and a face with a sensor tracking headmotion"
+  - image:
+    type: "video"
+    url: "2oBnIIu0Au8"
+    title: "A brief explanation video of the technique and technology"
   - image:
     url: "/assets/images/smoothmoves/4.jpg"
-    title: "TITLE"
-    alt: "ALTTEXT"
+    title: "Whilst wearing glasses with a sensor, this AR technique also works on a phone"
+    alt: "Showing Augmented Reality using a phone, user wears separate sensor-equipped glasses"
   - image:
     url: "/assets/images/smoothmoves/5.jpg"
-    title: "TITLE"
-    alt: "ALTTEXT"
+    title: "No depth-sensing capabilities? An AR marker can trigger the menu"
+    alt: "Detailed shot of the phone showing moving buttons in the AR app, an AR marker triggers the visualisation."
 ---
 <p>More content is being distilled - please <i class="fas fa-paw"></i> bear with me while I update this page.</p>
