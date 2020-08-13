@@ -23,7 +23,12 @@ function onPlayerStateChange(event) {
 
   // disable the captions while playing, else, show the captions.
   // never hide when on mobile (< 750px)
-  doc[0].parentNode.getElementsByClassName("caption")[0].style.display = (event.data == YT.PlayerState.PLAYING) ? ((window.innerWidth < 750) ? "" : "none") : "";
+  if (event.data == YT.PlayerState.PLAYING && window.innerWidth > 750) {
+    doc[0].parentNode.getElementsByClassName("caption")[0].style.display = "none";
+  } else if (event.data == YT.PlayerState.ENDED || event.data == YT.PlayerState.PAUSED){
+    doc[0].parentNode.getElementsByClassName("caption")[0].style.display = "";
+  }
+
 
 }
 

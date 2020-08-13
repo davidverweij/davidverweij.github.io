@@ -618,6 +618,7 @@ a.project {
 				padding: 0.4rem 1.5rem;
 				border-radius: 0.2rem;
 				margin-left: 2rem;
+				pointer-events: none;
 
 				@media (max-width: $breakpoint-medium) {
 					position: relative;
@@ -682,6 +683,7 @@ list-style: circle;
 
 	img {
 		width: 100%;
+		pointer-events: none;
 	}
 }
 
