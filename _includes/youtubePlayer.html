@@ -1,4 +1,34 @@
 <div class="embed-container">
-  <iframe id="video" src="https://www.youtube-nocookie.com/embed/{{ include.id }}?modestbranding=1&rel=0&?enablejsapi=1" width="700" height="480" frameborder="0" allowfullscreen="">
+  <iframe id="video" src="https://www.youtube-nocookie.com/embed/{{ include.id }}?modestbranding=1&rel=0&enablejsapi=1" width="700" height="480" frameborder="0" allowfullscreen="">
   </iframe>
 </div>
+
+<script>
+
+var player;
+// enable Youtube Embed Listeners
+function onYouTubePlayerAPIReady() {
+  // create the global player from the specific iframe (#video)
+  player = new YT.Player('video', {
+    events: {
+      'onStateChange': onPlayerStateChange
+    }
+  });
+}
+
+function onPlayerStateChange(event) {
+
+  // find the video (there should only be one)
+  let doc = document.getElementsByClassName("embed-container");
+
+  // disable the captions while playing, else, show the captions.
+  // never hide when on mobile (< 750px)
+  doc[0].parentNode.getElementsByClassName("caption")[0].style.display = (event.data == YT.PlayerState.PLAYING) ? ((window.innerWidth < 750) ? "" : "none") : "";
+
+}
+
+var tag = document.createElement('script');
+tag.src = "//www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+</script>
