@@ -72,9 +72,15 @@ images:
     alt: "Early form explorations of the prototype."
 
 ---
-<p>Domestic Widgets is a kit that allows households to create 'physical data visualisations' using everyday materials and tools. With a minimal amount of components and a voice assistant for control, families can jointly craft IoT objects without coding or soldering. Contrasting existing kits and approaches, this design leverages the household creativity of existing activities, such as tinkering and crafting with household materials. With this kit, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios - and especially involve more members of the household in these activities with different ages and interests.</p>
+<p>Domestic Widgets is a kit that allows households to create 'physical data visualisations' using everyday materials and tools. With a minimal amount of components and a voice assistant for control, families can jointly craft IoT objects without coding or soldering. Contrasting existing kits and approaches, this design leverages the household creativity of existing activities, such as tinkering and crafting with household materials. With this kit, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios - and especially involve more members of the household in these activities with different ages and interests.
+</p>
 
 <h2 class="h2">Technology</h2>
 <p>
 A Domestic Widget consists out of a low cost small USB powered Wi-Fi enabled microcontroller (ESP8266) and a micro-servo motor (SG90) that can measure its own position. Every minute, this microcontroller polls a HTTP-based RESTful API for instructions. These instructions are simplified representations of live data streams, indicating a specific movement, position and/or duration for the servo motor to represent. Configuring a Widget is done through interaction with a custom built voice assistant for the Google Home. With it, you can choose a data source and configure a mapping for the physical representation for which a demonstration is partly needed by moving the servo motor. This configuration is stored in the database, which polls periodically for new data based on the data source.
+</p>
+
+<h2 class="h2"></h2>
+<p>
+contribution blabla
 </p>

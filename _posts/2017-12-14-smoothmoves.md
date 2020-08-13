@@ -54,7 +54,19 @@ images:
     alt: "Showing Augmented Reality using a phone, user wears separate sensor-equipped glasses"
   - image:
     url: "/assets/images/smoothmoves/5.jpg"
-    title: "No depth-sensing capabilities? An AR marker can trigger the menu"
+    title: "No depth-sensing capabilities? AR marker can also trigger the menu"
     alt: "Detailed shot of the phone showing moving buttons in the AR app, an AR marker triggers the visualisation."
 ---
-<p>More content is being distilled - please <i class="fas fa-paw"></i> bear with me while I update this page.</p>
+<p>SmoothMoves is an interaction technique for augmented reality (AR) based on smooth pursuits head movements. Using spatial-positioning for context-aware headsets, or AR markers otherwise, circular moving targets (or 'buttons') are overlaid on the interaction object. By - every so slightly - moving your head along with these targets, selection is performed.
+</p>
+
+<h2 class="h2"></h2>
+<p>
+
+My contribution was mainly ...
+- initial demo + implementation of the technique (processing on Android - Java)
+-- inc recognition of AR markers
+- convertation of technique into smartwatch approach (see WaveTrace)
+- Film scenario + editing for paper, and demonstration purposes
+- contribution to technique details (e.g. continuous selection approach)
+</p>

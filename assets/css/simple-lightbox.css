@@ -14,7 +14,7 @@ body.hidden-scroll {
   top: 0;
   bottom: 0;
   background: #fff;
-  opacity: 0.85;
+  opacity: 0.90;
   display: none;
   z-index: 1035; }
 
@@ -135,9 +135,7 @@ body.hidden-scroll {
       padding: 0.4rem 1.5rem;
       position: absolute;
       border-radius: 0rem 0rem 0.2rem 0.2rem;
-      bottom: 0;
-      left: 0;
-      right: 0; }
+      bottom: 0;}
       .sl-wrapper .sl-image .sl-caption.pos-top {
         bottom: auto;
         top: 0; }
