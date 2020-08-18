@@ -65,7 +65,7 @@ images:
 
 My contribution was mainly ...
 - initial demo + implementation of the technique (processing on Android - Java)
--- inc recognition of AR markers
+-- inc recognition of AR markers + phillips hue
 - convertation of technique into smartwatch approach (see WaveTrace)
 - Film scenario + editing for paper, and demonstration purposes
 - contribution to technique details (e.g. continuous selection approach)
