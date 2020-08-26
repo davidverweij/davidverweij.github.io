@@ -1,5 +1,26 @@
 <div id="contact"></div>
-<footer class="footer">
+<footer class="footer --hide-from-pdf">
+	<div class="container">
+		<section class="contact">
+			<h2>Contact</h2>
+			<a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a>
+			<i class="fas fa-mitten wave"></i>
+		</section>
+		<section class="follow">
+			<h2>Follow</h2>
+			<ul>
+				<li><a title="Twitter" href="{{ site.linkedin }}" target="_blank">Linkedin</a></li>
+				<li><a title="Github" href="{{ site.github }}" target="_blank">Github</a></li>
+			</ul>
+		</section>
+		<section>
+			<h2>Copyright</h2>
+			<p>&copy; David Verweij 2020</p>
+			<p>All content <a class="cc" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"> c b n d</a></p>
+			</section>
+	</div>
+</footer>
+<footer class="fakefooter --show-in-pdf" style="display:none">
 	<div class="container">
 		<section class="contact">
 			<h2>Contact</h2>

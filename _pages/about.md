@@ -11,6 +11,8 @@ page:
   title:    "Hi, I am David"
   logo:     ""
 
+download:   true
+
 data:
   name:     "Resume"
   file:     "resume"

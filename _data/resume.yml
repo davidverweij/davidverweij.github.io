@@ -77,13 +77,23 @@
       - icon:  "fa-link"
         text:  "Company LinkedIn Page"
         url:   "https://www.linkedin.com/company/3007082"
-    from:     "07/14"
+    from:     "05/14"
     to:       "08/16"
   - block:    "Teaching Assistant Tangible and Embodied Interaction"
     location: "Industrial Design, Eindhoven University, the Netherlands"
     text:     "Assisting in part of the classes on Tangible and Embodied Interaction and lecturer on video for conceptual interactions"
     from:     "04/16"
     to:       "07/16"
+  - block:    "Taxi driver for people with disabilities and the elderly"
+    location: "Taxbus (Personenvervoer Waterberg BV), Eindhoven, the Netherlands"
+    text:     "Regional and national driver for subsidised trips for elderly (65+) and those with disabilities"
+    from:     "08/12"
+    to:       "12/13"
+    icons:
+      - icon:  "fa-link"
+        text:  "Company Page"
+        url:   "http://www.taxbus.nl/"
+
 
 - category:   "Management Positions"
   blocks:

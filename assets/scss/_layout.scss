@@ -324,6 +324,12 @@ a.project {
 	display: flex;
 }
 
+#downloadPdfBtn{
+	font-size: 1.3rem;
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+
 .tooltip {
 	position: relative;
 	display: inline-block;
@@ -808,6 +814,18 @@ list-style: circle;
 	right: 0;
 	z-index: -1;
 }
+
+.fakefooter {
+	background: $color-alabaster;
+	bottom: 0;
+	left: 0;
+	padding: 5rem 0;
+	right: 0;
+	z-index: -1;
+	position: relative;
+	margin-top: -22rem;
+}
+
 
 .contact,
 .follow {

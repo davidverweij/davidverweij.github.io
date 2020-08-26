@@ -14,11 +14,14 @@
 			</ul>
 		</nav>
 		<nav class="nav" id="nav">
-			<ul>
+			<ul class="--hide-from-pdf">
 				<li><a {% if page.url == "/" %} class="active" {% endif %}   href="/">Home</a></li>
 				{% for doc in site.pages %}
 				<li><a {% if page.url contains doc.url %} class="active" {% endif %}   href="{{ doc.url }}">{{ doc.title }}</a></li>
 				{% endfor %}
+			</ul>
+			<ul class="--show-in-pdf" style="display:none">
+				<li>Resume <span id="datenow"></span></li>	
 			</ul>
 		</nav>
 	</div>
