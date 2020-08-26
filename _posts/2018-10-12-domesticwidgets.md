@@ -82,5 +82,4 @@ A Domestic Widget consists out of a low cost small USB powered Wi-Fi enabled mic
 
 <h2 class="h2"></h2>
 <p>
-contribution blabla
 </p>
