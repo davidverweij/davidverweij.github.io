@@ -135,7 +135,7 @@ body.hidden-scroll {
       padding: 0.4rem 1.5rem;
       position: absolute;
       border-radius: 0rem 0rem 0.2rem 0.2rem;
-      bottom: 0;}
+      bottom: -2px;}
       .sl-wrapper .sl-image .sl-caption.pos-top {
         bottom: auto;
         top: 0; }

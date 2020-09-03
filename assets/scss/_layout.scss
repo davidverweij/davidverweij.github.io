@@ -288,7 +288,7 @@ a.project {
 				}
 
 				&.all {
-					background: darkorange;
+					background: #006600;
 					margin-right: 3rem;
 				}
 			}
@@ -362,18 +362,29 @@ a.project {
 .data-list {
 	min-height: 100%;
 	column-count: 1;
-	flex-direction: column;
+	-webkit-column-count: 1;
+		-moz-column-count: 1;
+
 	@media (min-width: $breakpoint-medium) {
 		column-count: 2;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+
 	}
 
 	.data-item {
 		break-inside: avoid;
 		margin-bottom: 3rem;
 
+		&.grey {
+			background: #F5F5F5;
+			padding: 2.5rem;
+		}
+
 		&:last-child {
 			margin-bottom: 0;
 		}
+
 	}
 
 	.block-wrapper {
@@ -411,6 +422,7 @@ a.project {
 
 			.h4 {
 				color: black;
+				font-size:1.2rem;
 
 				&:first-child {
 					margin-left: 1rem;
@@ -421,7 +433,7 @@ a.project {
 	}
 
 	span {
-		margin: 1rem 0 0.5rem;
+		margin: .8rem 0 0.5rem;
 	}
 
 	hr {
