@@ -36,16 +36,19 @@
 				<h1> {{ page.data.name }}  {% if page.download %}<button id="downloadPdfBtn" class="--hide-from-pdf">Download as PDF</button>{% endif%}</h1>
 				<div class="data-list">
 					{% for entry in site.data[page.data.file] %}
-					<div class="data-item">
+					<div class="data-item {% if entry.highlight %} grey {% endif %}">
 						<span class="h3">{{ entry.category }}</span>
 						<hr />
 						<div class="category-blocks">
 							{% for block in entry.blocks %}
+							{% unless block.hide %}
 							<div class="block-wrapper">
+								
 								<span class="date">
 									<span class="h4">{{ block.to }}</span>
 									<span class="h4">{{ block.from }}</span>
 								</span>
+
 								<span>
 									{% for icon in block.icons %}
 									<a class="tooltip" {% if icon.url %} href="{{ icon.url }}" target="_blank" {% endif %} {% if icon.color %} style="color:{{ icon.color }}" {% endif %}>
@@ -63,6 +66,7 @@
 								</span>
 								<p>{{ block.text }}</p>
 							</div>
+							{% endunless %}
 							{% endfor %}
 						</div>
 					</div>

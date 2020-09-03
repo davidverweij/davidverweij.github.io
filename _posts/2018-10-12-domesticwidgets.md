@@ -55,9 +55,9 @@ images:
     url: "/assets/images/domesticwidgets/3.jpg"
     alt: "Two example Widgets, one placed upside down, the other holding two flags."
   - image:
+    type: "video"
+    url: "RggI7wR4VwQ"
     title: "A Widget is controlled and configured through the Google Home"
-    url: "/assets/images/domesticwidgets/4.jpg"
-    alt: "A Widget being programmed using the Google Home."
   - image:
     title: "Families' Widgets, tracking temperature, space rockets and wind speeds"
     url: "/assets/images/domesticwidgets/7.jpg"
@@ -79,7 +79,7 @@ images:
 <p>
 A Domestic Widget consists out of a low cost small USB powered Wi-Fi enabled microcontroller (ESP8266) and a micro-servo motor (SG90) that can measure its own position. Every minute, this microcontroller polls a HTTP-based RESTful API for instructions. These instructions are simplified representations of live data streams, indicating a specific movement, position and/or duration for the servo motor to represent. Configuring a Widget is done through interaction with a custom built voice assistant for the Google Home. With it, you can choose a data source and configure a mapping for the physical representation for which a demonstration is partly needed by moving the servo motor. This configuration is stored in the database, which polls periodically for new data based on the data source.
 </p>
-
-<h2 class="h2"></h2>
+<h2 class="h2">Contribution</h2>
 <p>
+As part of my design-research led PhD, I fully designed and developed this toolkit. This includes the physical (product) design, hardware, software, server protocol, voice interface 'app', instruction booklets as well as the photographs displayed here.
 </p>
