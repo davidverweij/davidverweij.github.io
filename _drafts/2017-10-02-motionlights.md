@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-date: 2019-12-01
+date: 2017-10-02
 
 meta:
   keywords: ""
@@ -14,7 +14,7 @@ categories:
 
 
 project:
-  title: "Motion Matching"
+  title: "Motion Light"
   url: "https://chiplay.acm.org/2019/"
   logo: "/assets/images/projects/motionmatching/logo.png"
   tech: "Placeholder"

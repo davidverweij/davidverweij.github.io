@@ -81,5 +81,5 @@ A Domestic Widget consists out of a low cost small USB powered Wi-Fi enabled mic
 </p>
 <h2 class="h2">Contribution</h2>
 <p>
-As part of my design-research led PhD, I fully designed and developed this toolkit. This includes the physical (product) design, hardware, software, server protocol, voice interface 'app', instruction booklets as well as the photographs displayed here.
+As part of my design-research led PhD, I fully designed and developed this toolkit. This includes the physical (product) design, hardware, software, server protocol, voice interface 'app', instruction booklets as well as the photographs displayed here. In addition, I was responsible for the setup, execution and analysis of the research activities involving the Domestic Widget's deployment.
 </p>

@@ -147,10 +147,12 @@
   blocks:
   - block:     "Workshop on Designing for the End of Life of IoT Objects"
     location:  "Vritual, during the 2020 DIS Conference"
+    text:      "An academic workshop on the sustainable and life 'after death' for the increasing number of IoT devices"
     from:      ""
     to:        "07/20"
   - block:     "Workshop om Self Sustainability in Human Computer Interaction"
     location:  "Virtual, during the 2020 CHI Conference"
+    text:      "An academic workshop on self-powered sustainable interfaces and interactions"
     from:      ""
     to:        "05/20"
   - block:    "Presentation on Interaction Design"

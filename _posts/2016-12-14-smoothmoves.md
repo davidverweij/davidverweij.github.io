@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /:title/
-date: 2017-12-14
+date: 2016-12-14
 
 meta:
   keywords: ""
@@ -11,7 +11,6 @@ categories:
   - "project"
   - "software"
   - "research"
-  - "graphic"
 
 
 project:
@@ -54,7 +53,7 @@ images:
     title: "Instead of depth-sensing, AR markers can also trigger the visuals"
     alt: "Detailed shot of the phone showing moving buttons in the AR app, an AR marker triggers the visualisation."
 ---
-<p>SmoothMoves is an interaction technique for Augmented Reality (AR) based on smooth pursuits head movements. Using spatial-positioning for context-aware headsets, or AR markers otherwise, circular moving targets (or 'buttons') are overlaid on the interaction object. By - every so slightly - moving your head along with these targets, selection is performed.
+<p>SmoothMoves is an interaction technique for Augmented Reality (AR) based on smooth pursuits head movements. Using spatial-positioning for context-aware headsets, or AR markers otherwise, circular moving targets (or 'buttons') are overlaid on the interaction object. By - every so slightly - moving your head along with these targets, selection is performed. The shown prototype was build to demonstrate potential use cases of the technique in real-world settings.
 </p>
 <h2 class="h2">Technology</h2>
 <p>
@@ -62,5 +61,5 @@ The initial prototype utilised a common Inertial Measurement Unit (IMU), in comb
 </p>
 <h2 class="h2">Contribution</h2>
 <p>
-I joined this project after the interaction technique was studied in a lab-based environment. Using their code base, I created an Android AR app and further developed it into an interactive demo with a set of Phillips Hue lights. This included the design of the UI and video-graphing the overal interaction with the system. Whilst this version was later ported to the Microsoft Holo Lens by someone else, I further developed it into a smartwatch alternative, see <u><a href="../wavetrace">WaveTrace</a></u>.
+I joined this project after the interaction technique was studied in a lab-based environment. Using their code base, I created an Android AR app and further developed it into an interactive demo with a set of Phillips Hue lights. This included the design of the UI and video-graphing the overal interaction with the system. Whilst this version was later ported to the Microsoft Holo Lens by someone else, I further developed it into a smartwatch alternative, see <u><a href="{{ "/wavetrace" | prepend: baseurl }}">WaveTrace</a></u>.
 </p>
