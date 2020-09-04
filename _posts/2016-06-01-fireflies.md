@@ -30,7 +30,7 @@ project:
 images:
   - image:
     url: "/assets/images/fireflies/1.jpg"
-    title: "The teacher can control the bottom half of all 'fireflies' through the app"
+    title: "The teacher can control the bottom half of all FireFlies pixels through the app"
     alt: "A tablet running the app, showing a classroom layout and colour controls, alongside four FireFlies"
   - image:
     url: "/assets/images/fireflies/2.jpg"
