@@ -51,7 +51,7 @@ images:
 
 ---
 <p>
-FireFlies is a set of tangible 'pixels', each for one student in a high school classroom. Using a tablet, the teacher can colour code the bottom half of these pixels individually or as a group. The students can rotate the outer shell of their pixel to change the colour of the top half, or press it down to turn it off. The pixels allow teachers and students to communicate with each other in a non-verbal, personal and persistent manner. The meaning of the colours are up to the classes to decide, but students could indicate things like 'do not disturb', or 'I have a question', and teacher could indicate 'silence please' or 'I want to see you' - without verbally disturbing other students. This project explored how offloading communication onto individual 'pixels' would help teachers in their everyday jobs.
+FireFlies is a set of tangible 'pixels', each for one student in a high school classroom. Using a tablet, the teacher can colour the bottom half of these pixels individually or as a group. The students can rotate the outer shell of their pixel to change the colour of the top half. The pixels allow teachers and students to communicate with each other in a non-verbal, personal and persistent manner. The meaning of the colours are up to the classes to decide, but students can indicate things like 'do not disturb', or 'I have a question', and teacher can indicate 'silence please' or 'I want to see you' - without verbally disturbing other students. This project explored how offloading communication onto individual 'pixels' would help teachers in their everyday jobs.
 </p>
 <!--
 <h2 class="h2">Technology</h2>
@@ -59,7 +59,7 @@ FireFlies is a set of tangible 'pixels', each for one student in a high school c
 Each FireFly hosts a custom PCB, LEDs, a potentiometer switch and a rechargeable battery. The tablet app sends instructions over bluetooth to a hub embedded in the chargeing station, which is then forwarded to all FireFlies in a bluetooth mesh network. The app only controls the FireFlies' bottom half, whilst the potentiometer controls the top half - hence communication is one-directional.
 </p>-->
 <h2 class="h2">Contribution</h2>
-For this project, I was responsible for the setup, execution and analysis of the research deployment in high schools. Aside from debugging and slightly altering the tablet app, the prototype was built before my involvement.
+For this project, I was responsible for the setup, execution and analysis of the research deployment in schools. Aside from debugging and slightly altering the tablet app, the prototype was built before my involvement.
 <p>
 
 </p>

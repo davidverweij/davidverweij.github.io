@@ -73,7 +73,7 @@ WaveTrace is a tracking technique which allows you to interact with systems by m
 </p>
 <h2 class="h2">Technology</h2>
 <p>
-The system builds upon a prototype build for <u><a href="{{ "/smoothmoves" | prepend: baseurl }}">SmoothMoves</a></u>, and utilises an Inertial Measurement Unit (IMU) built into most smart watches. Wrist movement data is then send to a laptop, via a bluetooth connected smart phone, over Wi-Fi, which continuously performs a correlation between this movement data, and - upon selection - controls the device showing the correlated target. A newer version of this prototype used an Android Wear 2.0 smartwatch, eliminating the need for a smart phone.
+The system builds upon a prototype built for <u><a href="{{ "/smoothmoves" | prepend: baseurl }}">SmoothMoves</a></u>, and utilises an Inertial Measurement Unit (IMU) present into most smart watches. Wrist movement data is sent to a laptop, via a bluetooth connected smart phone, over Wi-Fi. The laptop calculates a correlation between this movement data, and if they match, controls the device showing the selected 'option'. A newer version of this prototype used an Android Wear 2.0 smartwatch, eliminating the need for a smart phone.
 </p>
 <h2 class="h2">Contribution</h2>
 <p>

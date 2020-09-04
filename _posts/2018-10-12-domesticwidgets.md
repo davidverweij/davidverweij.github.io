@@ -73,11 +73,11 @@ images:
     alt: "Early form explorations of the prototype."
 
 ---
-<p>Domestic Widgets is a kit that allows families to create 'physical data visualisations' using everyday materials and tools. After you assembled the cardboard design, you can let it move and behave by connecting them to real-time data, such as the weather, or seismic activity anywhere in the world. There is no soldering or coding involved. Instead, you can configure your widgets using your voice through a Google Home. With this kit, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios - and especially involve more members of the household in these activities with different ages and interests.
+<p>Domestic Widgets is a kit that allows families to create physical data visualisations using everyday materials and tools. After the cardboard design is assembled, it can be connecting to real-time data, such as the weather or seismic activity anywhere in the world. There is no soldering or coding involved. Instead, Widgets are configured using your voice through a Google Home. With this kit, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios - and especially involve more members of the household in these activities with different ages and interests.
 </p>
 <h2 class="h2">Technology</h2>
 <p>
-A Domestic Widget hosts a Wi-Fi enabled microcontroller and servo motor. Every minute, this microcontroller requests instructions over Wi-Fi, which are simplified physical positions and movements based on live data streams. Users interact through a Google Home voice assistant, and choose data streams and a particular method of mapping this to physical movements.
+A Domestic Widget hosts a Wi-Fi enabled microcontroller and servo motor. Every minute, this microcontroller requests instructions, which are simplified physical positions and movements based on live data streams. Users interact through a Google Home voice assistant, and choose data streams and a particular method of mapping the data to physical movements.
 </p>
 <h2 class="h2">Contribution</h2>
 <p>
