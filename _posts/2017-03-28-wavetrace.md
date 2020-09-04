@@ -42,7 +42,7 @@ images:
   - image:
     url: "/assets/images/wavetrace/4.jpg"
     title: "WaveTrace allows remote control through motion correlation with an interface"
-    alt: ""
+    alt: "A conference visitor trying out the technique on a video-on-demand demo application"
   - image:
     type: "video"
     url: "Uyz0ubAhPy4"
@@ -50,19 +50,19 @@ images:
   - image:
     url: "/assets/images/wavetrace/1.jpg"
     title: "A digital photoframe displaying (normally hidden) controls"
-    alt: ""
+    alt: "A bookcase hosting a digital photoframe, now showing moving targets to be controlled"
   - image:
     url: "/assets/images/wavetrace/3.jpg"
     title: "WaveTrace allows individual use of shared screens (i.e. scalable), such as in classrooms"
-    alt: ""
+    alt: "A classroom where the presentation shows a true or false question with moving targets"
   - image:
     url: "/assets/images/wavetrace/5.jpg"
     title: "Performance was quantitatively determined in a lab-based setting"
-    alt: ""
+    alt: "A person in front of a monitor, following a red dot"
   - image:
     url: "/assets/images/wavetrace/9.jpg"
     title: "Experience was qualitatively studied in a lab-based setting"
-    alt: ""
+    alt: "Me and two participants, engaging with the photoframe demo"
 
 ---
 
