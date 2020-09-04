@@ -61,11 +61,9 @@ images:
     url: "/assets/images/motionlights/5.jpg"
     title: "An overview of different interaction modes and possibilities for each light, and the underlying architecture."
     alt: ""
-
-
 ---
 
-<p>To explore how the <u><a href="{{ "/wavetrace" | prepend: baseurl }}">WaveTrace</a></u> interaction technique could be implemented in domestic, non-screen based, products, I designed and developed a product family of three lights. Each light displays contrasting coloured dots traversing the product itself, using the LEDs both as a light source and UI. Mimicking these dots (i.e. pointing at them) with your smart-watch wearing wrist will effectively select them. Each light implemented the interaction technique slightly different to explore and demonstrate the technique's potential.
+<p>To explore how the <u><a href="{{ "/wavetrace" | prepend: baseurl }}">WaveTrace</a></u> interaction technique could be implemented in domestic, non-screen based, products, I designed and developed a product family of three lights. Each light displays contrasting coloured dots traversing the product itself, using the LEDs both as a light source and UI. Mimicking these dots (i.e. pointing at them) with your smart-watch wearing wrist will select them. Each light implemented the interaction technique slightly different to explore and demonstrate the technique's potential.
 </p>
 <h2 class="h2">Technology</h2>
 <p>

@@ -51,7 +51,7 @@ images:
 
 ---
 <p>
-FireFlies is a set of tangible 'pixels', each for one student in a high school classroom. Using a tablet, the teacher can colour code the bottom half of these pixels individually or as a group. The students can turn the outer shell of their pixel to change the colour of the top half, or press it down to turn it off. This project explored how high schools would utilise another layer of personal, non-verbal and persistent communication.
+FireFlies is a set of tangible 'pixels', each for one student in a high school classroom. Using a tablet, the teacher can colour code the bottom half of these pixels individually or as a group. The students can rotate the outer shell of their pixel to change the colour of the top half, or press it down to turn it off. The pixels allow teachers and students to communicate with each other in a non-verbal, personal and persistent manner. The meaning of the colours are up to the classes to decide, but students could indicate things like 'do not disturb', or 'I have a question', and teacher could indicate 'silence please' or 'I want to see you' - without verbally disturbing other students. This project explored how offloading communication onto individual 'pixels' would help teachers in their everyday jobs.
 </p>
 <!--
 <h2 class="h2">Technology</h2>

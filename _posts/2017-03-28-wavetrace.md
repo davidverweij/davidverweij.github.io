@@ -69,7 +69,7 @@ images:
 ---
 
 <p>
-WaveTrace is a tracking technique which allows you to interact with systems by mimicking the movement of its 'options'. When activated, your Wi-Fi enabled smartwatch will calculate if your wrist is moving similarly to any of the presented options, and if so, will activate that option. This allows you to interact with numerous devices and services without the use of optical sensors (i.e. cameras), or the need to remember any gesture whatsoever. After performance testing in a lab-based setting, four prototypes were created for four different scenarios to study its real-world usefulness for: smart home control, television control, classroom participation, and individual interaction with public displays.
+WaveTrace is a tracking technique which allows you to interact with systems by mimicking the movement of its 'options' with your hand whilst wearing a smart watch. When activated, your Wi-Fi enabled smart watch will calculate if your wrist is moving similarly to any of the presented options, and if so, will activate that option. This allows you to interact with numerous devices and services without the use of optical sensors (i.e. cameras), or the need to remember any gesture whatsoever. After performance testing in a lab-based setting, four prototypes were created for four different scenarios to study its real-world usefulness for: smart home control, television control, classroom participation, and individual interaction with public displays.
 </p>
 <h2 class="h2">Technology</h2>
 <p>
