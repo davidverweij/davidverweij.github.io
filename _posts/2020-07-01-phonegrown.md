@@ -14,51 +14,54 @@ categories:
 
 project:
   title: "Phone Grown"
+  wip:   True
   logo: "/assets/images/phonegrown/logo.jpg"
   technology:
     - tech: "Serverless back end"
-      tool: "Cloud Functions - node.js"
-    - tech: "NoSQL database"
-      tool: "Cloud Firestore"
-    - tech: "Natural language processing"
-      tool: "Cloud Dialogflow"
-    - tech: "Microcontrollers"
-      tool: "ESP8266 - C++"
-    - tech: "Prototyping"
-      tool: "Adobe Suite, lasercutter"
+      tool: "Google App Script - JavaScript"
+    - tech: "Anonymous database"
+      tool: "Cloud Firestore - NoSQL"
+    - tech: "UI Design"
+      tool: "Google Sheets"
+    - tech: "Mobile Web application"
+      tool: "Javascript, HTML, CSS"
   resources:
     - resource:  "fa-link"
-      text:  "Web-app demo"
-      url:   "https://dwidgets.web.app/"
+      text:  "Project Website"
+      url:   "https://www.phonegrown.site/"
+    - resource:  "fa-code"
+      text:  "Code repository"
+      url:   "https://github.com/davidverweij/phone-grown"  
+    - resource:  "fa-file-pdf"
+      text:  "academic proposition paper"
+      url:   "https://doi.org/10.13140/RG.2.2.10942.92487/1"
+
 images:
   - image:
     url: "/assets/images/phonegrown/1.jpg"
-    title: ""
-    alt: ""
+    title: "Phone grown is an internet connected background for your drawings"
+    alt: "A drawing showing half rainy and half sunny weather. The halves are highlighted depending on the weather, using a phone placed behind the drawing"
   - image:
     url: "/assets/images/phonegrown/2.jpg"
-    title: ""
-    alt: ""
+    title: "Use case example of an old phone reminding who's turn it is to clean the litterbox"
+    alt: "A drawing of a family, with one person highlighted by a phone behind the drawing"
   - image:
     url: "/assets/images/phonegrown/3.jpg"
-    title: ""
-    alt: ""
-  - image:
-    url: "/assets/images/phonegrown/4.jpg"
-    title: ""
-    alt: ""
+    title: "The phone is easily set up by visiting a simple, open-source website"
+    alt: "A phone in hand, showing a popup to connect to the Google Sheet"
   - image:
     url: "/assets/images/phonegrown/5.jpg"
-    title: ""
-    alt: ""
+    title: "The core system, database and user interface are all embedded in a single Google Sheets"
+    alt: "The phone showing the same background as one on a laptop, which shows the UI embedded in the Google Sheet"
 ---
-<p>...
+<p>
+Phone Grown is an open-source, DIY tutorial that helps you to transform an unused smartphone into an ambient information display. It is built on a Google Sheet template, which acts as the database and user interface. With the database 'exposed', you can configure rules and design visual outputs for your phone to respond with any incoming data. Using pen and paper, you can contextualise these visual outputs further to suit your needs. With this tutorial, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios.
 </p>
 <h2 class="h2">Technology</h2>
 <p>
-...
+A Google Sheet template and a document-bound script contains a few predefined formulas and methods. Once deployed, your copy of the Sheet (and script) gives you a personal API. A phone can then connect to that Sheet through that API. Using existing web services (e.g. <u><a href="https://ifttt.com/google_sheets" target="_blank">IFTTT.com</a></u>), numerous data sources can be hooked up to the Sheet. Based on your rules set in the UI, a flag will be set on a secure external database. The phone, which is listening to this flag, will request new instructions and output the visual design on screen - providing a push notification-like service.
 </p>
 <h2 class="h2">Contribution</h2>
 <p>
-...
+This project continues the research from the <u><a href="{{ "/domesticwidgets" | prepend: baseurl }}">Domestic Widgets</a></u>, which are both part of my PhD. Whilst in progress, I am iteratively designing the Google Sheet template and developing the communication protocol to provide a seamless connection between the phone and incoming data sources. In addition, I am continuing to design the tutorial, which is aimed at families with children.
 </p>
