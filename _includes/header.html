@@ -4,6 +4,8 @@
 		<h1 class="logo">
 			<a href="{{ site.baseurl | append: "/" }}">{{ site.author }}</a>
 		</h1>
+		<input type="checkbox" id="overlay-input" />
+		<label for="overlay-input" id="overlay-button"><span></span></label>
 		<nav id="mobile_nav">
 			<ul>
 				<li><a {% if page.url == "/" %} class="active" {% endif %}   href="/">Home</a></li>
