@@ -16,12 +16,15 @@ project:
   title: "Implicitly Powered Devices"
   logo: "/assets/images/humanpowered/logo.png"
   technology:
-    - tech: "Serverless back end"
-      tool: "Cloud Functions - node.js"
+    - tech: "Conceptualisation"
+    - tech: "Sketching"
   resources:
-    - resource:  "fa-link"
-      text:  "Web-app demo"
-      url:   "https://dwidgets.web.app/"
+    - resource:  "fa-play-circle"
+      text:  "Concept presentation"
+      url:   "https://youtu.be/wjus2VdCH1s"
+    - resource:  "fa-file-pdf"
+      text:  "academic proposition paper"
+      url:   "https://doi.org/10.13140/RG.2.2.23790.43846/1"
 
 images:
   - image:
@@ -54,13 +57,13 @@ images:
     alt: "A sketch of a large picture frame with a small phone holder for NFC datatransfer"
 
 ---
-<p>Implicitely human-poweredness is the concept that energy harvesting mechanisms are used and embedded in a devices interaction modality such that they work almost invisibly. Rather than asking people to repeat a certain movement (e.g. a dyno-torch or rechargeable crank-battery), this concept argues to limit a device's functionality and more tightly integrate the energy harvesting. For example, rather than a complex e-reader with Wi-Fi capabilities, I conceptualise a battery-less e-ink display, capable of storing a single e-book. Using the integrated handle, a single (180 degrees, not multiple) page-flip movement will generate the energy required to navigate to the next or previous page. Six concepts were ideated with this concept and submitted to an academix workshop on self-sustainability.
+<p>Implicitely human-poweredness is a proposal for battery-less interaction design. Rather than asking people to repeat a certain movement (e.g. a dyno-torch or rechargeable crank-battery) to generate energy for complex devices, I want energy harvesting mechanisms to be used and embedded such that you won't even notice it. I deem this possible to such an extent that when we strip devices and services to their core value proposition, these devices can operate without any battery - and only when in use. For example, rather than a complex e-reader with Wi-Fi capabilities, I conceptualise a battery-less e-ink display, capable of storing a single e-book. Using the integrated handle, a single (180 degrees, not multiple) page-flip movement will generate the energy required to navigate to the next or previous page. Six concepts were ideated, based on existing (functional) mechanisms, to illustrate this concept.
 </p>
 <h2 class="h2">Technology</h2>
 <p>
----
+Whilst conceptual, each design is based on existing energy-generating mechanism and their expected energy performance. Some are present in existing products, such as battery-less <u><a href="https://www.magniclight.com/en/" target="_blank">bike lights</a></u>, <u><a href="https://www2.meethue.com/en-gb/p/hue-tap-switch/8718696743133" target="_blank">light switches</a></u> or <u><a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.352.7129&rep=rep1&type=pdf" target="_blank">TV remotes</a></u>.
 </p>
 <h2 class="h2">Contribution</h2>
 <p>
---
+I am increasingly more interested in the societal impact of our products and tools, and how might improve our unsustainable drive for more data and connectivity. I developed this concept and the six designs, which originally arose from experiments with low-energy hardware. I have a few more designs in mind, and - when I find the time - will start prototyping understand its viability.
 </p>

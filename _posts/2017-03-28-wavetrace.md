@@ -21,6 +21,8 @@ project:
       tool: "Processing - Java"
     - tech: "Demo user interfaces"
       tool: "Processing - Java"
+    - tech: "UI design"
+      tool: "Adobe Illustrator"
   resources:
     - resource:  "fa-file-pdf"
       text:  "performance research paper"
@@ -71,7 +73,7 @@ WaveTrace is a tracking technique which allows you to interact with systems by m
 </p>
 <h2 class="h2">Technology</h2>
 <p>
-The system builds upon a prototype build for <u><a href="{{ "/smoothmoves" | prepend: baseurl }}">SmoothMoves</a></u>, and utilises an Inertial Measurement Unit (IMU) built into most smart watches. With a flick of the wrist, the WaveTrace Android smartwatch app requests devices on the local network to display their targets such that their targets movement's do not correlate. Wrist movement data is then send over UDP to a central hub (laptop), via a bluetooth connected smart phone, over Wi-Fi, which then continuously performs a correlation between this movement data, and - upon selection - controls the device showing the correlated target. A newer version of this prototype used an Android Wear 2.0 smartwatch, eliminating the need for a smart phone.
+The system builds upon a prototype build for <u><a href="{{ "/smoothmoves" | prepend: baseurl }}">SmoothMoves</a></u>, and utilises an Inertial Measurement Unit (IMU) built into most smart watches. Wrist movement data is then send to a laptop, via a bluetooth connected smart phone, over Wi-Fi, which continuously performs a correlation between this movement data, and - upon selection - controls the device showing the correlated target. A newer version of this prototype used an Android Wear 2.0 smartwatch, eliminating the need for a smart phone.
 </p>
 <h2 class="h2">Contribution</h2>
 <p>

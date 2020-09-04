@@ -59,7 +59,7 @@
 						<ul>
 						{% for tech in page.project.technology %}
 						<li>
-						{{ tech.tech }} {% if tech.tool %}<i class="techtool">({{tech.tool}})</i>{% endif %}{% if forloop.last == false %},{% endif %}
+						{{ tech.tech }}{% if tech.tool %}<i class="techtool"> ({{tech.tool}})</i>{% endif %}{% if forloop.last == false %},{% endif %}
 						</li>
 						{% endfor%}
 					</ul>
