@@ -71,7 +71,3 @@ images:
 <p>
 A central hub (Raspberry PI) runs a simulation of all moving targets of all connected lights - ensuring these targets do not correlate amongst themselves. It continuously sends instructions to each light's embedded microcontroller wirelessly. A smart watch sends movement data to the hub, which then correlates these movements and acts upon 'selection'. In addition to selection, twisting the wrist while a light was selected would affect the light's overall brightness.
 </p>
-<h2 class="h2">Contribution</h2>
-<p>
-After my MSc thesis, I and my supervisor applied for a Design United grant to translate my research into a consumer product proof of concept. With this grant, I designed and developed these three lights and improved the underlying software to ensure it would work throughout the Dutch Design week.
-</p>

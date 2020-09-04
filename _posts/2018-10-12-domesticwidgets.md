@@ -24,7 +24,7 @@ project:
       tool: "Cloud Firestore"
     - tech: "Natural language processing"
       tool: "Cloud Dialogflow"
-    - tech: "Microcontroller"
+    - tech: "Microcontrollers"
       tool: "ESP8266 - C++"
     - tech: "Prototyping"
       tool: "Adobe Suite, lasercutter"
@@ -73,7 +73,7 @@ images:
     alt: "Early form explorations of the prototype."
 
 ---
-<p>Domestic Widgets is a kit that allows households to create 'physical data visualisations' using everyday materials and tools. With a minimal amount of components and a voice assistant for control, families can jointly craft IoT objects without coding or soldering. Contrasting existing kits and approaches, this design leverages the household creativity of existing activities, such as tinkering and crafting with household materials. With this kit, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios - and especially involve more members of the household in these activities with different ages and interests.
+<p>Domestic Widgets is a kit that allows families to create 'physical data visualisations' using everyday materials and tools. With a minimal amount of components and a voice assistant for control, families can jointly craft IoT objects without coding or soldering. Contrasting existing kits and approaches, this design leverages the creativity of existing activities, such as tinkering and crafting with household materials. With this kit, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios - and especially involve more members of the household in these activities with different ages and interests.
 </p>
 <h2 class="h2">Technology</h2>
 <p>
