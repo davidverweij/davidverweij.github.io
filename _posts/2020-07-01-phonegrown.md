@@ -55,11 +55,11 @@ images:
     alt: "The phone showing the same background as one on a laptop, which shows the UI embedded in the Google Sheet"
 ---
 <p>
-Phone Grown is an open-source, DIY tutorial that helps you to transform an unused smartphone into an ambient information display. It is built on a Google Sheet template, which acts as the database and user interface. With the database 'exposed', you can configure rules and design visual outputs for your phone to respond with any incoming data. Using pen and paper, you can contextualise these visual outputs further to suit your needs. With this tutorial, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios.
+Phone Grown is an open-source, DIY tutorial that helps families transform an unused smartphone into an ambient information display. It is built on a Google Sheet template, which acts as the database and user interface. With the database 'exposed', families can configure rules and design visual outputs for your phone to respond with any incoming data. Using pen and paper, they can contextualise these visual outputs further to suit your needs. With this tutorial, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios.
 </p>
 <h2 class="h2">Technology</h2>
 <p>
-A Google Sheet template and a document-bound script contains a few predefined formulas and methods. Once deployed, your copy of the Sheet (and script) gives you a personal API. A phone can then connect to that Sheet through that API. Using existing web services (e.g. <u><a href="https://ifttt.com/google_sheets" target="_blank">IFTTT.com</a></u>), numerous data sources can be hooked up to the Sheet. Based on your rules set in the UI, a flag will be set on a secure external database. The phone, which is listening to this flag, will request new instructions and output the visual design on screen - providing a push notification-like service.
+A Google Sheet template with a document-bound script contains a few predefined formulas and methods. Once deployed, your copy of the Sheet (and script) gives you a personal API. A phone can then connect to that Sheet through that API. Using existing web services (e.g. <u><a href="https://ifttt.com/google_sheets" target="_blank">IFTTT.com</a></u>), numerous data sources can be hooked up to the Sheet. Based on your rules set in the UI, a flag will be set on a secure external database. The phone, which is listening to this flag, will request new instructions and output the visual design on screen - providing a push notification-like service.
 </p>
 <h2 class="h2">Contribution</h2>
 <p>
