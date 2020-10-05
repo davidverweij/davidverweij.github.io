@@ -45,10 +45,10 @@ images:
     url: "/assets/images/motionlights/3.jpg"
     title: "A third, wall-mounted light, (left) shows a blue selectable 'dot' traversing along the light itself. Photo © Twijcer"
     alt: ""
-  - image:
-    type: "video"
-    url: "GawBbBrpR_A"
-    title: "A detailed explanation of the interaction with two lights"
+#  - image:
+#    type: "video"
+#    url: "GawBbBrpR_A"
+#    title: "A detailed explanation of the interaction with two lights"
   - image:
     url: "/assets/images/motionlights/4.jpg"
     title: "The lights were displayed at the Dutch Design Week in 2017. The smartwatch was secured using a modified, 3D printed, charger"

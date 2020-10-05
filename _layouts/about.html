@@ -33,7 +33,7 @@
 		<section class="projects">
 			<div id="data" class="container">
 				<a class="anchor" id="{{ page.data.name }}"></a>
-				<h1> {{ page.data.name }}  {% if page.download %}<button id="downloadPdfBtn" class="--hide-from-pdf">Download as PDF</button>{% endif%}</h1>
+				<h1> {{ page.data.name }}  {% if page.download %}<button id="downloadPdfBtn" class="--hide-from-pdf" onclick="downloadResume()">Download as PDF</button>{% endif%}</h1>
 				<div class="data-list">
 					{% for entry in site.data[page.data.file] %}
 					<div class="data-item {% if entry.highlight %} grey {% endif %}">

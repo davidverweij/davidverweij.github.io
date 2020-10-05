@@ -55,10 +55,10 @@ images:
     title: "Two examples of how to appropriate the servo motor movement"
     url: "/assets/images/domesticwidgets/3.jpg"
     alt: "Two example Widgets, one placed upside down, the other holding two flags."
-  - image:
-    type: "video"
-    url: "RggI7wR4VwQ"
-    title: "A Widget is controlled and configured through the Google Home"
+#  - image:
+#    type: "video"
+#    url: "RggI7wR4VwQ"
+#    title: "A Widget is controlled and configured through the Google Home"
   - image:
     title: "Families' Widgets, tracking temperature, space rockets and wind speeds"
     url: "/assets/images/domesticwidgets/7.jpg"

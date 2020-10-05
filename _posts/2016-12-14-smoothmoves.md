@@ -42,10 +42,10 @@ images:
     url: "/assets/images/smoothmoves/2.jpg"
     title: "Correlating head movements selects 'buttons'"
     alt: "Closeup of circular moving buttons, and a face with a sensor tracking head motion"
-  - image:
-    type: "video"
-    url: "2oBnIIu0Au8"
-    title: "A brief explanation video of the technique and technology"
+#  - image:
+#    type: "video"
+#    url: "2oBnIIu0Au8"
+#    title: "A brief explanation video of the technique and technology"
   - image:
     url: "/assets/images/smoothmoves/4.jpg"
     title: "With a sensor on your glasses, the technique also works on a phone"
@@ -59,7 +59,7 @@ images:
 </p>
 <h2 class="h2">Technology</h2>
 <p>
-An Inertial Measurement Unit (IMU) attached to a spectacle frame continuously tracks head movements, whilst an Android application overlays moving targets on an AR marker. A laptop receives movement data of the targets and user, and continuously calculates a correlation between the two. If they match, the laptop will send instructions to interactable object. This prototype (as shown on the last two pictures) was later ported to a Microsoft Holo Lens, which removed the need for AR markers and the laptop.
+An Inertial Measurement Unit (IMU) attached to a spectacle frame continuously tracks head movements, whilst an Android application overlays moving targets on an AR marker. A laptop receives movement data of the targets and the user, and calculates a correlation between the two. If they match, the laptop will send instructions to interactable object. This prototype (as shown on the last two pictures) was later ported to a Microsoft Holo Lens, which removed the need for AR markers and the laptop.
 </p>
 <h2 class="h2">Contribution</h2>
 <p>

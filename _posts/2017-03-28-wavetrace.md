@@ -45,10 +45,10 @@ images:
     url: "/assets/images/wavetrace/4.jpg"
     title: "WaveTrace allows remote control through motion correlation with an interface"
     alt: "A conference visitor trying out the technique on a video-on-demand demo application"
-  - image:
-    type: "video"
-    url: "Uyz0ubAhPy4"
-    title: "An explanation video of the technique and technology"
+#  - image:
+#    type: "video"
+#    url: "Uyz0ubAhPy4"
+#    title: "An explanation video of the technique and technology"
   - image:
     url: "/assets/images/wavetrace/1.jpg"
     title: "A digital photoframe displaying (normally hidden) controls"

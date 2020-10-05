@@ -26,10 +26,10 @@ project:
       text:  "academic proposition paper"
       url:   "https://doi.org/10.13140/RG.2.2.23790.43846/1"
 images:
-  - image:
-    type: "video"
-    url: "wjus2VdCH1s"
-    title: "My presentation on how we should design energy generating interactions"
+#  - image:
+#    type: "video"
+#    url: "wjus2VdCH1s"
+#    title: "My presentation on how we should design energy generating interactions"
   - image:
     url: "/assets/images/humanpowered/1.jpg"
     title: "A battery-less e-book capable of navigating pages by a 'physical' page-flip of the handle"

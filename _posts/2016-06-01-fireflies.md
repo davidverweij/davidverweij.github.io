@@ -36,10 +36,10 @@ images:
     url: "/assets/images/fireflies/2.jpg"
     title: "Pupils control the top half of their FireFly by rotating and pressing the outer shell"
     alt: "A classroom with a FireFly on each table, showing various colours on their top and bottom halves"
-  - image:
-    type: "video"
-    url: "m4gSaI1LxA8"
-    title: "30 second explainer video about this research"
+#  - image:
+#    type: "video"
+#    url: "m4gSaI1LxA8"
+#    title: "30 second explainer video about this research"
   - image:
     url: "/assets/images/fireflies/3.jpg"
     title: "The base station chargers all battery operated FireFlies"
