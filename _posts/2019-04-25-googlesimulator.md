@@ -23,12 +23,18 @@ project:
 images:
   - image:
     url: "/assets/images/googlesimulator/1.jpg"
-    title: ""
-    alt: ""
+    title: "The simulator takes touch input to limit possible responses, and shows the Widget's state on the bottom"
+    alt: "The simulator on display on a laptop, Widget status on the bottom, interface on the top"
   - image:
     url: "/assets/images/googlesimulator/2.jpg"
-    title: ""
-    alt: ""
+    title: "As the conversation progresses, the Widget's status is updated."
+    alt: "3 views of the simulator, showing a conversation progressing"
+  - image:
+    url: "/assets/images/googlesimulator/3.jpg"
+    title: "The simulator was demonstrated in kiosk mode, in a noisy public environment"
+    alt: "A tablet on display, showing the simulator"
+
+
 
 
 ---
