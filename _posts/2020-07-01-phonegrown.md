@@ -14,7 +14,6 @@ categories:
 
 project:
   title: "Phone Grown"
-  wip:   True
   logo: "/assets/images/phonegrown/logo.jpg"
   technology:
     - tech: "Serverless back end"
@@ -29,11 +28,14 @@ project:
     - resource:  "fa-link"
       text:  "Project Website"
       url:   "https://www.phonegrown.site/"
+    - resource:  "fa-link"
+      text:  "Tutorial on Instructables.com"
+      url:   "https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/"
     - resource:  "fa-code"
       text:  "Code repository"
       url:   "https://github.com/davidverweij/phone-grown"  
     - resource:  "fa-file-pdf"
-      text:  "academic proposition paper"
+      text:  "Academic proposition paper"
       url:   "https://doi.org/10.13140/RG.2.2.10942.92487/1"
 
 images:
@@ -50,9 +52,17 @@ images:
     title: "The phone is easily set up by visiting a simple, open-source website"
     alt: "A phone in hand, showing a popup to connect to the Google Sheet"
   - image:
+    url: "/assets/images/phonegrown/4.jpg"
+    title: "Once setup, the phone can change background colour based on a design in Google Sheets"
+    alt: "A phone in hand, showing a popup indicating a live connection to the Google Sheet"
+  - image:
     url: "/assets/images/phonegrown/5.jpg"
     title: "The core system, database and user interface are all embedded in a single Google Sheets"
     alt: "The phone showing the same background as one on a laptop, which shows the UI embedded in the Google Sheet"
+  - image:
+    url: "/assets/images/phonegrown/6.jpg"
+    title: "Backgrounds are designed in relation to data sources and using Google Sheets' UI"
+    alt: "A laptop showing a spreadsheet where cells are given a background colour using the built-in tools of Google Sheets"
 ---
 <p>
 Phone Grown is an open-source, DIY tutorial that helps families transform an unused smartphone into an ambient information display. It is built on a Google Sheet template, which acts as the database and user interface. With the database 'exposed', families can configure rules and design visual outputs for your phone to respond with any incoming data. Using pen and paper, they can contextualise these visual outputs further to suit your needs. With this tutorial, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios.
@@ -63,5 +73,5 @@ A Google Sheet template with a document-bound script contains a few predefined f
 </p>
 <h2 class="h2">Contribution</h2>
 <p>
-This project continues the research from the <u><a href="{{ "/domesticwidgets" | prepend: baseurl }}">Domestic Widgets</a></u>, which are both part of my PhD. Whilst in progress, I am iteratively designing the Google Sheet template and developing the communication protocol to provide a seamless connection between the phone and incoming data sources. In addition, I am continuing to design the tutorial, which is aimed at families with children.
+This project continues the research from the <u><a href="{{ "/domesticwidgets" | prepend: baseurl }}">Domestic Widgets</a></u>, which are both part of my PhD. I iteratively designed the Google Sheet template and developing the communication protocol to provide a seamless connection between the phone and incoming data sources. I additionally developed the tutorial with feedback from pilot runs, which is now published on  <u><a href="https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/" target="_blank">Instructables.com</a></u>.
 </p>
