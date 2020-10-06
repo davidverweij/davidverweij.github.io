@@ -26,6 +26,13 @@ project:
     - resource:  "fa-play-circle"
       text:  "Project video"
       url:   "https://vimeo.com/311056015"
+    - resource:  "fa-link"
+      text:  "Web-app demo"
+      url:   "https://youreco-demo.web.app/"
+    - resource:  "fa-code"
+      text:  "Code repository"
+      url:   "https://github.com/davidverweij/youreco"  
+
 images:
   - image:
     url: "/assets/images/sensorapp/1.jpg"
