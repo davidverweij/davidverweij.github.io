@@ -18,8 +18,12 @@ project:
       tool: "Javascript, HTML, CSS"
   resources:
     - resource:  "fa-link"
-      text:  "Web-app (with audio)"
+      text:  "Web-app"
       url:   "https://dwidgets.web.app/"
+    - resource:  "fa-code"
+      text:  "Code repository"
+      url:   "https://github.com/davidverweij/ga-mockup"  
+
 images:
   - image:
     url: "/assets/images/googlesimulator/1.jpg"
