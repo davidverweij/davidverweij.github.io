@@ -36,6 +36,16 @@
 				<h1> {{ page.data.name }}  {% if page.download %}<button id="downloadPdfBtn" class="--hide-from-pdf" onclick="downloadResume()">Download as PDF</button>{% endif%}</h1>
 				<div class="data-list">
 					{% for entry in site.data[page.data.file] %}
+
+					{% assign test = true %}
+
+					{% if entry.academiconly %}
+								{% unless page.academic %}
+					      			{% assign test = false %}
+								{% endunless %}
+					{% endif %}
+
+					{% if test %}
 					<div class="data-item {% if entry.highlight %} grey {% endif %}">
 						<span class="h3">{{ entry.category }}</span>
 						<hr />
@@ -70,6 +80,7 @@
 							{% endfor %}
 						</div>
 					</div>
+					{% endif %}
 					{% endfor %}
 				</div>
 			</div>
