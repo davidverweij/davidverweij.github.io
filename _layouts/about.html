@@ -19,7 +19,9 @@
 		<section class="intro intro_with_img">
 			<div class="container">
 				<h1 id="{{ page.title }}">{{ page.title }}</h1>
-				<p>{{ page.content }}</p>
+				<div>
+					{{ page.content }}	
+				</div>
 				<aside>
 					{% if page.image %}
 					<img src="{{ page.image.url | prepend: site.baseurl }}" alt="{{ page.image.alt }}" />

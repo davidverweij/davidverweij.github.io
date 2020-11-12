@@ -17,16 +17,16 @@ data:
   name:     "Resume"
   file:     "resume"
 
-links:
-  - link:   "Github"
-    url:    https://github.com/davidverweij
-  - link:   "LinkedIn"
-    url:    "https://www.linkedin.com/in/davidverweij/"
-
 image:
   url:      "/assets/images/about/davidverweij.jpg"
   alt:      "Photograph of David Verweij"
 ---
-I am a creative technologist building digital and physical products, and currently in an academic position as a Doctoral Trainee. In my current academic position I specialise in a Research Through Design methodology. Using novel technologies and bespoke designs, I develop interactive research products and deploy them in-the-wild. Learning from these experienceable products allows the exploration of alternative futures. In particular, my interests lay in interaction with distributed data in everyday environments that support or relieve human cognition, in enjoyable, playful and less-utilitarian ways. In my current research, as a Doctoral Trainee, I deploy alternative approaches to explore data as a resource for family life. This contributes to the search to find family-inclusive ways to use, manage and enjoy data amongst the family at home, including children and elderly of all ages.
+I am a creative technologist building digital and physical products, and currently finishing my Doctoral Thesis in Computer Science. Originally taught as an interactive product and experience designer, I currently have 5+ years part-time experience in software development for bespoke products and services. I involve potential users in the exploration of novel approaches to digital services. I am a social person with a creative and analytical mindset, learning from and adapting existing problems and solutions to create services along the developer stack. I am self-directed and resourceful, and eager to work in a team on high quality deliverables for meeting stakeholder expectations.
 <br/><br/>
-Parallel to this work, I experiment with designing software, hardware and product design, and enjoy woodworking, being outdoors and boardgames.
+In my free time, I experiment with designing software, hardware and product design, and enjoy woodworking, being outdoors and boardgames.
+<br/><br/>
+Contact me on
+<br/><br/>
+- [Github](https://github.com/davidverweij){:target="_blank"}
+- [LinkedIn]("https://www.linkedin.com/in/davidverweij/"){:taget="_blank"}
+- [Email](mailto:hi@davidverweij.com)

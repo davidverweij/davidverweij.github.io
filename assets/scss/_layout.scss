@@ -240,7 +240,7 @@ a.project {
 
 .intro,
 .projects {
-	padding: 0 0 15rem;
+	padding: 0 0 8rem;
 }
 
 .intro {
@@ -292,10 +292,12 @@ a.project {
 
 	}
 	@media (min-width: $breakpoint-medium) {
-		p {
-			float: left;
-			font-size: 1.8rem;
-			max-width: 66.66666%;
+		.container {
+				div {
+				float: left;
+				font-size: 1.8rem;
+				max-width: 66.66666%;
+			}
 		}
 	}
 }
@@ -401,15 +403,6 @@ a.project {
 				padding: 0;
 				text-decoration: underline;
 				vertical-align: auto;
-			}
-		}
-
-		p {
-			// font-style: italic;
-			
-			display: none;
-			@media (min-width: $breakpoint-medium) {
-				display: inherit;
 			}
 		}
 

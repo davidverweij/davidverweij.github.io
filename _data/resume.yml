@@ -2,16 +2,16 @@
   top-list: True
   blocks:
   - block:    "Researcher and Digital Product Developer"
-    location: "Newcastle University, Newcastle, UK"
+    location: "Computer Science, Newcastle University, Newcastle, UK"
     text:     > 
-              Doctoral researcher on novel family-focused interfaces for internet-connected services. <i>I started at Northumbria (2017) and transferred with the job to Newcastle (2019)</i>
+              Doctoral researcher on novel family-focused interfaces for internet-connected services. _I started at Northumbria (2017) and transferred with the job to Newcastle (2019)_.
 
 
-              - Designed and developed a physical data visualisations IoT toolkit ([Domestic Widgets](https://www.davidverweij.com/domesticwidgets/){:target="_blank"}).
+              - Designed and developed a physical data visualisations IoT toolkit ([Domestic Widgets](/domesticwidgets){:target="_blank"}).
 
               - Iterative developed a natural language processing interface, embedded hardware and bespoke web services for data management and access.              
 
-              - Created a Google Sheets extension ([Phone Grown](https://www.davidverweij.com/phonegrown/){:target="_blank"}) for ambient information displays in conjunction with IFTTT.com.
+              - Created a Google Sheets extension ([Phone Grown](/phonegrown){:target="_blank"}) for ambient information displays in conjunction with IFTTT.com.
 
               - Designed an accompanying Google Sheet template and written [tutorial](https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/){:target="_blank"} supporting a do-it-yourself, scalable and open-source dissemination of this tool.
 
@@ -23,13 +23,23 @@
         url:   "https://openlab.ncl.ac.uk/people/david-verweij/"
     from:     "10/17"
     to:       "now"
-  - block:    "Teaching Assistant Computer Science"
+  - block:    "Computer Science Teaching Assistant"
     location: "School of Computing, Newcastle University, UK"
-    text:     "Assisting in MSc courses 'Advanced Programming', 'Information Systems (Interaction Design and Databases)', 'Programming and Data Structures', MSc Dissertations and previously a BSc course 'Object-Oriented Programming' at Northumbria University"
+    text:     > 
+      Coaching MSc Dissertations and teaching in MSc courses such as:
+      
+      - Advanced Programming,
+      
+      - Information Systems (Interaction Design and Databases),
+      
+      - Programming and Data Structures,
+      
+      - Object-Oriented Programming (BSc course at Northumbria University).
     from:     "02/18"
-    to:       "now"
+    to:       "09/20"
   - block:    "Motion Graphics Designer"
     location: "Studio David Verweij, Eindhoven, NL"
+    text:     "Developed various motion graphics (animations) for clients such as Smart-Homes.nl, Eindhoven University of Technology (SkillsLab, School of Education) and Media Markt NL."
     icons:
       - icon:  "fa-link"
         text:  "Website"
@@ -42,15 +52,22 @@
     from:     "10/15"
     to:       "09/16"
     hide:     True
-  - block:    "Student Communication Assistant"
+  - block:    "Industrial Design Communication Assistant & Student Advisor"
     location: "Eindhoven University, NL"
-    text:     "Policy and website support, coaching secondary school classes and promotion for Industrial Design at schools"
+    text:     >
+      - Advising role within the Department Board (weekly meetings) as a student representative. 
+      
+      - Departmental policy and website support, and speaker for study orientation evenings.
+
+      - Coaching secondary school pupils in their design and innovation projects.
     from:     "10/14"
     to:       "08/16"
-    hide:     True
   - block:    "Co-owner and STEM Course developer"
     location: "BétaBoomen, Eindhoven, NL"
-    text:     "BétaBoomen offered pre-university schools courses and lectures in STEM related subjects by university students."
+    text:     > 
+      - Developed extra-curricular STEM courses (e.g. electronics, programming) for, and managed relations with, pre-university schools.
+
+      - Delivered, and recruited other university students to deliver, these courses at pre-university schools throughout the region. Pupil ages ranged from 12 - 17.
     icons:
       - icon:  "fa-link"
         text:  "Company LinkedIn Page"
@@ -88,7 +105,7 @@
     to:       "now"
   - block:    "MSc in Human Computer Interaction"
     location: "Department of Industrial Design, Eindhoven University, NL"
-    text:     "Graduated with a 9 (out of 10). Specialisation in Constructive Design Research."
+    text:     "Graduated with a 9 (out of 10)."
     from:     "09/15"
     to:       "07/17"
   - block:    "BSc in Industrial Design"
@@ -150,7 +167,7 @@
     to:       "12/15"
   - block:    "Vice-Chairman & Commissioner of Education"
     location: "Study Association Industrial Design, Eindhoven, NL"
-    text:     "Full-time representation of Industrial Design students in multiple bodies throughout the university. The study association further offers study material, workshops, leisure events and more."
+    text:     "Full-time representation of Industrial Design students in multiple bodies throughout the University."
     icons:
       - icon:  "fa-link"
         text:  "Lucid Webpage"
@@ -172,28 +189,37 @@
 - category:   "Skills"
   top-list: True
   blocks:
-  - block:    "Software Development"
-    location: "Full stack, including HTML, (S)CSS, JavaScript, Python, C++, Node.js, REST, SQL, Google Cloud (inc. Firebase and database security), Java (inc. Android)"
-    text:     ""
-  - block:    "Hardware/Product Development"
-    location: "Paper prototyping, cardboard modelling, woodworking, circuit design, 3D printing, interactive electronics (based on Arduino or Raspberry PI architectures)"
-    text:     ""
-  - block:    "Design"
-    location: "Generalist, from paper to prototype. Including Adobe Suite (XD, Illustrator, Photoshop, Indesign, Premiere Pro, After Effects)"
-    text:     ""
+  - block:    Software Development
+    location: Full stack developer, main experience in JavaScript and the Cloud Computing.
+    text: > 
+      - Programming languages such as HTML, (S)CSS, JavaScript & Node.js, Java (inc. for Android and Android Wear), C++ (hardware), Python, SQL and _currently following courses on Vue.js, React.js and Docker._ 
+      
+      - Cloud Computing using the Google Cloud Platform (GCP), including RESTful APIs, utilising (no)SQL database and ensuring data security.
+      
+      - Sound understanding of data structures (i.e. OOP), experienced in source and version control (Git), understanding of (unit)testing and version control, familiar with containerisation (Docker), and comfortable in shell script and various IDEs. 
+
+  - block:    "(Product) Design"
+    location: "Generalist, from paper to functional prototype."
+    text: >
+      - UI/UX design, originating from illustrations and motion graphics. Comfortably navigates the Adobe Suite, including Adobe XD, Illustrator and Photoshop. Applied UX design skills through development of various visual (screen based), audible (voice assistant) and physical (gestural) interfaces. 
+
+      - Product development, shaping form through paper prototyping, cardboard modelling, 3D printing and woordworking. Creating function through off-the-shelf electronics (Arduino/Raspberry PI) and bespoke hardware (circuit design).
+      
   - block:    "Research and Analysis"
-    location: "Literature and user research for qualitative, quantitative and data analysis. Experienced in tools such as SPSS, NVivo, and Python scripts"
-    text:     ""
-  - block:    "Languages"
-    location: "Dutch (native), English (C2: mastery)"
-    text:     ""
+    location: "Applied researcher experienced in Research through Design" 
+    text: "Literature and user research for qualitative, quantitative and data analysis. Experienced in tools such as SPSS, NVivo, and utilising Python scripts (D3.js, pandas, plotly) for data analysis."
+  - block:    "Soft(er) skills"
+    hide: True
+    location: "Including languages, collaboration and presentation"
+    text: "Dutch (native), English (C2: mastery)"
+    
 
 - category:   "Latest Work"
   highlight:   True
   top-list: True
   blocks:
   - block:    "Phone Grown"
-    location: "A web-app to transform unused smartphones into smart displays which visualises data sources."
+    location: "A web-app to transform unused smartphones into smart displays that visualise data sources."
     text:     "A Google App Script (.js) based UI, embedded in a Google Sheets template, utilizes pre-built IFTTT.com triggers which send visualisations to a website aimed at legacy mobile phone browsers."
     to:        "2020"
     icons:
