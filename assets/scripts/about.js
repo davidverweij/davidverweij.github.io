@@ -7,7 +7,6 @@ function downloadResume() {
     viewportWidth: 1200,
     pageMarginUnits: 'px',
     pageMargin: 20,
-    scrollPage: true,
     pageOrientation: 'portrait',
     publishableKey: 'api_public_9fa53768d2c641de956d716c98aaa6ee',
     url: 'https://davidverweij.com/about',
