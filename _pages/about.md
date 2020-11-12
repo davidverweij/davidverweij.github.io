@@ -28,5 +28,5 @@ In my free time, I experiment with designing software, hardware and product desi
 Contact me on
 <br/><br/>
 - [Github](https://github.com/davidverweij){:target="_blank"}
-- [LinkedIn](https://www.linkedin.com/in/davidverweij/){:taget="_blank"}
+- [LinkedIn](https://www.linkedin.com/in/davidverweij/){:target="_blank"}
 - [Email](mailto:hi@davidverweij.com)
