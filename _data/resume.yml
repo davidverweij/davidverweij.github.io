@@ -196,7 +196,7 @@
       
       - Cloud Computing using the Google Cloud Platform (GCP), including RESTful APIs, utilising (no)SQL database and ensuring data security.
       
-      - Sound understanding of data structures (i.e. OOP), experienced in source and version control (Git), understanding of (unit)testing and version control, familiar with containerisation (Docker), and comfortable in shell script and various IDEs. 
+      - Sound understanding of data structures (e.g. OOP), experienced in source and version control (Git), understanding of (unit)testing and version control, familiar with containerisation (Docker), and comfortable in shell script and various IDEs. 
 
   - block:    "(Product) Design"
     location: "Generalist, from paper to functional prototype."
