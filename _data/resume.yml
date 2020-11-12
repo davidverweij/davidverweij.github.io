@@ -1,38 +1,26 @@
-- category:   "Education"
+- category:   "Experience"
+  top-list: True
   blocks:
-  - block:    "PhD in Human-Computer Interaction"
-    location: "Open Lab, School of Computing, Newcastle University, Newcastle, UK"
-    text:     "Thesis on Family-focused design for data-driven products. Initially at Northumbria University (10/17 - 07/19)"
+  - block:    "Researcher and Digital Product Developer"
+    location: "Newcastle University, Newcastle, UK"
+    text:     > 
+                Doctoral researcher exploring family-focused interfaces for internet connected
+                devices at home. 
+                - Phone Grown
+                - Domestic Widgets
+
+                design for data-driven products. <br/>
+                Initially at Northumbria University (10/17 - 07/19)
+                <br/>
+                - something <br/>
+                - somethingelse <br/>
+
     icons:
       - icon:  "fa-link"
         text:  "Open Lab Profile"
         url:   "https://openlab.ncl.ac.uk/people/david-verweij/"
     from:     "10/17"
     to:       "now"
-  - block:    "MSc in Human Computer Interaction"
-    location: "Department of Industrial Design, Eindhoven University, NL"
-    text:     "Graduated with a 9 (out of 10). Specialisation in Constructive Design Research."
-    from:     "09/15"
-    to:       "07/17"
-  - block:    "BSc in Industrial Design"
-    location: "Department of Industrial Design, Eindhoven University, NL"
-    text:     "Specialised in supportive technologies for education."
-    from:     "09/10"
-    to:       "07/15"
-  - block:    "Minor Science Education and Communication"
-    location: "Eindhoven School of Education, Eindhoven University, NL"
-    text:     "Received a formal teaching qualification for physics for secondary education in the Netherlands"
-    from:     "02/14"
-    to:       "02/15"
-  - block:    "Pre-University Education - Atheneum"
-    location: "Oosterlicht College Nieuwegein, NL"
-    text:     ""
-    from:     "09/03"
-    to:       "08/09"
-    hide:     True
-
-- category:   "Experience"
-  blocks:
   - block:    "Teaching Assistant Computer Science"
     location: "School of Computing, Newcastle University, UK"
     text:     "Assisting in MSc courses 'Advanced Programming', 'Information Systems (Interaction Design and Databases)', 'Programming and Data Structures', MSc Dissertations and previously a BSc course 'Object-Oriented Programming' at Northumbria University"
@@ -42,8 +30,8 @@
     location: "Studio David Verweij, Eindhoven, NL"
     icons:
       - icon:  "fa-link"
-        text:  "Portfolio"
-        url:   "https://vimeo.com/verweij"
+        text:  "Website"
+        url:   "https://www.davidverweij.com/studiodavidverweij/"
     from:     "03/15"
     to:       "02/18"
   - block:    "Student Advisor Department Board"
@@ -83,7 +71,40 @@
         text:  "Company Page"
         url:   "http://www.taxbus.nl/"
     hide:      True
+    
 
+- category:   "Education"
+  blocks:
+  - block:    "PhD in Human-Computer Interaction"
+    location: "Open Lab, School of Computing, Newcastle University, Newcastle, UK"
+    text:     "Thesis on Family-focused design for data-driven products. Initially at Northumbria University (10/17 - 07/19)"
+    icons:
+      - icon:  "fa-link"
+        text:  "Open Lab Profile"
+        url:   "https://openlab.ncl.ac.uk/people/david-verweij/"
+    from:     "10/17"
+    to:       "now"
+  - block:    "MSc in Human Computer Interaction"
+    location: "Department of Industrial Design, Eindhoven University, NL"
+    text:     "Graduated with a 9 (out of 10). Specialisation in Constructive Design Research."
+    from:     "09/15"
+    to:       "07/17"
+  - block:    "BSc in Industrial Design"
+    location: "Department of Industrial Design, Eindhoven University, NL"
+    text:     "Specialised in supportive technologies for education."
+    from:     "09/10"
+    to:       "07/15"
+  - block:    "Minor Science Education and Communication"
+    location: "Eindhoven School of Education, Eindhoven University, NL"
+    text:     "Received a formal teaching qualification for physics for secondary education in the Netherlands"
+    from:     "02/14"
+    to:       "02/15"
+  - block:    "Pre-University Education - Atheneum"
+    location: "Oosterlicht College Nieuwegein, NL"
+    text:     ""
+    from:     "09/03"
+    to:       "08/09"
+    hide:     True
 
 - category:   "Management and Volunteering"
   blocks:
@@ -147,7 +168,7 @@
 
 
 - category:   "Skills"
-  highlight:  True
+  top-list: True
   blocks:
   - block:    "Software Development"
     location: "Full stack, including HTML, (S)CSS, JavaScript, Python, C++, Node.js, REST, SQL, Google Cloud (inc. Firebase and database security), Java (inc. Android)"
@@ -167,6 +188,7 @@
 
 - category:   "Latest Work"
   highlight:   True
+  top-list: True
   blocks:
   - block:    "Phone Grown"
     location: "A web-app to transform unused smartphones into smart displays which visualises data sources."

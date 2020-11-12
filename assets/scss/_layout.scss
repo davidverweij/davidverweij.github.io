@@ -343,13 +343,20 @@ a.project {
 	min-height: 100%;
 	column-count: 1;
 	-webkit-column-count: 1;
-		-moz-column-count: 1;
+	-moz-column-count: 1;
+	padding-bottom: 5rem;
 
 	@media (min-width: $breakpoint-medium) {
 		column-count: 2;
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
 
+	}
+
+	&.first-list {
+		column-count: 1;
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
 	}
 
 	.data-item {

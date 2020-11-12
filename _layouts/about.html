@@ -34,8 +34,18 @@
 			<div id="data" class="container">
 				<a class="anchor" id="{{ page.data.name }}"></a>
 				<h1> {{ page.data.name }}  {% if page.download %}<button id="downloadPdfBtn" class="--hide-from-pdf" onclick="downloadResume()">Download as PDF</button>{% endif%}</h1>
-				<div class="data-list">
-					{% for entry in site.data[page.data.file] %}
+
+				{% assign lists = "" | split: "," %}
+
+				{% assign top = site.data[page.data.file] | where_exp: "item","item.top-list" %}
+				{% assign bottom = site.data[page.data.file] | where_exp: "item","item.top-list == False" %}
+
+				{% assign lists = lists | push: top %}
+				{% assign lists = lists | push: bottom %}
+
+				{% for sublist in lists %}
+				<div class="data-list {% if forloop.first %} first-list {% endif %}">
+					{% for entry in sublist %}
 
 					{% assign test = true %}
 
@@ -68,13 +78,13 @@
 									{% endfor%}
 									<span class="block-content">
 									<strong>{{ block.block }}</strong>
-									- {{ block.location}}
+									- {{ block.location }}
 									{% if block.author %}
 									<p> - {{ block.author }}</p>
 									{% endif %}
 									</span>
 								</span>
-								<p>{{ block.text }}</p>
+								<p class="resumetext">{{ block.text }}</p>
 							</div>
 							{% endunless %}
 							{% endfor %}
@@ -83,6 +93,7 @@
 					{% endif %}
 					{% endfor %}
 				</div>
+				{% endfor %}
 			</div>
 		</section>
 		{% endif %}
