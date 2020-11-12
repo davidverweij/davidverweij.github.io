@@ -4,16 +4,18 @@
   - block:    "Researcher and Digital Product Developer"
     location: "Newcastle University, Newcastle, UK"
     text:     > 
-                Doctoral researcher exploring family-focused interfaces for internet connected
-                devices at home. 
-                - Phone Grown
-                - Domestic Widgets
+              Doctoral researcher on novel family-focused interfaces for internet-connected services. <i>I started at Northumbria (2017) and transferred with the job to Newcastle (2019)</i>
 
-                design for data-driven products. <br/>
-                Initially at Northumbria University (10/17 - 07/19)
-                <br/>
-                - something <br/>
-                - somethingelse <br/>
+
+              - Designed and developed a physical data visualisations IoT toolkit ([Domestic Widgets](https://www.davidverweij.com/domesticwidgets/){:target="_blank"}).
+
+              - Iterative developed a natural language processing interface, embedded hardware and bespoke web services for data management and access.              
+
+              - Created a Google Sheets extension ([Phone Grown](https://www.davidverweij.com/phonegrown/){:target="_blank"}) for ambient information displays in conjunction with IFTTT.com.
+
+              - Designed an accompanying Google Sheet template and written [tutorial](https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/){:target="_blank"} supporting a do-it-yourself, scalable and open-source dissemination of this tool.
+
+              - Through the in-situ deployment of these tools, observation and interviews I qualitatively study how domestic connected devices can be better designed with families in mind, and for which potential shared purposes.
 
     icons:
       - icon:  "fa-link"

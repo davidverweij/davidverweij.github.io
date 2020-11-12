@@ -84,7 +84,9 @@
 									{% endif %}
 									</span>
 								</span>
-								<p class="resumetext">{{ block.text }}</p>
+								<div class="resumetext">
+								{{ block.text | markdownify  }}
+								</div>
 							</div>
 							{% endunless %}
 							{% endfor %}
