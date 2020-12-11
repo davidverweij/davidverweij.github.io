@@ -15,7 +15,7 @@
 	{% include header.html %}
 	<main class="content">
 		{% unless page.nointro %}
-		<section class="intro intro_with_img">
+		<section class="intro intro_with_img --hide-from-pdf">
 			<div class="container">
 				<h1 id="{{ page.title }}">{{ page.title }}</h1>
 				<div>
@@ -33,7 +33,7 @@
 		<section class="projects">
 			<div id="data" class="container">
 				<a class="anchor" id="{{ page.data.name }}"></a>
-				<h1> {{ page.data.name }}  {% if page.download %}<a id="downloadPdfBtn" style="text-decoration: underline;" href="/assets/images/DVerweij_Resume_11_2020.pdf" download>Download as PDF</a>{% endif%}</h1>
+				<h1> {{ page.data.name }}  {% if page.download %}<a class="--hide-from-pdf" id="downloadPdfBtn" style="text-decoration: underline;" href="/assets/images/DVerweij_Resume_12_2020.pdf" download>Download as PDF</a>{% endif%}</h1>
 
 				{% assign lists = "" | split: "," %}
 
