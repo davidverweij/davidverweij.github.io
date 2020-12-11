@@ -393,10 +393,7 @@ a.project {
 			padding-right: 0.5rem;
 		}
 
-		ul {
-			list-style-type: disc;
-			margin-left:2rem;
-			margin-top: 1rem;
+		.resumetext {
 			a {
 				font-size: 1.6rem;
 				color: $color-black;
@@ -404,6 +401,12 @@ a.project {
 				text-decoration: underline;
 				vertical-align: auto;
 			}
+		}
+
+		ul {
+			list-style-type: disc;
+			margin-left:2rem;
+			margin-top: 1rem;
 		}
 
 		.block-content {

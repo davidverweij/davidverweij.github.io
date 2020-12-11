@@ -2,20 +2,28 @@
   top-list: True
   blocks:
   - block:    "Researcher and Digital Product Developer"
-    location: "Computer Science, Newcastle University, Newcastle, UK"
+    location: "Computer Science, Newcastle University"
     text:     > 
-              Doctoral researcher on novel family-focused interfaces for internet-connected services. _I started at Northumbria (2017) and transferred with the job to Newcastle (2019)_.
+              Doctoral researcher on novel family-focused interfaces for internet-connected services. 
+              _I started at Northumbria (2017) and transferred with the job to Newcastle (2019)_.
 
 
-              - Designed and developed a physical data visualisations IoT toolkit ([Domestic Widgets](/domesticwidgets){:target="_blank"}).
+              - Designed [Domestic Widgets](/domesticwidgets){:target="_blank"}, a 'physicalisation' IoT 
+              toolkit for families to create cardboard-based indicators that connect with various data sources through voice control.
 
-              - Iteratively developed a natural language processing interface, embedded hardware and bespoke web services for data management and access.              
+              - Implemented natural language processing, embedded hardware and bespoke web services for secure 
+              data management and access by Domestic Widget users through the voice UI.              
 
-              - Created a Google Sheets extension ([Phone Grown](/phonegrown){:target="_blank"}) for ambient information displays in conjunction with IFTTT.com.
+              - Developed a Google App Script ([Phone Grown](/phonegrown){:target="_blank"}), which transforms 
+              a Google Sheet into a user interface to create rule-based ambient information displays from 'left-over' phones.
 
-              - Designed an accompanying Google Sheet template and written [tutorial](https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/){:target="_blank"} supporting a do-it-yourself, scalable and open-source dissemination of this tool.
+              - Designed an accompanying UI in Google Sheets and written 
+              [tutorial](https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/){:target="_blank"} supporting 
+              a do-it-yourself, scalable and open-source dissemination of this app.
 
-              - Through the in-situ deployment of these tools, observation and interviews I qualitatively study how domestic connected devices can be better designed with families in mind, and for which potential shared purposes.
+              - Deployed both products at 5-10 families each for ~2 months; individually conducted observations and 
+              interviews to qualitatively study how domestic connected devices can be better designed with families in mind, 
+              and for which potential shared purposes.
 
     icons:
       - icon:  "fa-link"
@@ -24,22 +32,24 @@
     from:     "10/17"
     to:       "now"
   - block:    "Computer Science Teaching Assistant"
-    location: "School of Computing, Newcastle University, UK"
+    location: "School of Computing, Newcastle University"
     text:     > 
-      Coaching MSc Dissertations and teaching in MSc courses such as:
-      
-      - Advanced Programming,
-      
-      - Information Systems (Interaction Design and Databases),
-      
-      - Programming and Data Structures,
-      
-      - Object-Oriented Programming (BSc course at Northumbria University).
+      Teaching (demonstrating) in MSc courses such as Advanced Programming, 
+      Information Systems (Interaction Design and Databases), Programming and Data Structures, 
+      Object-Oriented Programming (BSc course at Northumbria University).
     from:     "02/18"
     to:       "09/20"
+  - block:    "Visiting Researcher"
+    location: "Edinburgh Napier University, UK"
+    text:     >
+              Designed and developed an Android AR app for [SmoothMoves](/smoothmoves){:target="_blank"} - 
+              a head-gesture interaction technique. This app was later ported (not by me) to Microsoft Hololens, whilst 
+              I ported it to a standalone smartwach app ([WaveTrace](/wavetrace){:target="_blank"}).
+    from:     "9/16"
+    to:       "12/16"
   - block:    "Motion Graphics Designer"
-    location: "Studio David Verweij, Eindhoven, NL"
-    text:     "Developed various motion graphics (animations) for clients such as Smart-Homes.nl, Eindhoven University of Technology (SkillsLab, School of Education) and Media Markt NL."
+    location: "Studio David Verweij, Eindhoven"
+    text:     "Animated and designed various motion graphics and illustrations for clients such as Smart-Homes.nl, Eindhoven University of Technology (SkillsLab, School of Education) and Media Markt NL."
     icons:
       - icon:  "fa-link"
         text:  "Website"
@@ -47,13 +57,14 @@
     from:     "03/15"
     to:       "02/18"
   - block:    "Student Advisor Department Board"
-    location: "Department of Industrial Design, Eindhoven University, NL"
+    location: "Department of Industrial Design, Eindhoven University of Technology"
     text:     "Advising role within the Department Board as a student representative"
     from:     "10/15"
     to:       "09/16"
     hide:     True
   - block:    "Industrial Design Communication Assistant & Student Advisor"
-    location: "Eindhoven University, NL"
+    hide:     True
+    location: "Eindhoven University of Technology"
     text:     >
       - Advising role within the Department Board (weekly meetings) as a student representative. 
       
@@ -75,13 +86,13 @@
     from:     "05/14"
     to:       "08/16"
   - block:    "Teaching Assistant Tangible and Embodied Interaction"
-    location: "Industrial Design, Eindhoven University, NL"
+    location: "Eindhoven University of Technology"
     text:     "Assisting in part of the classes on Tangible and Embodied Interaction and lecturer on video for conceptual interactions"
     from:     "04/16"
     to:       "07/16"
     hide:     True
   - block:    "Taxi driver for people with disabilities and the elderly"
-    location: "Taxbus (Personenvervoer Waterberg BV), Eindhoven, NL"
+    location: "Taxbus (Personenvervoer Waterberg BV), Eindhoven"
     text:     "Regional and national driver for subsidised trips for elderly (65+) and those with disabilities"
     from:     "08/12"
     to:       "12/13"
@@ -95,7 +106,7 @@
 - category:   "Education"
   blocks:
   - block:    "PhD in Human-Computer Interaction"
-    location: "Open Lab, School of Computing, Newcastle University, Newcastle, UK"
+    location: "School of Computing, Newcastle University"
     text:     "Thesis on Family-focused design for data-driven products. Initially at Northumbria University (10/17 - 07/19)"
     icons:
       - icon:  "fa-link"
@@ -103,19 +114,19 @@
         url:   "https://openlab.ncl.ac.uk/people/david-verweij/"
     from:     "10/17"
     to:       "now"
-  - block:    "MSc in Human Computer Interaction"
-    location: "Department of Industrial Design, Eindhoven University, NL"
-    text:     "Graduated with a 9 (out of 10)."
+  - block:    "MSc in Industrial Design"
+    location: "Eindhoven University of Technology"
+    text:     "Graduated with distinction"
     from:     "09/15"
     to:       "07/17"
   - block:    "BSc in Industrial Design"
-    location: "Department of Industrial Design, Eindhoven University, NL"
-    text:     "Specialised in supportive technologies for education."
+    location: "Eindhoven University of Technology"
+    # text:     "Specialised in supportive technologies for education."
     from:     "09/10"
     to:       "07/15"
   - block:    "Minor Science Education and Communication"
-    location: "Eindhoven School of Education, Eindhoven University, NL"
-    text:     "Received a formal teaching qualification for physics for secondary education in the Netherlands"
+    location: "Eindhoven School of Education"
+    text:     "Received a qualification for teaching secondary education physics"
     from:     "02/14"
     to:       "02/15"
   - block:    "Pre-University Education - Atheneum"
@@ -165,6 +176,7 @@
     text:     ""
     from:     "09/12"
     to:       "12/15"
+    hide:     true
   - block:    "Vice-Chairman & Commissioner of Education"
     location: "Study Association Industrial Design, Eindhoven, NL"
     text:     "Full-time representation of Industrial Design students in multiple bodies throughout the University."
@@ -190,53 +202,77 @@
   top-list: True
   blocks:
   - block:    Software Development
-    location: Full stack developer, main experience in JavaScript and the Cloud Computing.
+    location: Full stack developer, main experience in JavaScript and serverless APIs.
     text: > 
-      - Programming languages such as HTML, (S)CSS, JavaScript & Node.js, Java (inc. for Android and Android Wear), C++ (hardware), Python, SQL and _currently following courses on Vue.js, React.js and Docker._ 
+      - Experienced in programming languages such as **HTML, (S)CSS, JavaScript, TypeScript, Node.js, Java** 
+      (inc. for Android and Android Wear), **C++** (hardware), **Python, SQL** and _currently 
+      following courses on **Vue.js, React.js** and **Docker**._ 
       
-      - Cloud Computing using the Google Cloud Platform (GCP), including RESTful APIs, utilising (no)SQL database and ensuring data security.
+      - Continuously worked with Cloud Computing solutions - primarily using the Google Cloud Platform (**GCP**, e.g. Cloud Functions, 
+      DialogFlow, Firebase/store, Authentication), including **RESTful APIs**, 
+      utilising **(no)SQL databases** and ensuring data security through rules and **authentication**.
       
-      - Sound understanding of data structures (e.g. OOP), experienced in source and version control (Git), understanding of (unit)testing and version control, familiar with containerisation (Docker), and comfortable in shell script and various IDEs. 
+      - Balanced development skillset across the full stack, with a sound understanding and experience in 
+        - **data structures** (e.g. OOP) and **design patterns** (e.g. async concurrency, pub/sub messaging, queues), 
+        - **source and version control** (git) and **(unit)tests** (e.g. pytest, nox),   
+        - utilizing and building upon **third-party libraries and package managers** (e.g. npm, poetry, pyenv),
+        - conducting **data analysis and visualisation** in Python (e.g. pandas, numpy, plotly) and JavaScript (e.g. D3.js) 
+        
+        This includes familiarity with **containerisation** (Docker) and an eagerness 
+        to gain more experience in **continuous integration and deployment** (CI/CD).
 
   - block:    "(Product) Design"
     location: "Generalist, from paper to functional prototype."
     text: >
-      - UI/UX design, originating from illustrations and motion graphics. Comfortably navigates the Adobe Suite, including Adobe XD, Illustrator and Photoshop. Applied UX design skills through development of various visual (screen based), audible (voice assistant) and physical (gestural) interfaces. 
+      - **UI/UX** design, originating from illustrations and motion graphics. Comfortably navigates the **Adobe Suite**, 
+      including Adobe XD, Illustrator and Photoshop. Applied UX design skills through the development of various visual 
+      (screen-based), audible (voice assistant) and physical (gestural) interfaces. 
 
-      - Product development, shaping form through paper prototyping, cardboard modelling, 3D printing and woordworking. Creating function through off-the-shelf electronics (Arduino/Raspberry PI) and bespoke hardware (circuit design).
+      - Product development, shaping **form** through paper prototyping, cardboard modelling, **3D printing** and woordworking. 
+      Creating function through **off-the-shelf electronics** (Arduino/Raspberry PI) and bespoke hardware (circuit design).
       
   - block:    "Research and Analysis"
     location: "Applied researcher experienced in Research through Design" 
-    text: "Literature and user research for qualitative, quantitative and data analysis. Experienced in tools such as SPSS, NVivo, and utilising Python scripts (D3.js, pandas, plotly) for data analysis."
-  - block:    "Soft(er) skills"
-    hide: True
-    location: "Including languages, collaboration and presentation"
-    text: "Dutch (native), English (C2: mastery)"
+    text: "Literature and **user research** for **qualitative** (e.g. thematic), **quantitative** and **data analysis**. Experienced in tools such as SPSS, NVivo, and utilising Python scripts (D3.js, pandas, plotly) for data analysis."
+  - block:    "Communication and Collaboration"
+    location: "Languages: Dutch (native), English (C2: mastery)"
+    text: "Experienced presenter and writer for **academic** (see also [publications](/publications){: target='_blank'}), **technical, public and informal** purposes. I am self-directed and resourceful, yet not afraid to ask for help and collaborate."
     
 
-- category:   "Latest Work"
+- category:   "Selected Projects"
   highlight:   True
   top-list: True
   blocks:
   - block:    "Phone Grown"
-    location: "A web-app to transform unused smartphones into smart displays that visualise data sources."
-    text:     "A Google App Script (.js) based UI, embedded in a Google Sheets template, utilizes pre-built IFTTT.com triggers which send visualisations to a website aimed at legacy mobile phone browsers."
+    location: "A Google Sheets extention providing a rule-based UI for phone-based ambient data visualisation displays."
+    text:     "Tools: REST API (Google App Script / JavaScript), Firestore (noSQL) database, notification service, HTML, (S)CSS"
     to:        "2020"
     icons:
       - icon:  "fa-link"
         text:  "Project Page"
         url:   "/phonegrown"
+  - block:    "csv2docx"
+    location: "A Python CLI+library to generate .docx files from .csv files using a .docx template with mailmerge fields"
+    text:     "Tools: Python (type annotated), command line interface (click), package manager (poetry), (unit)testing (pytest, nox)."
+    to:        "2020"
+    icons:
+      - icon:  "fa-link"
+        text:  "Code repository"
+        url:   "https://github.com/davidverweij/csv2docx"
   - block:    "Domestic Widgets"
     location: "A toolkit to create, customise and control physical data visualisations through a voice-assistant."
-    text:     "Natural language processing allows voice-based configuration and control of embedded hardware within 'Widgets', who listen and physicalise instructions stored in the database."
+    text:     "Tools: Natural language processing (Google Dialogflow), Firestore (noSQL) database, REST API (node.js, JavaScript), Wi-Fi enabled embedded hardware (C++)."
     to:        "2018"
     icons:
       - icon:  "fa-link"
         text:  "Project Page"
         url:   "/domesticwidgets"
   - block:    "WaveTrace"
-    location: "A motion-mimicking interaction technique controlling various smart-home products."
-    text:     "Utilizing native Android watch sensing capabilities, correlations with moving 'buttons' in prototype UIs (Java) are computed to establish touchless interaction."
+    location: "A smartwatch-based gestural interaction technique to control smart appliances through correlating wrist movements"
+    text:     >
+          Tools: Android Wear (Java), motion sensing (IMU), local web server (threading, Java, Raspberry PI), UDP.
+          <br/> <br/>
+          [See more projects](/work/software){: target='_blank'}
     to:        "2017"
     icons:
       - icon:  "fa-link"
@@ -298,11 +334,3 @@
     from:     ""
     to:       "09/17"
 
-- category:   "Visiting Positions"
-  academiconly: True
-  blocks:
-  - block:    "Visiting Researcher"
-    location: "Edinburgh Napier University, UK"
-    text:     ""
-    from:     "9/16"
-    to:       "12/16"
