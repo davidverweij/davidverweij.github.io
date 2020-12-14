@@ -2,10 +2,10 @@
   top-list: True
   blocks:
   - block:    "Researcher and Digital Product Developer"
-    location: "Computer Science, Newcastle University"
+    location: "Computer Science, Newcastle University, UK"
     text:     > 
               Doctoral researcher on novel family-focused interfaces for internet-connected services. 
-              _I started at Northumbria (2017) and transferred with the job to Newcastle (2019)_.
+              _I started at Northumbria (2017) and transferred with my supervisor to Newcastle (2019)_.
 
 
               - Designed [Domestic Widgets](/domesticwidgets){:target="_blank"}, a 'physicalisation' IoT 
@@ -32,7 +32,7 @@
     from:     "10/17"
     to:       "now"
   - block:    "Computer Science Teaching Assistant"
-    location: "School of Computing, Newcastle University"
+    location: "School of Computing, Newcastle University, UK"
     text:     > 
       Teaching (demonstrating) in MSc courses such as Advanced Programming, 
       Information Systems (Interaction Design and Databases), Programming and Data Structures, 
@@ -48,7 +48,7 @@
     from:     "9/16"
     to:       "12/16"
   - block:    "Motion Graphics Designer"
-    location: "Studio David Verweij, Eindhoven"
+    location: "Studio David Verweij, Eindhoven, NL"
     text:     "Animated and designed various motion graphics and illustrations for clients such as Smart-Homes.nl, Eindhoven University of Technology (SkillsLab, School of Education) and Media Markt NL."
     icons:
       - icon:  "fa-link"
@@ -57,7 +57,7 @@
     from:     "03/15"
     to:       "02/18"
   - block:    "Student Advisor Department Board"
-    location: "Department of Industrial Design, Eindhoven University of Technology"
+    location: "Department of Industrial Design, Eindhoven University of Technology, NL"
     text:     "Advising role within the Department Board as a student representative"
     from:     "10/15"
     to:       "09/16"
@@ -86,7 +86,7 @@
     from:     "05/14"
     to:       "08/16"
   - block:    "Teaching Assistant Tangible and Embodied Interaction"
-    location: "Eindhoven University of Technology"
+    location: "Eindhoven University of Technology, NL"
     text:     "Assisting in part of the classes on Tangible and Embodied Interaction and lecturer on video for conceptual interactions"
     from:     "04/16"
     to:       "07/16"
