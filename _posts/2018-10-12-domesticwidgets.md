@@ -37,7 +37,7 @@ project:
       url:   "https://figshare.com/articles/Domestic_widgets_Leveraging_household_creativity_in_co-creating_data_physicalisations/7855778/2"
     - resource:  "fa-link"
       text:  "Domestic Widgets website"
-      url:   "https://www.domesticwidgets.com/"
+      url:   "http://www.davidverweij.com/domesticwidgets-web/"
     - resource:  "fa-play-circle"
       text:  "demonstration video"
       url:   "https://youtu.be/RggI7wR4VwQ"
