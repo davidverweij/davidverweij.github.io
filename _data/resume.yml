@@ -1,28 +1,41 @@
 - category:   "Experience"
   top-list: True
   blocks:
-  - block:    "Researcher and Digital Product Developer"
+  - block:    "Research Software Engineer"
+    location: "Open Lab, Computer Science, Newcastle University, UK"
+    text:     >
+              Developing software with a focus on API-level data interoperability and companion applications to
+              streamline the integrated use of sensing devices in the IDEA-FAST digital healthcare project.
+              The Horizon 2020 project investigates digital endpoints in neurodegenerative and immune-mediated
+              diseases to improve therapeutic intervention and quality of life.
+    icons:
+      - icon:  "fa-link"
+        text:  "Project Website"
+        url:   "https://ideafast.eu/"
+    from:     "01/21"
+    to:       "now"
+  - block:    "Doctoral Researcher and Digital Product Developer"
     location: "Computer Science, Newcastle University, UK"
-    text:     > 
-              Doctoral researcher on novel family-focused interfaces for internet-connected services. 
+    text:     >
+              Doctoral researcher on novel family-focused interfaces for internet-connected services.
               _I started at Northumbria (2017) and transferred with my supervisor to Newcastle (2019)_.
 
 
-              - Designed [Domestic Widgets](/domesticwidgets){:target="_blank"}, a 'physicalisation' IoT 
+              - Designed [Domestic Widgets](/domesticwidgets){:target="_blank"}, a 'physicalisation' IoT
               toolkit for families to create cardboard-based indicators that connect with various data sources through voice control.
 
-              - Implemented natural language processing, embedded hardware and bespoke web services for secure 
-              data management and access by Domestic Widget users through the voice UI.              
+              - Implemented natural language processing, embedded hardware and bespoke web services for secure
+              data management and access by Domestic Widget users through the voice UI.
 
-              - Developed a Google App Script ([Phone Grown](/phonegrown){:target="_blank"}), which transforms 
+              - Developed a Google App Script ([Phone Grown](/phonegrown){:target="_blank"}), which transforms
               a Google Sheet into a user interface to create rule-based ambient information displays from 'left-over' phones.
 
-              - Designed an accompanying UI in Google Sheets and written 
-              [tutorial](https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/){:target="_blank"} supporting 
+              - Designed an accompanying UI in Google Sheets and written
+              [tutorial](https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/){:target="_blank"} supporting
               a do-it-yourself, scalable and open-source dissemination of this app.
 
-              - Deployed both products at 5-10 families each for ~2 months; individually conducted observations and 
-              interviews to qualitatively study how domestic connected devices can be better designed with families in mind, 
+              - Deployed both products at 5-10 families each for ~2 months; individually conducted observations and
+              interviews to qualitatively study how domestic connected devices can be better designed with families in mind,
               and for which potential shared purposes.
 
     icons:
@@ -33,17 +46,17 @@
     to:       "now"
   - block:    "Computer Science Teaching Assistant"
     location: "School of Computing, Newcastle University, UK"
-    text:     > 
-      Teaching (demonstrating) in MSc courses such as Advanced Programming, 
-      Information Systems (Interaction Design and Databases), Programming and Data Structures, 
+    text:     >
+      Teaching (demonstrating) in MSc courses such as Advanced Programming,
+      Information Systems (Interaction Design and Databases), Programming and Data Structures,
       Object-Oriented Programming (BSc course at Northumbria University).
     from:     "02/18"
     to:       "09/20"
   - block:    "Visiting Researcher"
     location: "Edinburgh Napier University, UK"
     text:     >
-              Designed and developed an Android AR app for [SmoothMoves](/smoothmoves){:target="_blank"} - 
-              a head-gesture interaction technique. This app was later ported (not by me) to Microsoft Hololens, whilst 
+              Designed and developed an Android AR app for [SmoothMoves](/smoothmoves){:target="_blank"} -
+              a head-gesture interaction technique. This app was later ported (not by me) to Microsoft Hololens, whilst
               I ported it to a standalone smartwach app ([WaveTrace](/wavetrace){:target="_blank"}).
     from:     "9/16"
     to:       "12/16"
@@ -66,8 +79,8 @@
     hide:     True
     location: "Eindhoven University of Technology"
     text:     >
-      - Advising role within the Department Board (weekly meetings) as a student representative. 
-      
+      - Advising role within the Department Board (weekly meetings) as a student representative.
+
       - Departmental policy and website support, and speaker for study orientation evenings.
 
       - Coaching secondary school pupils in their design and innovation projects.
@@ -75,7 +88,7 @@
     to:       "08/16"
   - block:    "Co-owner and STEM Course developer"
     location: "BétaBoomen, Eindhoven, NL"
-    text:     > 
+    text:     >
       - Developed extra-curricular STEM courses (e.g. electronics, programming) for, and managed relations with, pre-university schools.
 
       - Delivered, and recruited other university students to deliver, these courses at pre-university schools throughout the region. Pupil ages ranged from 12 - 17.
@@ -101,7 +114,7 @@
         text:  "Company Page"
         url:   "http://www.taxbus.nl/"
     hide:      True
-    
+
 
 - category:   "Education"
   blocks:
@@ -203,41 +216,41 @@
   blocks:
   - block:    Software Development
     location: Full stack developer, main experience in JavaScript and serverless APIs.
-    text: > 
-      - Experienced in programming languages such as **HTML, (S)CSS, JavaScript, TypeScript, Node.js, Java** 
-      (inc. for Android and Android Wear), **C++** (hardware), **Python, SQL** and _currently 
-      following courses on **Vue.js, React.js** and **Docker**._ 
-      
-      - Continuously worked with Cloud Computing solutions - primarily using the Google Cloud Platform (**GCP**, e.g. Cloud Functions, 
-      DialogFlow, Firebase/store, Authentication), including **RESTful APIs**, 
+    text: >
+      - Experienced in programming languages such as **HTML, (S)CSS, JavaScript, TypeScript, Node.js, Java**
+      (inc. for Android and Android Wear), **C++** (hardware), **Python, SQL** and _currently
+      following courses on **Vue.js, React.js** and **Docker**._
+
+      - Continuously worked with Cloud Computing solutions - primarily using the Google Cloud Platform (**GCP**, e.g. Cloud Functions,
+      DialogFlow, Firebase/store, Authentication), including **RESTful APIs**,
       utilising **(no)SQL databases** and ensuring data security through rules and **authentication**.
-      
-      - Balanced development skillset across the full stack, with a sound understanding and experience in 
-        - **data structures** (e.g. OOP) and **design patterns** (e.g. async concurrency, pub/sub messaging, queues), 
-        - **source and version control** (git) and **(unit)tests** (e.g. pytest, nox),   
+
+      - Balanced development skillset across the full stack, with a sound understanding and experience in
+        - **data structures** (e.g. OOP) and **design patterns** (e.g. async concurrency, pub/sub messaging, queues),
+        - **source and version control** (git) and **(unit)tests** (e.g. pytest, nox),
         - utilizing and building upon **third-party libraries and package managers** (e.g. npm, poetry, pyenv),
-        - conducting **data analysis and visualisation** in Python (e.g. pandas, numpy, plotly) and JavaScript (e.g. D3.js) 
-        
-        This includes familiarity with **containerisation** (Docker) and an eagerness 
+        - conducting **data analysis and visualisation** in Python (e.g. pandas, numpy, plotly) and JavaScript (e.g. D3.js)
+
+        This includes familiarity with **containerisation** (Docker) and an eagerness
         to gain more experience in **continuous integration and deployment** (CI/CD).
 
   - block:    "(Product) Design"
     location: "Generalist, from paper to functional prototype."
     text: >
-      - **UI/UX** design, originating from illustrations and motion graphics. Comfortably navigates the **Adobe Suite**, 
-      including Adobe XD, Illustrator and Photoshop. Applied UX design skills through the development of various visual 
-      (screen-based), audible (voice assistant) and physical (gestural) interfaces. 
+      - **UI/UX** design, originating from illustrations and motion graphics. Comfortably navigates the **Adobe Suite**,
+      including Adobe XD, Illustrator and Photoshop. Applied UX design skills through the development of various visual
+      (screen-based), audible (voice assistant) and physical (gestural) interfaces.
 
-      - Product development, shaping **form** through paper prototyping, cardboard modelling, **3D printing** and woordworking. 
+      - Product development, shaping **form** through paper prototyping, cardboard modelling, **3D printing** and woordworking.
       Creating function through **off-the-shelf electronics** (Arduino/Raspberry PI) and bespoke hardware (circuit design).
-      
+
   - block:    "Research and Analysis"
-    location: "Applied researcher experienced in Research through Design" 
+    location: "Applied researcher experienced in Research through Design"
     text: "Literature and **user research** for **qualitative** (e.g. thematic), **quantitative** and **data analysis**. Experienced in tools such as SPSS, NVivo, and utilising Python scripts (D3.js, pandas, plotly) for data analysis."
   - block:    "Communication and Collaboration"
     location: "Languages: Dutch (native), English (C2: mastery)"
     text: "Experienced presenter and writer for **academic** (see also [publications](/publications){: target='_blank'}), **technical, public and informal** purposes. I am self-directed and resourceful, yet not afraid to ask for help and collaborate."
-    
+
 
 - category:   "Selected Projects"
   highlight:   True
@@ -333,4 +346,3 @@
     text:     "Used for travel and accommodation for ISS 2017"
     from:     ""
     to:       "09/17"
-
