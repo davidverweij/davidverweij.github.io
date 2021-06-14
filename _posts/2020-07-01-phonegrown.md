@@ -27,7 +27,7 @@ project:
   resources:
     - resource:  "fa-link"
       text:  "Project Website"
-      url:   "https://www.phonegrown.site/"
+      url:   "https://www.davidverweij.com/phone-grown/"
     - resource:  "fa-link"
       text:  "Tutorial on Instructables.com"
       url:   "https://www.instructables.com/Turn-an-Unused-Smartphone-Into-a-Smart-Display/"
