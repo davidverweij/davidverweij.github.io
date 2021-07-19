@@ -1,5 +1,17 @@
 - category:    "Conference Papers"
   blocks:
+  - block:    "Reconfiguration Strategies with Composite Data Physicalizations"
+    location:  "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21)"
+    author:    "Kim Sauvé, <b>David Verweij</b>, Jason Alexander, Steven Houben"
+    icons:
+      - icon:  "fa-file-pdf"
+        text:  "Paper"
+        url:   "https://dl.acm.org/doi/10.1145/3411764.3445746?cid=99659160806"
+      - icon:  "fa-quote-right"
+        text:  "Presentation"
+        url:   "https://youtu.be/Q_FFVOxkqbU"
+    from:      ""
+    to:        "05/21"
   - block:    "Domestic Widgets: Leveraging Household Creativity in Co-Creating IoT"
     location:  "Proceedings of the 4th Biennial Research Through Design Conference (RTD '19)"
     author:    "<b>David Verweij</b>, David S. Kirk, Kay Rogage, Abigail Durrant"
@@ -109,10 +121,14 @@
     from:      ""
     to:        "10/17"
 
-- category:    "Other"
+- category:    "Conference Workshops"
   blocks:
+  - block:     "Data Contribution Summaries for Patient Engagement in Multi-Device Health Monitoring Research"
+    location:  "Designing Ubiquitious Health Monitoring Technologies for Challenging Environments at the 2021 Ubicomp/ISWC Conference"
+    author:    "Jay Rainey, <b>David Verweij</b>, Colin Bone-Dodds, Johanna Graeber, Farzaneh Farhadi, Ridita Ali, Viana Zhang, Christopher Bull, Jan Smeddinck"
+    to:        "09/21"
   - block:     "Unplatformed Repurposing: 'Old' Phones as a Family Craft Material"
-    location:  "Workshop Contribution to the Designing for the End of Life of IoT Objects workshop at the 2020 DIS Conference"
+    location:  "Designing for the End of Life of IoT Objects at the 2020 DIS Conference"
     author:    "<b>David Verweij</b>, David S. Kirk, Kay Rogage and Kyle Montague"
     icons:
       - icon:  "fa-file-pdf"
@@ -121,7 +137,7 @@
     from:      ""
     to:        "07/20"
   - block:     "Implicitly Human-Powered Devices"
-    location:  "Workshop Contribution to the Self Sustainable CHI workshop at the 2020 CHI Conference"
+    location:  "Self Sustainable CHI at the 2020 CHI Conference"
     author:    "<b>David Verweij</b>, Dan Jackson, Karim Ladha, David S. Kirk"
     icons:
       - icon:  "fa-file-pdf"
@@ -132,6 +148,9 @@
         url:   "https://youtu.be/wjus2VdCH1s"
     from:      ""
     to:        "05/20"
+
+- category:    "Other"
+  blocks:
   - block:     "Domestic Widgets"
     location:  "ACM Interactions Magazine - Demo Hour"
     author:    "<b>David Verweij</b>, David S. Kirk, Kay Rogage, Abigail Durrant"
