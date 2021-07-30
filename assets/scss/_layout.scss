@@ -449,6 +449,8 @@ a.project {
 }
 
 .projects-list {
+	white-space: nowrap;
+	
 	@media (min-width: $breakpoint-small) {
 		margin: 3rem -1.5rem 0;
 		@include clearfix;
@@ -467,9 +469,14 @@ a.project {
 			width: 33.33333%;
 		}
 	}
+	@media (min-width: $breakpoint-large) {
+		li {
+			width: 25%;
+		}
+	}
 
 	li {
-		margin-bottom: 3rem;
+		margin-bottom: 4rem;
 
 		&:last-child {
 			margin-bottom: 0;
