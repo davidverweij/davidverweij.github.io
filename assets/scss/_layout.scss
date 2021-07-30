@@ -2,7 +2,7 @@
 	display: block;
 	margin: 0 auto;
 	max-width: 70em;
-	padding: 0 3rem;
+	padding: 0 5rem;
 	@include clearfix;
 }
 
@@ -378,10 +378,10 @@ a.project {
 
 	.block-wrapper {
 		position: relative;
-		padding: 0 0 1rem 6rem;
+		padding: 0 0 2rem 6rem;
 		min-height: 4rem;
 
-		p, ul, a{
+		p, ul, a {
 			font-weight: 200;
 			font-size: 1.6rem;
 		}
@@ -394,8 +394,10 @@ a.project {
 		}
 
 		.resumetext {
+			padding-top:.25rem;
+			padding-left: 2rem;
+			line-height:1.4;
 			a {
-				font-size: 1.6rem;
 				color: $color-black;
 				padding: 0;
 				text-decoration: underline;
@@ -450,7 +452,7 @@ a.project {
 
 .projects-list {
 	white-space: nowrap;
-	
+
 	@media (min-width: $breakpoint-small) {
 		margin: 3rem -1.5rem 0;
 		@include clearfix;

@@ -120,7 +120,6 @@
   blocks:
   - block:    "PhD in Human-Computer Interaction"
     location: "School of Computing, Newcastle University"
-    text:     "Thesis on Family-focused design for data-driven products. Initially at Northumbria University (10/17 - 07/19)"
     icons:
       - icon:  "fa-link"
         text:  "Open Lab Profile"
@@ -129,7 +128,6 @@
     to:       "now"
   - block:    "MSc in Industrial Design"
     location: "Eindhoven University of Technology"
-    text:     "Graduated with distinction"
     from:     "09/15"
     to:       "07/17"
   - block:    "BSc in Industrial Design"
@@ -139,7 +137,6 @@
     to:       "07/15"
   - block:    "Minor Science Education and Communication"
     location: "Eindhoven School of Education"
-    text:     "Received a qualification for teaching secondary education physics"
     from:     "02/14"
     to:       "02/15"
   - block:    "Pre-University Education - Atheneum"
@@ -192,7 +189,6 @@
     hide:     true
   - block:    "Vice-Chairman & Commissioner of Education"
     location: "Study Association Industrial Design, Eindhoven, NL"
-    text:     "Full-time representation of Industrial Design students in multiple bodies throughout the University."
     icons:
       - icon:  "fa-link"
         text:  "Lucid Webpage"
