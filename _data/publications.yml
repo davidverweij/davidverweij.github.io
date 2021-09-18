@@ -147,6 +147,10 @@
     location:  "Designing Ubiquitious Health Monitoring Technologies for Challenging Environments at the 2021 Ubicomp/ISWC Conference"
     author:    "Jay Rainey, <b>David Verweij</b>, Colin Bone-Dodds, Johanna Graeber, Farzaneh Farhadi, Ridita Ali, Viana Zhang, Christopher Bull, Jan Smeddinck"
     to:        "09/21"
+    icons:
+      - icon:  "fa-file-pdf"
+        text:  "Paper"
+        url:   "https://doi.org/10.1145/3460418.3479371"
   - block:     "Unplatformed Repurposing: 'Old' Phones as a Family Craft Material"
     location:  "Designing for the End of Life of IoT Objects at the 2020 DIS Conference"
     author:    "<b>David Verweij</b>, David S. Kirk, Kay Rogage and Kyle Montague"
