@@ -9,8 +9,17 @@
         url:   "http://dx.doi.org/10.5040/9781350160156.ch-001"
     from:      ""
     to:        "2021"
-- category:    "Conference Papers"
+- category:    "Peer-reviewed (Journals and Conferences)"
   blocks:
+  - block:    "Understanding the Experiences of Remote Workers: Opportunities for Ambient Workspaces at Home"
+    location:  "Frontiers in Computer Science volume 3"
+    author:    "Eleni Kallopi Margariti, Ridita Ali, Remco Benthem de Grave, <b>David Verweij</b>, Jan Smeddinck, David Kirk"
+    icons:
+      - icon:  "fa-file-pdf"
+        text:  "Paper"
+        url:   "https://doi.org/10.3389/fcomp.2021.673585"
+    from:      ""
+    to:        "09/21"
   - block:    "Reconfiguration Strategies with Composite Data Physicalizations"
     location:  "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21)"
     author:    "Kim Sauvé, <b>David Verweij</b>, Jason Alexander, Steven Houben"
