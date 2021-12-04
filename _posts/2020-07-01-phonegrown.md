@@ -61,8 +61,8 @@ images:
     alt: "The phone showing the same background as one on a laptop, which shows the UI embedded in the Google Sheet"
   - image:
     url: "/assets/images/phonegrown/6.jpg"
-    title: "Backgrounds are designed in relation to data sources and using Google Sheets' UI"
-    alt: "A laptop showing a spreadsheet where cells are given a background colour using the built-in tools of Google Sheets"
+    title: "A mixed (and simplified) sequence diagram showing the individual components in Phone Grown’s architecture, and their interactions. The six user ‘steps’ roughly align with the 6 steps as communicated in the tutorial"
+    alt: "A sequence diagram outlining the software interactions with Phone Grown."
 ---
 <p>
 Phone Grown is an open-source, DIY tutorial that helps families transform an unused smartphone into an ambient information display. It is built on a Google Sheet template, which acts as the database and user interface. With the database 'exposed', families can configure rules and design visual outputs for your phone to respond with any incoming data. Using pen and paper, they can contextualise these visual outputs further to suit your needs. With this tutorial, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios.

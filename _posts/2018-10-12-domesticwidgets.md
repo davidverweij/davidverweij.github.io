@@ -55,22 +55,25 @@ images:
     title: "Two examples of how to appropriate the servo motor movement"
     url: "/assets/images/domesticwidgets/3.jpg"
     alt: "Two example Widgets, one placed upside down, the other holding two flags."
-#  - image:
-#    type: "video"
-#    url: "RggI7wR4VwQ"
-#    title: "A Widget is controlled and configured through the Google Home"
-  - image:
-    title: "Families' Widgets, tracking temperature, space rockets and wind speeds"
-    url: "/assets/images/domesticwidgets/7.jpg"
-    alt: "Early form explorations of the prototype."
   - image:
     title: "The toolkit was demonstrated and tested at the UK Maker Faire in 2018"
     url: "/assets/images/domesticwidgets/5.jpg"
     alt: "Myself and two visitors of the 2018 Maker Faire in discussion."
   - image:
-    title: "Multiple forms were iterated to offer an easy, tool-less, but sturdy artefact"
+    title: "A snippet of the complex interaction flowchart on which the conversation agent is based on"
     url: "/assets/images/domesticwidgets/6.jpg"
-    alt: "Early form explorations of the prototype."
+    alt: ""
+  - image:
+    title: "A mixed (and simplified) sequence diagram showing the individual components in Domestic Widgets’ architecture, and their interactions."
+    url: "/assets/images/domesticwidgets/7.jpg"
+    alt: ""
+  - image:
+    title: "The service schematic of the Domestic Widgets ecosystem. The user speech input does not directly influence a connected Domestic Widget’s behaviour, though indirectly through a shared configuration resource (the database). With adequate response times, this effectively represents a real-time direct interaction via the cloud."
+    url: "/assets/images/domesticwidgets/8.jpg"
+    alt: ""
+
+
+
 
 ---
 <p>Domestic Widgets is a kit that allows families to create physical data visualisations using everyday materials and tools. After the cardboard design is assembled, it can be connecting to real-time data, such as the weather or seismic activity anywhere in the world. There is no soldering or coding involved. Instead, Widgets are configured using your voice through a Google Home. With this kit, I explored how we can involve and empower families in the development of future Internet of Things (IoT) products and scenarios - and especially involve more members of the household in these activities with different ages and interests.
