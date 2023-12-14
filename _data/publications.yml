@@ -9,6 +9,17 @@
         url:   "http://dx.doi.org/10.5040/9781350160156.ch-001"
     from:      ""
     to:        "2021"
+- category:    "Theses"
+  blocks:
+  - block:     "Designing for Data as a Family Resource through Creative Practices at Home"
+    location:  "Newcastle University Library"
+    author:    "<b>David Verweij</b>"
+    icons:
+      - icon:  "fa-file-pdf"
+        text:  "Thesis"
+        url:   "http://hdl.handle.net/10443/5941"
+    from:      ""
+    to:        "2022"
 - category:    "Peer-reviewed (Journals and Conferences)"
   blocks:
   - block:    "Understanding the Experiences of Remote Workers: Opportunities for Ambient Workspaces at Home"
