@@ -1,47 +1,76 @@
 - category:   "Experience"
   top-list: True
   blocks:
+  - block:    "Senior Software Engineer"
+    location: "Department for Work and Pension (DWP), UK"
+    text:     |
+      Dev lead and senior software engineer in an agile dev team (6 devs, 3 QA engineers, and 2 business analysts), tasked with the development and maintenance of a new cloud-native payments architecture through modern, scalable, and modular technologies. This is developed in line with DWP's Strategic Reference Architecture (SRA) and the latest developments in the banking industry - in order "to ensure that people who get paid by DWP receive the right amount of money, at the right time into the right bank account".
+      - Design and implement restful APIs to accept, process and enhance payment requests, focusing on idempotency (including deduplication), resiliency and recoverability.
+      - Accommodate and architect these services for throughput and scalability to handle DWP paying over 20 million people and over 250 billion British pounds annually. 
+      - Study and engage with "legacy" services to support and enable the modernisation of their financial systems without redeveloping their services.
+      - Support and grow development team(s) in maturity through team building, working methods, redundancy in skills and responsibilities, collaborative exploration of best practices, and attention to personal development - regardless of job title.
+      - Contribute to (company-wide) efforts to standardise quality and efficiency - including reusable CI/CD components.
+      - Manage and represent a team of developers and the technical product, support management in estimating and prioritising upcoming work, maintain and argue for continuous improvements, and engage with architects, product managers and the wider business in the representation of the technical product.
+    icons:
+      - icon:  "fa-link"
+        text:  "Company Website"
+        url:   "https://careers.dwp.gov.uk/"
+    from:     "03/23"
+    to:       "NOW"
+  - block:    "Software Engineer"
+    location: "EPAM Systems, UK"
+    text:     |
+      Node.JS backend software engineer in a medium-sized agile dev team (8-12, 2 BE engineers), tasked with the redesign and development of two new, modernized, web applications for the customer’s enterprise lifecycle management platform (JavaScript, Typescript, NoSQL, Express.js, NPM, Jest, InversifyJS, Swagger, Gitlab, AWS Cloud).
+      - Architect and implement data synchronisation infrastructure, designed to ensure data consistency (and redundancy) between two applications which edit the same data entities (AWS Cloud: Step Functions, Lambda, Cloudwatch, SQS, SNS, S3, DynamoDB).
+      - Lead large-scale migrations (>20.000 entities) across development and production environments.
+      - Develop REST API endpoints, challenged with tight coupling to enterprise software and asynchronous upload processes for mixed-media entities (Node.JS, Express.js, AWS S3, Lambda, SQS).
+      - Maintain and expand search functionality (Elastic Search), adopt changing data schematics (re-indexing) and develop event-driven data streaming and transforming pipelines (DynamoDB streams, Lambda).
+      - Implement and coordinate code-quality and application monitoring improvements, such as real-time pipeline alerts in Microsoft Teams (AWS CloudWatch, SNS), test-suite for serverless code (AWS Lambdas) using the existing CI/CD, as well as improvements of code-review processes.
+    icons:
+      - icon:  "fa-link"
+        text:  "Company Website"
+        url:   "https://www.epam.com/"
+    from:     "03/22"
+    to:       "02/23"
   - block:    "Research Software Engineer"
     location: "Open Lab, Computer Science, Newcastle University, UK"
-    text:     >
-              - Designing, developing, and maintaining the ETL data pipeline for the [IDEA-FAST](https://idea-fast.eu/project-overview/) project _(Apache Airflow, Python, Docker, NoSQL)_
-              
-              - Coordinate software architecture for clinical study management and data handling
-              
-              - Evaluated usability and user experience of digital health technologies used by patients
+    text:     |
+      Python software engineer, researcher, and technical support with a leading role in a small dev/research team (3-4), developing stable MVPs, supporting a global digital health research project (48 research institutes and companies) into consumer products for health monitoring of chronic-disease patients (Python, FastAPI, Poetry, Docker, NoSQL).
+      - Design, develop, and maintain the ETL data pipeline, extracting physical sensor data from third-party APIs (Apache Airflow, Python, Docker, MongoDB).
+      - Develop API endpoints for within-project services, providing access to temporary patient device credentials, pipeline statuses and product user-manual (Python, FastAPI, Docker), and maintain the corresponding reverse proxy router to provide access through a singular address (Traefik, Docker).
+      - Manage the user-centred design and development of the research’s clinical study management dashboard.
+      - Evaluate and assess usability and user experience of digital health technologies using literature, expert interviews, and patient feedback.
 
     icons:
       - icon:  "fa-link"
         text:  "Project Website"
         url:   "https://ideafast.eu/"
     from:     "01/21"
-    to:       "now"
+    to:       "02/22"
   - block:    "Postdoctural Researcher and Developer"
     location: "Computer Science, Newcastle University, UK"
-    text:     >
-              - Developed a Google Sheet extension to connect DIY smart displays with IFTTT.com: [Phone Grown](/phonegrown) _(JavaScript, HTML, CSS, NoSQL database)_ 
-              
-              - Developed a cloud-based configurable data ‘physicalisation’ family toolkit: [Domestic Widgets](/domesticwidgets) _(C++, NodeJS, REST API)_
-              
-              - Developed a conversation agent for the Google Home _(DialogFlow language processing, FaaS, NoSQL)_
+    text:     |
+      Javascript engineer and Computer Science researcher, individually developing complex and robust research prototypes for everyday families to use on their own at home (Javascript, HTML, C++, Google Firebase, NoSQL, Google DialogFlow).
+      - Developed a Google Sheet extension to connect DIY smart displays with IFTTT.com: [Phone Grown](/phonegrown) (JavaScript, HTML, CSS, NoSQL database)
+      - Developed a cloud-based configurable data ‘physicalisation’ family toolkit: [Domestic Widgets](/domesticwidgets) (C++, NodeJS, REST API)
+      - Developed a conversation agent for the Google Home (DialogFlow language processing, FaaS, NoSQL)
     icons:
       - icon:  "fa-link"
         text:  "Open Lab Profile"
         url:   "https://openlab.ncl.ac.uk/people/david-verweij/"
     from:     "10/17"
-    to:       "now"
+    to:       "01/21"
   - block:    "Computer Science Teaching Assistant"
     location: "School of Computing, Newcastle University, UK"
-    text:     >
-              - MSc courses in Advanced Programming, Information Systems, Programming and Data Structures, and an Object-Oriented Programming BSc course
+    text:     |
+      - Assist in Master and Bachelor CS courses: Advanced Programming, Information Systems, Programming and Data Structures, and an Object-Oriented Programming
     from:     "02/18"
     to:       "09/20"
   - block:    "Visiting Researcher"
     location: "Edinburgh Napier University, UK"
-    text:     >
-              - Developed an AR app for gesture interaction with AR headsets: [SmoothMoves](/smoothmoves) _(Java, Processing, C++)_
-              
-              - Developed an Android smartwatch-app for motion-tracking interaction: [WaveTrace](/wavetrace) _(Java, webserver)-
+    text:     |
+      - Developed an AR app for gesture interaction with AR headsets: [SmoothMoves](/smoothmoves) (Java, Processing, C++)
+      - Developed an Android smartwatch-app for motion-tracking interaction: [WaveTrace](/wavetrace) (Java, webserver)
     from:     "9/16"
     to:       "12/16"
   - block:    "Motion Graphics Designer"
@@ -197,19 +226,19 @@
   blocks:
   - block:    Software Development
     text: >
-      -	Server-side development using serverless _(FaaS, NodeJS)_ and static virtual-machines with containerisation _(Docker)_
+      -	Server-side development using serverless (FaaS, NodeJS) and static virtual-machines with containerisation (Docker)
       
-      -	Real-time database integrations _(NoSQL)_, REST APIs _(NodeJS, Python)_
+      -	Real-time database integrations (NoSQL), REST APIs (NodeJS, Python)
       
-      -	Exploratory data analysis and 2D and 3D visualisation _(Jupyter Notebook, pandas, D3.js, matplotlib, plotly)_
+      -	Exploratory data analysis and 2D and 3D visualisation (Jupyter Notebook, pandas, D3.js, matplotlib, plotly)
       
-      -	Confident programmer across various languages _(Python, JavaScript, Java, C++)_, and a quick learner to adapt to project needs
+      -	Confident programmer across various languages (Python, JavaScript, Java, C++), and a quick learner to adapt to project needs
       
       -	Consistent coder that writes for collaboration 
       
-      -	Familiar with CI/CD, experienced in version control _(Git)_
+      -	Familiar with CI/CD, experienced in version control (Git)
       
-      -	Functional front-end development _(HTML, CSS, JavaScript)_
+      -	Functional front-end development (HTML, CSS, JavaScript)
   # - block:    "(Product) Design"
   #   location: "Generalist, from paper to functional prototype."
   #   text: >
@@ -224,12 +253,12 @@
   #   text: "Literature and **user research** for **qualitative** (e.g. thematic), **quantitative** and **data analysis**. Experienced in tools such as SPSS, NVivo, and utilising Python scripts (D3.js, pandas, plotly) for data analysis."
   # - block:    "Communication and Collaboration"
   #   location: "Languages: Dutch (native), English (C2: mastery)"
-  #   text: "Experienced presenter and writer for **academic** (see also [publications](/publications){: target='_blank'}), **technical, public and informal** purposes. I am self-directed and resourceful, yet not afraid to ask for help and collaborate."
+  #   text: "Experienced presenter and writer for **academic** (see also [publications](/publications){: target='blank'}), **technical, public and informal** purposes. I am self-directed and resourceful, yet not afraid to ask for help and collaborate."
   - block:    "Soft skills and traits"
     text: >
       -	Project management, leading meetings
       
-      -	Verbal and written reporting _(technical, academic, and public)_
+      -	Verbal and written reporting (technical, academic, and public)
       
       -	Social, team player and collaborative, but also self-directed and enterprising
       
@@ -271,7 +300,7 @@
 #     text:     >
 #           Tools: Android Wear (Java), motion sensing (IMU), local web server (threading, Java, Raspberry PI), UDP.
 #           <br/> <br/>
-#           [See more projects](/work/software){: target='_blank'}
+#           [See more projects](/work/software){: target='blank'}
 #     to:        "2017"
 #     icons:
 #       - icon:  "fa-link"
@@ -328,7 +357,7 @@
     from:     ""
     to:       "09/18"
   - block:    "ACM Student Travel Grant"
-    location: "Main applicant | $ 1.370 | SSTG-May_2017 #130 "
+    location: "Main applicant | $ 1.370 | SSTG-May2017 #130 "
     text:     "Used for travel and accommodation for ISS 2017"
     from:     ""
     to:       "09/17"
