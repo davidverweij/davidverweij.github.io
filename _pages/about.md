@@ -12,6 +12,7 @@ page:
   logo:     ""
 
 download:   False
+not_menu:   True
 
 data:
   name:     "Resume"
